@@ -4,7 +4,7 @@ import (
 	"testing"
 )
 
-func Test_Binary(t *testing.T) {
+func Test_Linear(t *testing.T) {
 	cases := []struct {
 		arr    []int
 		find   int
@@ -31,12 +31,12 @@ func Test_Binary(t *testing.T) {
 	}
 }
 
-func BenchmarkBinary(b *testing.B) {
+func BenchmarkLinear(b *testing.B) {
 	arr := make([]int, 10000)
 	for i := 0; i < 10000; i++ {
 		arr[i] = i
 	}
 	for i := 0; i < b.N; i++ {
-		_ = Binary(arr, i)
+		_ = Linear(arr, i)
 	}
 }

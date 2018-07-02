@@ -1,6 +1,7 @@
 package sorting
 
 import (
+	"math/rand"
 	"testing"
 )
 
@@ -39,7 +40,10 @@ func Test_Bubble(t *testing.T) {
 }
 
 func BenchmarkBubble(b *testing.B) {
-	arr := []int{5, -3, -54, 7, 419, 7, 124, 0, 0, 0, 9, -9, 3, 10, 1}
+	arr := make([]int, 10000)
+	for i := 0; i < 10000; i++ {
+		arr[i] = rand.Intn(10000)
+	}
 	for i := 0; i < b.N; i++ {
 		_ = Bubble(arr)
 	}
