@@ -5,7 +5,7 @@ import (
 	"testing"
 )
 
-func Test_Bubble(t *testing.T) {
+func Test_Insertion(t *testing.T) {
 	cases := []struct {
 		arr []int
 		res []int
@@ -39,22 +39,22 @@ func Test_Bubble(t *testing.T) {
 	}
 }
 
-func BenchmarkBubble100(b *testing.B) {
+func BenchmarkInsertion100(b *testing.B) {
 	arr := make([]int, 100)
 	for i := 0; i < 100; i++ {
 		arr[i] = rand.Intn(1000)
 	}
 	for i := 0; i < b.N; i++ {
-		_ = Bubble(arr)
+		_ = Insertion(arr)
 	}
 }
 
-func BenchmarkBubble10000(b *testing.B) {
+func BenchmarkInsertion10000(b *testing.B) {
 	arr := make([]int, 10000)
 	for i := 0; i < 10000; i++ {
 		arr[i] = rand.Intn(10000)
 	}
 	for i := 0; i < b.N; i++ {
-		_ = Bubble(arr)
+		_ = Insertion(arr)
 	}
 }
