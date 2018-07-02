@@ -5,7 +5,7 @@ import (
 	"testing"
 )
 
-func Test_Insertion(t *testing.T) {
+func Test_Shaker(t *testing.T) {
 	cases := []struct {
 		arr []int
 		res []int
@@ -25,7 +25,7 @@ func Test_Insertion(t *testing.T) {
 	}
 
 	for i, c := range cases {
-		res := Insertion(c.arr)
+		res := Shaker(c.arr)
 
 		if len(res) != len(c.res) {
 			t.Errorf("Unexpected length of slice. Case %d. Expected %d, got %d", i, len(c.res), len(res))
@@ -39,22 +39,22 @@ func Test_Insertion(t *testing.T) {
 	}
 }
 
-func BenchmarkInsertion100(b *testing.B) {
+func BenchmarkShaker100(b *testing.B) {
 	arr := make([]int, 100)
 	for i := 0; i < 100; i++ {
 		arr[i] = rand.Intn(1000)
 	}
 	for i := 0; i < b.N; i++ {
-		_ = Insertion(arr)
+		_ = Shaker(arr)
 	}
 }
 
-func BenchmarkInsertion10000(b *testing.B) {
+func BenchmarkShaker10000(b *testing.B) {
 	arr := make([]int, 10000)
 	for i := 0; i < 10000; i++ {
 		arr[i] = rand.Intn(10000)
 	}
 	for i := 0; i < b.N; i++ {
-		_ = Insertion(arr)
+		_ = Shaker(arr)
 	}
 }
