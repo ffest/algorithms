@@ -3,6 +3,7 @@ package math
 import (
 	"math/rand"
 	"testing"
+	"time"
 )
 
 func Test_Gdc(t *testing.T) {
@@ -53,6 +54,7 @@ func Test_Gdc(t *testing.T) {
 }
 
 func BenchmarkGdc(b *testing.B) {
+	rand.Seed(time.Now().UnixNano())
 	a := rand.Intn(10000)
 	c := rand.Intn(10000)
 	for i := 0; i < b.N; i++ {
