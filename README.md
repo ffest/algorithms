@@ -7,6 +7,8 @@
 
 | # | Title | Acceptance | Difficulty | Favourite |
 |:---:| --- | :---: | :---: | :---: |
+|`1`| Two Sum | 43.5% | Easy | |
+|`2`| Add Two Numbers | 31.0% | Medium |[✅](https://leetcode.com/list/tgix29s)|
 |`3`| Longest Substring Without Repeating Characters | 28.2% | Medium |  |
 |`33`| Search in Rotated Sorted Array | 32.8% | Medium | |
 |`66`| Plus One | 41.0% | Easy | |
