@@ -11,6 +11,7 @@
 |`2`| Add Two Numbers | 31.0% | Medium |[✅](https://leetcode.com/list/tgix29s)|
 |`3`| Longest Substring Without Repeating Characters | 28.2% | Medium |[✅](https://leetcode.com/list/tgix29s)|
 |`33`| Search in Rotated Sorted Array | 32.8% | Medium ||
+|`45`| Jump Game II | 27.9% | Hard |[✅](https://leetcode.com/list/tgix29s)|
 |`66`| Plus One | 41.0% | Easy ||
 |`98`| Validate Binary Search Tree | 25.6% | Medium |[✅](https://leetcode.com/list/tgix29s)|
 |`103`| Binary Tree Zigzag Level Order Traversal | 41.3% | Medium |[✅](https://leetcode.com/list/tgix29s)| 
@@ -24,4 +25,12 @@
 |`701`| Insert into a Binary Search Tree | 75.0% | Medium ||
 |`709`| To Lower Case | 76.6% | Easy ||
 |`744`| Find Smallest Letter Greater Than Target | 43.8% | Easy ||
+|`771`| Jewels and Stones | 83.0% | Easy ||
+|`797`| All Paths From Source to Target | 70.2% | Medium |[✅](https://leetcode.com/list/tgix29s)|
+|`804`| Unique Morse Code Words | 74.5% | Easy ||
+|`807`| Max Increase to Keep City Skyline  | 81.4% | Medium ||
+|`814`| Binary Tree Pruning | 70.7% | Medium |[✅](https://leetcode.com/list/tgix29s)|
+|`821`| Shortest Distance to a Character | 63.2% | Easy |[✅](https://leetcode.com/list/tgix29s)|
+|`832`| Flipping an Image | 72.3% | Easy ||
+|`852`| Peak Index in a Mountain Array | 69.5% | Easy ||
   
