@@ -2,6 +2,7 @@ package sorting
 
 // Mergesort is an efficient, general-purpose, comparison-based sorting algorithm.
 // The algorithm takes O(n log n) comparisons to sort n items.
+// TODO: make it faster
 func Merge(arr []int) []int {
 	if len(arr) <= 1 {
 		return arr
