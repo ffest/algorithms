@@ -21,6 +21,7 @@
 |`461`| Hamming Distance | 70.2% | Easy |[✅](https://leetcode.com/list/tgix29s)| 
 |`498`| Diagonal Traverse | 45.2% | Medium ||
 |`523`| Continuous Subarray Sum | 24.2% | Medium ||
+|`594`| Longest Harmonious Subsequence | 43.5% | Medium ||
 |`654`| Maximum Binary Tree | 75.7% | Medium ||
 |`657`| Robot Return to Origin | 71.2% | Easy ||
 |`701`| Insert into a Binary Search Tree | 75.0% | Medium ||
