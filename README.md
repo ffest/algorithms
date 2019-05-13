@@ -14,7 +14,8 @@
 |`45`| Jump Game II | 27.9% | Hard |[✅](https://leetcode.com/list/tgix29s)|
 |`66`| Plus One | 41.0% | Easy ||
 |`98`| Validate Binary Search Tree | 25.6% | Medium |[✅](https://leetcode.com/list/tgix29s)|
-|`103`| Binary Tree Zigzag Level Order Traversal | 41.3% | Medium |[✅](https://leetcode.com/list/tgix29s)| 
+|`103`| Binary Tree Zigzag Level Order Traversal | 41.3% | Medium |[✅](https://leetcode.com/list/tgix29s)|
+|`121`| Best Time to Buy and Sell Stock | 47.1% | Easy |[✅](https://leetcode.com/list/tgix29s)|  
 |`164`| Maximum Gap | 32.2% | Hard |[✅](https://leetcode.com/list/tgix29s)|
 |`315`| Count of Smaller Numbers After Self | 37.9% | Hard |[✅](https://leetcode.com/list/tgix29s)| 
 |`344`| Reverse String | 63.2% | Easy ||
