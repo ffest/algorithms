@@ -17,6 +17,7 @@
 |`103`| Binary Tree Zigzag Level Order Traversal | 41.3% | Medium |[✅](https://leetcode.com/list/tgix29s)| 
 |`164`| Maximum Gap | 32.2% | Hard |[✅](https://leetcode.com/list/tgix29s)|
 |`315`| Count of Smaller Numbers After Self | 37.9% | Hard |[✅](https://leetcode.com/list/tgix29s)| 
+|`344`| Reverse String | 63.2% | Easy ||
 |`387`| First Unique Character in a String | 49.9% | Easy |[✅](https://leetcode.com/list/tgix29s)| 
 |`412`| Fizz Buzz | 59.4% | Easy ||
 |`447`| Number of Boomerangs | 49.7% | Easy ||
