@@ -35,6 +35,7 @@
 |`654`| Maximum Binary Tree | 75.7% | Medium ||
 |`657`| Robot Return to Origin | 71.2% | Easy ||
 |`701`| Insert into a Binary Search Tree | 75.0% | Medium ||
+|`704`| Binary Search | 47.2% | Easy ||
 |`709`| To Lower Case | 76.6% | Easy ||
 |`744`| Find Smallest Letter Greater Than Target | 43.8% | Easy ||
 |`771`| Jewels and Stones | 83.0% | Easy ||
