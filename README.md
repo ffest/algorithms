@@ -23,6 +23,7 @@
 |`121`| Best Time to Buy and Sell Stock | 47.1% | Easy |[✅](https://leetcode.com/list/tgix29s)|  
 |`164`| Maximum Gap | 32.2% | Hard |[✅](https://leetcode.com/list/tgix29s)|
 |`315`| Count of Smaller Numbers After Self | 37.9% | Hard |[✅](https://leetcode.com/list/tgix29s)| 
+|`322`| Coin Change | 30.2% | Medium |[✅](https://leetcode.com/list/tgix29s)| 
 |`344`| Reverse String | 63.2% | Easy ||
 |`350`| Intersection of Two Arrays II | 47.6% | Easy ||
 |`387`| First Unique Character in a String | 49.9% | Easy |[✅](https://leetcode.com/list/tgix29s)| 
