@@ -26,6 +26,7 @@
 |`322`| Coin Change | 30.2% | Medium |[✅](https://leetcode.com/list/tgix29s)| 
 |`344`| Reverse String | 63.2% | Easy ||
 |`350`| Intersection of Two Arrays II | 47.6% | Easy ||
+|`367`| Valid Perfect Square | 39.7% | Easy ||
 |`387`| First Unique Character in a String | 49.9% | Easy |[✅](https://leetcode.com/list/tgix29s)| 
 |`412`| Fizz Buzz | 59.4% | Easy ||
 |`447`| Number of Boomerangs | 49.7% | Easy ||
