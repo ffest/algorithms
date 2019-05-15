@@ -5,27 +5,15 @@ import (
 )
 
 func isPerfectSquare(num int) bool {
-	if num == 1 {
-		return true
+	// g - guess
+	g := num
+	for g*g > num {
+		g = (g + num/g) / 2
 	}
-	guess := num / 2
-
-	guesses := make(map[int]struct{})
-	for {
-		guesses[guess] = struct{}{}
-		if guess*guess == num {
-			return true
-		}
-		guess = (guess + num/guess) / 2
-		if _, ok := guesses[guess]; ok {
-			return false
-		}
-	}
-
-	return false
+	return g*g == num
 }
 
 func main() {
-	input := 16
+	input := 15
 	fmt.Println(isPerfectSquare(input))
 }
