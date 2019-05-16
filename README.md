@@ -30,6 +30,7 @@
 |`387`| First Unique Character in a String | 49.9% | Easy |[✅](https://leetcode.com/list/tgix29s)| 
 |`412`| Fizz Buzz | 59.4% | Easy ||
 |`447`| Number of Boomerangs | 49.7% | Easy ||
+|`459`| Repeated Substring Pattern | 39.8% | Easy |[✅](https://leetcode.com/list/tgix29s)|
 |`461`| Hamming Distance | 70.2% | Easy |[✅](https://leetcode.com/list/tgix29s)| 
 |`498`| Diagonal Traverse | 45.2% | Medium ||
 |`523`| Continuous Subarray Sum | 24.2% | Medium ||
