@@ -17,6 +17,7 @@
 |`33`| Search in Rotated Sorted Array | 32.8% | Medium ||
 |`35`| Search Insert Position | 40.8% | Easy ||
 |`45`| Jump Game II | 27.9% | Hard |[✅](https://leetcode.com/list/tgix29s)|
+|`48`| Rotate Image | 48.3% | Medium |[✅](https://leetcode.com/list/tgix29s)|
 |`66`| Plus One | 41.0% | Easy ||
 |`70`| Climb Stairs | 44.1% | Easy ||
 |`76`| Minimum Window Substring | 30.6% | Hard |[✅](https://leetcode.com/list/tgix29s)|
