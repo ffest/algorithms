@@ -58,6 +58,7 @@
 |`832`| Flipping an Image | 72.3% | Easy ||
 |`852`| Peak Index in a Mountain Array | 69.5% | Easy ||
 |`860`| Lemonade Change | 50.2% | Easy ||
+|`876`| Middle of the Linked List | 63.9% | Easy ||
 |`890`| Find and Replace Pattern | 70.8% | Medium ||
 |`905`| Sort Array By Parity | 72.6% | Easy ||
 |`921`| Minimum Add to Make Parentheses Valid | 69.9% | Medium |[✅](https://leetcode.com/list/tgix29s)|
