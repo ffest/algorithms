@@ -27,6 +27,7 @@
 |`103`| Binary Tree Zigzag Level Order Traversal | 41.3% | Medium |[✅](https://leetcode.com/list/tgix29s)|
 |`121`| Best Time to Buy and Sell Stock | 47.1% | Easy |[✅](https://leetcode.com/list/tgix29s)|  
 |`164`| Maximum Gap | 32.2% | Hard |[✅](https://leetcode.com/list/tgix29s)|
+|`206`| Reverse Linked List | 54.5% | Easy |[✅](https://leetcode.com/list/tgix29s)|
 |`315`| Count of Smaller Numbers After Self | 37.9% | Hard |[✅](https://leetcode.com/list/tgix29s)| 
 |`322`| Coin Change | 30.2% | Medium |[✅](https://leetcode.com/list/tgix29s)| 
 |`328`| Odd Even Linked List | 49.0% | Medium |[✅](https://leetcode.com/list/tgix29s)| 
