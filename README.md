@@ -26,6 +26,7 @@
 |`98`| Validate Binary Search Tree | 25.6% | Medium |[✅](https://leetcode.com/list/tgix29s)|
 |`103`| Binary Tree Zigzag Level Order Traversal | 41.3% | Medium |[✅](https://leetcode.com/list/tgix29s)|
 |`121`| Best Time to Buy and Sell Stock | 47.1% | Easy |[✅](https://leetcode.com/list/tgix29s)|  
+|`148`| Sort List | 35.3% | Medium |[✅](https://leetcode.com/list/tgix29s)|  
 |`164`| Maximum Gap | 32.2% | Hard |[✅](https://leetcode.com/list/tgix29s)|
 |`206`| Reverse Linked List | 54.5% | Easy |[✅](https://leetcode.com/list/tgix29s)|
 |`315`| Count of Smaller Numbers After Self | 37.9% | Hard |[✅](https://leetcode.com/list/tgix29s)| 
@@ -64,6 +65,7 @@
 |`890`| Find and Replace Pattern | 70.8% | Medium ||
 |`905`| Sort Array By Parity | 72.6% | Easy ||
 |`921`| Minimum Add to Make Parentheses Valid | 69.9% | Medium |[✅](https://leetcode.com/list/tgix29s)|
+|`925`| Long Pressed Name | 44.3% | Easy ||
 |`929`| Unique Email Addresses | 72.1% | Easy ||
 |`938`| Range Sum of BST | 80.1% | Easy ||
 |`942`| DI String Match | 70.0% | Easy ||
