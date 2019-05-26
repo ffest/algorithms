@@ -10,6 +10,7 @@
 |`1`| Two Sum | 43.5% | Easy ||
 |`2`| Add Two Numbers | 31.0% | Medium |[✅](https://leetcode.com/list/tgix29s)|
 |`3`| Longest Substring Without Repeating Characters | 28.2% | Medium |[✅](https://leetcode.com/list/tgix29s)|
+|`5`| Longest Palindromic Substring | 27.3% | Medium |[✅](https://leetcode.com/list/tgix29s)|
 |`11`| Container With Most Water | 44.2% | Medium ||
 |`14`| Longest Common Prefix | 33.4% | Easy ||
 |`21`| Merge Two Sorted Lists | 47.1% | Easy ||
@@ -19,6 +20,7 @@
 |`35`| Search Insert Position | 40.8% | Easy ||
 |`45`| Jump Game II | 27.9% | Hard |[✅](https://leetcode.com/list/tgix29s)|
 |`48`| Rotate Image | 48.3% | Medium |[✅](https://leetcode.com/list/tgix29s)|
+|`49`| Group Anagrams | 46.7% | Medium |[✅](https://leetcode.com/list/tgix29s)|
 |`66`| Plus One | 41.0% | Easy ||
 |`70`| Climb Stairs | 44.1% | Easy ||
 |`76`| Minimum Window Substring | 30.6% | Hard |[✅](https://leetcode.com/list/tgix29s)|
