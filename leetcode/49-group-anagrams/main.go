@@ -1,8 +1,11 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
-func groupAnagrams(words []string) [][]string {
+// Another solution is with simple numbers.
+func groupAnagramsWithSimpleNumbers(words []string) [][]string {
 	letters := []byte("abcdefghijklmnopqrstuvwxyz")
 	lscores := []uint64{2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97, 101}
 	scores := make(map[byte]uint64, len(letters))
@@ -23,6 +26,24 @@ func groupAnagrams(words []string) [][]string {
 		r = append(r, g)
 	}
 	return r
+}
+
+func groupAnagrams(words []string) [][]string {
+	cache := make(map[[26]byte]int)
+	result := make([][]string, 0)
+	for i := range words {
+		list := [26]byte{}
+		for j := range words[i] {
+			list[words[i][j]-'a']++
+		}
+		if idx, ok := cache[list]; ok {
+			result[idx] = append(result[idx], words[i])
+		} else {
+			result = append(result, []string{words[i]})
+			cache[list] = len(result) - 1
+		}
+	}
+	return result
 }
 
 func main() {
