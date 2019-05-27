@@ -23,6 +23,7 @@
 |`49`| Group Anagrams | 46.7% | Medium |[✅](https://leetcode.com/list/tgix29s)|
 |`66`| Plus One | 41.0% | Easy ||
 |`70`| Climb Stairs | 44.1% | Easy ||
+|`74`| Search a 2D Matrix | 34.9% | Medium ||
 |`76`| Minimum Window Substring | 30.6% | Hard |[✅](https://leetcode.com/list/tgix29s)|
 |`88`| Merge Sorted Array | 35.6% | Easy ||
 |`98`| Validate Binary Search Tree | 25.6% | Medium |[✅](https://leetcode.com/list/tgix29s)|
