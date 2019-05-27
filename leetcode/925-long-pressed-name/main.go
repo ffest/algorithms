@@ -21,7 +21,7 @@ func isLongPressedName(name string, typed string) bool {
 }
 
 func main() {
-	name := "vtkgn"
-	typed := "vttkgnn"
+	name := "alex"
+	typed := "aaleexd"
 	fmt.Println(isLongPressedName(name, typed))
 }
