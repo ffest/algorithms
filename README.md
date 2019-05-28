@@ -78,4 +78,5 @@
 |`942`| DI String Match | 70.0% | Easy ||
 |`944`| Delete Columns to Make Sorted | 69.1% | Easy ||
 |`961`| N-Repeated Element in Size 2N Array | 72.6% | Easy ||
+|`965`| Univalued Binary Tree | 67.0% | Easy |[✅](https://leetcode.com/list/tgix29s)|
 |`977`| Squares of a Sorted Array | 72.2% | Easy ||
