@@ -37,6 +37,7 @@
 |`169`| Majority Element | 52.6% | Easy || 
 |`206`| Reverse Linked List | 54.5% | Easy |[✅](https://leetcode.com/list/tgix29s)|
 |`315`| Count of Smaller Numbers After Self | 37.9% | Hard |[✅](https://leetcode.com/list/tgix29s)| 
+|`318`| Maximum Product of Word Lengths | 48.4% | Medium |[✅](https://leetcode.com/list/tgix29s)| 
 |`322`| Coin Change | 30.2% | Medium |[✅](https://leetcode.com/list/tgix29s)| 
 |`328`| Odd Even Linked List | 49.0% | Medium |[✅](https://leetcode.com/list/tgix29s)| 
 |`344`| Reverse String | 63.2% | Easy ||
