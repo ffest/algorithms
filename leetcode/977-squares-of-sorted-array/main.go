@@ -5,6 +5,7 @@ import (
 	"math/rand"
 )
 
+// TODO: make in O(n) solution
 func sortedSquares(A []int) []int {
 	for index, element := range A {
 		A[index] = element * element
