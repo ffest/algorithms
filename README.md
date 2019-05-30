@@ -31,6 +31,7 @@
 |`88`| Merge Sorted Array | 35.6% | Easy ||
 |`98`| Validate Binary Search Tree | 25.6% | Medium |[✅](https://leetcode.com/list/tgix29s)|
 |`103`| Binary Tree Zigzag Level Order Traversal | 41.3% | Medium |[✅](https://leetcode.com/list/tgix29s)|
+|`118`| Pascal's Triangle | 46.0% | Easy ||
 |`121`| Best Time to Buy and Sell Stock | 47.1% | Easy |[✅](https://leetcode.com/list/tgix29s)|  
 |`125`| Valid Palindrome | 31.1% | Easy ||  
 |`148`| Sort List | 35.3% | Medium |[✅](https://leetcode.com/list/tgix29s)|  
