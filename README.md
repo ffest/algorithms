@@ -21,6 +21,7 @@
 |`33`| Search in Rotated Sorted Array | 32.8% | Medium ||
 |`35`| Search Insert Position | 40.8% | Easy ||
 |`45`| Jump Game II | 27.9% | Hard |[✅](https://leetcode.com/list/tgix29s)|
+|`46`| Permutations | 55.3% | Medium |[✅](https://leetcode.com/list/tgix29s)|
 |`48`| Rotate Image | 48.3% | Medium |[✅](https://leetcode.com/list/tgix29s)|
 |`49`| Group Anagrams | 46.7% | Medium |[✅](https://leetcode.com/list/tgix29s)|
 |`56`| Merge Intervals | 35.6% | Medium |[✅](https://leetcode.com/list/tgix29s)|
