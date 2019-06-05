@@ -39,6 +39,7 @@
 |`121`| Best Time to Buy and Sell Stock | 47.1% | Easy |[✅](https://leetcode.com/list/tgix29s)|  
 |`125`| Valid Palindrome | 31.1% | Easy ||  
 |`148`| Sort List | 35.3% | Medium |[✅](https://leetcode.com/list/tgix29s)|  
+|`160`| Intersection of Two Linked Lists | 33.9% | Easy ||
 |`164`| Maximum Gap | 32.2% | Hard |[✅](https://leetcode.com/list/tgix29s)|
 |`169`| Majority Element | 52.6% | Easy || 
 |`206`| Reverse Linked List | 54.5% | Easy |[✅](https://leetcode.com/list/tgix29s)|
