@@ -32,6 +32,7 @@
 |`74`| Search a 2D Matrix | 34.9% | Medium ||
 |`75`| Sort Colors | 42.1% | Medium ||
 |`76`| Minimum Window Substring | 30.6% | Hard |[✅](https://leetcode.com/list/tgix29s)|
+|`86`| Partition List | 37.3% | Medium ||
 |`88`| Merge Sorted Array | 35.6% | Easy ||
 |`98`| Validate Binary Search Tree | 25.6% | Medium |[✅](https://leetcode.com/list/tgix29s)|
 |`103`| Binary Tree Zigzag Level Order Traversal | 41.3% | Medium |[✅](https://leetcode.com/list/tgix29s)|
