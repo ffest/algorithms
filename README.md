@@ -34,13 +34,14 @@
 |`76`| Minimum Window Substring | 30.6% | Hard |[✅](https://leetcode.com/list/tgix29s)|
 |`86`| Partition List | 37.3% | Medium ||
 |`88`| Merge Sorted Array | 35.6% | Easy ||
-|`92`| Reverse Linked List II| 35.0% | Medium ||
+|`92`| Reverse Linked List II | 35.0% | Medium ||
 |`98`| Validate Binary Search Tree | 25.6% | Medium |[✅](https://leetcode.com/list/tgix29s)|
 |`103`| Binary Tree Zigzag Level Order Traversal | 41.3% | Medium |[✅](https://leetcode.com/list/tgix29s)|
 |`118`| Pascal's Triangle | 46.0% | Easy ||
 |`119`| Pascal's Triangle II | 43.6% | Easy ||
 |`121`| Best Time to Buy and Sell Stock | 47.1% | Easy |[✅](https://leetcode.com/list/tgix29s)|  
 |`125`| Valid Palindrome | 31.1% | Easy ||  
+|`143`| Reorder List | 30.9% | Medium ||
 |`148`| Sort List | 35.3% | Medium |[✅](https://leetcode.com/list/tgix29s)|  
 |`160`| Intersection of Two Linked Lists | 33.9% | Easy ||
 |`164`| Maximum Gap | 32.2% | Hard |[✅](https://leetcode.com/list/tgix29s)|

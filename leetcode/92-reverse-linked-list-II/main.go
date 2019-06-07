@@ -49,5 +49,5 @@ func main() {
 			},
 		},
 	}
-	fmt.Println(reverseBetween(list, 1, 5))
+	fmt.Println(reverseBetween(list, 2, 4))
 }
