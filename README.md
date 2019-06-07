@@ -16,6 +16,7 @@
 |`19`| Remove Nth Node From End of List | 34.2% | Medium |[✅](https://leetcode.com/list/tgix29s)|
 |`20`| Valid Parentheses | 36.5% | Easy |[✅](https://leetcode.com/list/tgix29s)|
 |`21`| Merge Two Sorted Lists | 47.1% | Easy ||
+|`22`| Generate Parentheses | 55.1% | Medium |[✅](https://leetcode.com/list/tgix29s)|
 |`23`| Merge k Sorted Lists | 34.3% | Hard |[✅](https://leetcode.com/list/tgix29s)|
 |`26`| Remove Duplicates from Sorted Array | 40.5% | Easy ||
 |`33`| Search in Rotated Sorted Array | 32.8% | Medium ||
