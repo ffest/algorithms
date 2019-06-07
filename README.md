@@ -48,7 +48,9 @@
 |`160`| Intersection of Two Linked Lists | 33.9% | Easy ||
 |`164`| Maximum Gap | 32.2% | Hard |[✅](https://leetcode.com/list/tgix29s)|
 |`169`| Majority Element | 52.6% | Easy || 
+|`203`| Remove Linked List Elements | 35.8% | Easy ||
 |`206`| Reverse Linked List | 54.5% | Easy |[✅](https://leetcode.com/list/tgix29s)|
+|`234`| Palindrome Linked List | 36.1% | Easy ||
 |`315`| Count of Smaller Numbers After Self | 37.9% | Hard |[✅](https://leetcode.com/list/tgix29s)| 
 |`318`| Maximum Product of Word Lengths | 48.4% | Medium |[✅](https://leetcode.com/list/tgix29s)| 
 |`322`| Coin Change | 30.2% | Medium |[✅](https://leetcode.com/list/tgix29s)| 
