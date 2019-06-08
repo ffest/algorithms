@@ -44,6 +44,7 @@
 |`119`| Pascal's Triangle II | 43.6% | Easy ||
 |`121`| Best Time to Buy and Sell Stock | 47.1% | Easy |[✅](https://leetcode.com/list/tgix29s)|  
 |`125`| Valid Palindrome | 31.1% | Easy ||  
+|`141`| Linked List Cycle | 37.0% | Easy ||
 |`143`| Reorder List | 30.9% | Medium ||
 |`148`| Sort List | 35.3% | Medium |[✅](https://leetcode.com/list/tgix29s)|  
 |`155`| Min Stack | 37.1% | Easy |[✅](https://leetcode.com/list/tgix29s)|
