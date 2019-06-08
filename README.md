@@ -13,6 +13,7 @@
 |`5`| Longest Palindromic Substring | 27.3% | Medium |[✅](https://leetcode.com/list/tgix29s)|
 |`11`| Container With Most Water | 44.2% | Medium ||
 |`14`| Longest Common Prefix | 33.4% | Easy ||
+|`15`| 3Sum | 24.1% | Medium |[✅](https://leetcode.com/list/tgix29s)|
 |`19`| Remove Nth Node From End of List | 34.2% | Medium |[✅](https://leetcode.com/list/tgix29s)|
 |`20`| Valid Parentheses | 36.5% | Easy |[✅](https://leetcode.com/list/tgix29s)|
 |`21`| Merge Two Sorted Lists | 47.1% | Easy ||
