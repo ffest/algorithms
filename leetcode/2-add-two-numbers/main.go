@@ -2,51 +2,38 @@ package main
 
 import "fmt"
 
+/**
+ * Definition for singly-linked list.
+ */
 type ListNode struct {
 	Val  int
 	Next *ListNode
 }
 
-// A Nil Node simplifies additions in the main loop.
-var empty = &ListNode{Val: 0}
-
-// If the next node is nil in either number, use empty.
-func nextOrEmpty(l *ListNode) *ListNode {
-	if l.Next == nil {
-		return empty
-	}
-	return l.Next
-}
-
-// Add two lists of digits together, each list having their least-significant digit in the same place.
 func addTwoNumbers(a *ListNode, b *ListNode) *ListNode {
-	x := new(ListNode)
-	head := x
-
-	carry := 0
-	for {
-		x.Val = a.Val + b.Val + carry
-		if x.Val > 9 {
-			x.Val -= 10
-			carry = 1
-		} else {
-			carry = 0
+	tail := &ListNode{0, nil}
+	head := tail
+	var num int
+	for a != nil || b != nil {
+		num /= 10
+		if a != nil {
+			num += a.Val
+			a = a.Next
+		}
+		if b != nil {
+			num += b.Val
+			b = b.Next
 		}
 
-		a, b = nextOrEmpty(a), nextOrEmpty(b)
-		if a == empty && b == empty {
-			break
-		}
-
-		x.Next = new(ListNode)
-		x = x.Next
+		head.Next = &ListNode{Val: num % 10}
+		head = head.Next
 	}
 
-	if carry > 0 {
-		x.Next = &ListNode{Val: carry}
+	if num/10 == 1 {
+		head.Next = &ListNode{Val: 1}
 	}
 
-	return head
+	return tail.Next
 }
 
 func main() {
@@ -64,7 +51,7 @@ func main() {
 		Next: &ListNode{
 			Val: 6,
 			Next: &ListNode{
-				Val: 7,
+				Val: 4,
 			},
 		},
 	}
