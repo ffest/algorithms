@@ -35,6 +35,7 @@
 |`74`| Search a 2D Matrix | 34.9% | Medium ||
 |`75`| Sort Colors | 42.1% | Medium ||
 |`76`| Minimum Window Substring | 30.6% | Hard |[✅](https://leetcode.com/list/tgix29s)|
+|`78`| Subsets | 53.0% | Medium ||
 |`86`| Partition List | 37.3% | Medium ||
 |`88`| Merge Sorted Array | 35.6% | Easy ||
 |`92`| Reverse Linked List II | 35.0% | Medium ||
