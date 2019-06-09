@@ -20,6 +20,7 @@
 |`22`| Generate Parentheses | 55.1% | Medium |[✅](https://leetcode.com/list/tgix29s)|
 |`23`| Merge k Sorted Lists | 34.3% | Hard |[✅](https://leetcode.com/list/tgix29s)|
 |`26`| Remove Duplicates from Sorted Array | 40.5% | Easy ||
+|`32`| Longest Valid Parentheses | 25.6% | Hard |[✅](https://leetcode.com/list/tgix29s)|
 |`33`| Search in Rotated Sorted Array | 32.8% | Medium ||
 |`35`| Search Insert Position | 40.8% | Easy ||
 |`45`| Jump Game II | 27.9% | Hard |[✅](https://leetcode.com/list/tgix29s)|
