@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"log"
 )
 
 type heap struct {
@@ -20,13 +21,19 @@ func (h *heap) pop() int {
 }
 
 func (h *heap) down(idx int) {
-	rightChild := 2*idx + 2
-	if rightChild < len(h.buf) && h.buf[rightChild] > h.buf[idx] {
-		h.buf[idx], h.buf[rightChild] = h.buf[rightChild], h.buf[idx]
-		h.down(rightChild)
-	}
 	leftChild := 2*idx + 1
-	if leftChild < len(h.buf) && h.buf[leftChild] > h.buf[idx] {
+	rightChild := 2*idx + 2
+
+	switch {
+	case rightChild < len(h.buf):
+		if h.buf[rightChild] > h.buf[idx] && h.buf[rightChild] > h.buf[leftChild] {
+			h.buf[idx], h.buf[rightChild] = h.buf[rightChild], h.buf[idx]
+			h.down(rightChild)
+		} else if h.buf[leftChild] > h.buf[idx] {
+			h.buf[idx], h.buf[leftChild] = h.buf[leftChild], h.buf[idx]
+			h.down(leftChild)
+		}
+	case leftChild < len(h.buf) && h.buf[leftChild] > h.buf[idx]:
 		h.buf[idx], h.buf[leftChild] = h.buf[leftChild], h.buf[idx]
 		h.down(leftChild)
 	}
@@ -42,6 +49,7 @@ func findKthLargest(nums []int, k int) int {
 	h := &heap{nums}
 	h.build()
 
+	log.Print(h.buf)
 	var val int
 	for i := 0; i < k; i++ {
 		val = h.pop()
