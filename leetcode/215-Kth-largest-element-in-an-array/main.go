@@ -2,11 +2,11 @@ package main
 
 import (
 	"fmt"
-	"log"
 )
 
 type heap struct {
-	buf []int
+	buf  []int
+	size int
 }
 
 func (h *heap) pop() int {
@@ -20,45 +20,53 @@ func (h *heap) pop() int {
 	return val
 }
 
+func (h *heap) push(x int) {
+	if len(h.buf) == 0 || x > h.buf[0] {
+		h.buf[0] = x
+	}
+	h.down(0)
+}
+
 func (h *heap) down(idx int) {
 	leftChild := 2*idx + 1
 	rightChild := 2*idx + 2
 
 	switch {
 	case rightChild < len(h.buf):
-		if h.buf[rightChild] > h.buf[idx] && h.buf[rightChild] > h.buf[leftChild] {
+		if h.buf[rightChild] < h.buf[idx] && h.buf[rightChild] < h.buf[leftChild] {
 			h.buf[idx], h.buf[rightChild] = h.buf[rightChild], h.buf[idx]
 			h.down(rightChild)
-		} else if h.buf[leftChild] > h.buf[idx] {
+		} else if h.buf[leftChild] < h.buf[idx] {
 			h.buf[idx], h.buf[leftChild] = h.buf[leftChild], h.buf[idx]
 			h.down(leftChild)
 		}
-	case leftChild < len(h.buf) && h.buf[leftChild] > h.buf[idx]:
+	case leftChild < len(h.buf) && h.buf[leftChild] < h.buf[idx]:
 		h.buf[idx], h.buf[leftChild] = h.buf[leftChild], h.buf[idx]
 		h.down(leftChild)
 	}
 }
 
-func (h *heap) build() {
+func (h *heap) build(arr []int) {
+	for i := 0; i < h.size; i++ {
+		h.buf = append(h.buf, arr[i])
+	}
 	for i := len(h.buf)/2 - 1; i >= 0; i-- {
 		h.down(i)
+	}
+	for i := h.size; i < len(arr); i++ {
+		h.push(arr[i])
 	}
 }
 
 func findKthLargest(nums []int, k int) int {
-	h := &heap{nums}
-	h.build()
-
-	log.Print(h.buf)
-	var val int
-	for i := 0; i < k; i++ {
-		val = h.pop()
-	}
-	return val
+	h := new(heap)
+	h.size = k
+	h.build(nums)
+	return h.pop()
 }
 
 func main() {
 	input := []int{3, 2, 3, 1, 2, 4, 5, 5, 6}
-	k := 4
+	k := 5
 	fmt.Println(findKthLargest(input, k))
 }
