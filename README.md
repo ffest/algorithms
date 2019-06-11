@@ -35,6 +35,7 @@
 |`64`| Minimum Path Sum | 46.9% | Medium |[✅](https://leetcode.com/list/tgix29s)|
 |`66`| Plus One | 41.0% | Easy ||
 |`70`| Climb Stairs | 44.1% | Easy ||
+|`73`| Set Matrix Zeroes | 39.9% | Medium ||
 |`74`| Search a 2D Matrix | 34.9% | Medium ||
 |`75`| Sort Colors | 42.1% | Medium ||
 |`76`| Minimum Window Substring | 30.6% | Hard |[✅](https://leetcode.com/list/tgix29s)|
