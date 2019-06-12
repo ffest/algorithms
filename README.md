@@ -61,6 +61,7 @@
 |`203`| Remove Linked List Elements | 35.8% | Easy ||
 |`206`| Reverse Linked List | 54.5% | Easy |[✅](https://leetcode.com/list/tgix29s)|
 |`215`| Kth Largest Element in an Array | 48.0% | Medium |[✅](https://leetcode.com/list/tgix29s)|
+|`221`| Maximal Square | 33.1% | Medium |[✅](https://leetcode.com/list/tgix29s)|
 |`234`| Palindrome Linked List | 36.1% | Easy ||
 |`315`| Count of Smaller Numbers After Self | 37.9% | Hard |[✅](https://leetcode.com/list/tgix29s)| 
 |`318`| Maximum Product of Word Lengths | 48.4% | Medium |[✅](https://leetcode.com/list/tgix29s)| 
