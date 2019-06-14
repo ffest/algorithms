@@ -60,6 +60,7 @@
 |`164`| Maximum Gap | 32.2% | Hard |[✅](https://leetcode.com/list/tgix29s)|
 |`169`| Majority Element | 52.8% | Easy || 
 |`198`| House Robber | 41.1% | Easy |[✅](https://leetcode.com/list/tgix29s)|
+|`200`| Number of Islands | 41.7% | Medium |[✅](https://leetcode.com/list/tgix29s)|
 |`203`| Remove Linked List Elements | 35.8% | Easy ||
 |`206`| Reverse Linked List | 54.5% | Easy |[✅](https://leetcode.com/list/tgix29s)|
 |`215`| Kth Largest Element in an Array | 48.0% | Medium |[✅](https://leetcode.com/list/tgix29s)|
