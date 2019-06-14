@@ -29,6 +29,7 @@
 |`48`| Rotate Image | 48.3% | Medium |[✅](https://leetcode.com/list/tgix29s)|
 |`49`| Group Anagrams | 46.7% | Medium |[✅](https://leetcode.com/list/tgix29s)|
 |`53`| Maximum Subarray | 43.7% | Easy |[✅](https://leetcode.com/list/tgix29s)|
+|`55`| Jump Game | 32.0% | Medium ||
 |`56`| Merge Intervals | 35.6% | Medium |[✅](https://leetcode.com/list/tgix29s)|
 |`61`| Rotate List | 27.2% | Medium ||
 |`62`| Unique Paths | 47.6% | Medium ||
@@ -64,6 +65,7 @@
 |`215`| Kth Largest Element in an Array | 48.0% | Medium |[✅](https://leetcode.com/list/tgix29s)|
 |`221`| Maximal Square | 33.1% | Medium |[✅](https://leetcode.com/list/tgix29s)|
 |`234`| Palindrome Linked List | 36.1% | Easy ||
+|`238`| Product of Array Except Self | 55.2% | Medium ||
 |`315`| Count of Smaller Numbers After Self | 37.9% | Hard |[✅](https://leetcode.com/list/tgix29s)| 
 |`318`| Maximum Product of Word Lengths | 48.4% | Medium |[✅](https://leetcode.com/list/tgix29s)| 
 |`322`| Coin Change | 30.2% | Medium |[✅](https://leetcode.com/list/tgix29s)| 
