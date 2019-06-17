@@ -96,6 +96,7 @@
 |`704`| Binary Search | 47.2% | Easy ||
 |`709`| To Lower Case | 76.6% | Easy ||
 |`744`| Find Smallest Letter Greater Than Target | 43.8% | Easy ||
+|`752`| Open the Lock | 46.2% | Medium |[✅](https://leetcode.com/list/tgix29s)|
 |`771`| Jewels and Stones | 83.0% | Easy ||
 |`797`| All Paths From Source to Target | 70.2% | Medium |[✅](https://leetcode.com/list/tgix29s)|
 |`804`| Unique Morse Code Words | 74.5% | Easy ||
