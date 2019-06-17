@@ -69,6 +69,7 @@
 |`221`| Maximal Square | 33.1% | Medium |[✅](https://leetcode.com/list/tgix29s)|
 |`234`| Palindrome Linked List | 36.1% | Easy ||
 |`238`| Product of Array Except Self | 55.2% | Medium ||
+|`279`| Perfect Squares | 42.1% | Medium |[✅](https://leetcode.com/list/tgix29s)|
 |`315`| Count of Smaller Numbers After Self | 37.9% | Hard |[✅](https://leetcode.com/list/tgix29s)| 
 |`318`| Maximum Product of Word Lengths | 48.4% | Medium |[✅](https://leetcode.com/list/tgix29s)| 
 |`322`| Coin Change | 30.2% | Medium |[✅](https://leetcode.com/list/tgix29s)| 
