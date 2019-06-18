@@ -11,6 +11,7 @@
 |`2`| Add Two Numbers | 31.0% | Medium |[✅](https://leetcode.com/list/tgix29s)|
 |`3`| Longest Substring Without Repeating Characters | 28.2% | Medium |[✅](https://leetcode.com/list/tgix29s)|
 |`5`| Longest Palindromic Substring | 27.3% | Medium |[✅](https://leetcode.com/list/tgix29s)|
+|`9`| Palindrome Number | 43.6% | Easy ||
 |`11`| Container With Most Water | 44.2% | Medium ||
 |`14`| Longest Common Prefix | 33.4% | Easy ||
 |`15`| 3Sum | 24.1% | Medium |[✅](https://leetcode.com/list/tgix29s)|
