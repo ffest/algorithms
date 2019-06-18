@@ -55,7 +55,8 @@
 |`139`| Word Break | 35.4% | Medium || 
 |`141`| Linked List Cycle | 37.0% | Easy ||
 |`143`| Reorder List | 30.9% | Medium ||
-|`148`| Sort List | 35.3% | Medium |[✅](https://leetcode.com/list/tgix29s)|  
+|`148`| Sort List | 35.3% | Medium |[✅](https://leetcode.com/list/tgix29s)|
+|`150`| Evaluate Reverse Polish Notation | 32.4% | Medium ||  
 |`155`| Min Stack | 37.1% | Easy |[✅](https://leetcode.com/list/tgix29s)|
 |`160`| Intersection of Two Linked Lists | 33.9% | Easy ||
 |`164`| Maximum Gap | 32.2% | Hard |[✅](https://leetcode.com/list/tgix29s)|
