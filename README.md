@@ -23,6 +23,7 @@
 |`26`| Remove Duplicates from Sorted Array | 40.5% | Easy ||
 |`32`| Longest Valid Parentheses | 25.6% | Hard |[✅](https://leetcode.com/list/tgix29s)|
 |`33`| Search in Rotated Sorted Array | 32.8% | Medium ||
+|`34`| Find First and Last Position of Element in Sorted Array | 33.7% | Medium |[✅](https://leetcode.com/list/tgix29s)|
 |`35`| Search Insert Position | 40.8% | Easy ||
 |`39`| Combination Sum | 48.7% | Medium ||
 |`45`| Jump Game II | 27.9% | Hard |[✅](https://leetcode.com/list/tgix29s)|
