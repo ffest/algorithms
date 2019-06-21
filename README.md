@@ -71,6 +71,7 @@
 |`207`| Course Schedule | 38.0% | Medium |[✅](https://leetcode.com/list/tgix29s)|
 |`215`| Kth Largest Element in an Array | 48.0% | Medium |[✅](https://leetcode.com/list/tgix29s)|
 |`221`| Maximal Square | 33.1% | Medium |[✅](https://leetcode.com/list/tgix29s)|
+|`222`| Count Complete Tree Nodes | 34.2% | Medium |[✅](https://leetcode.com/list/tgix29s)|
 |`234`| Palindrome Linked List | 36.1% | Easy ||
 |`238`| Product of Array Except Self | 55.2% | Medium ||
 |`279`| Perfect Squares | 42.1% | Medium |[✅](https://leetcode.com/list/tgix29s)|
