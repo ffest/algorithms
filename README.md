@@ -16,6 +16,7 @@
 |`11`| Container With Most Water | 44.2% | Medium ||
 |`14`| Longest Common Prefix | 33.4% | Easy ||
 |`15`| 3Sum | 24.1% | Medium |[✅](https://leetcode.com/list/tgix29s)|
+|`16`| 3Sum Closest | 45.8% | Medium |[✅](https://leetcode.com/list/tgix29s)|
 |`17`| Letter Combinations of a Phone Number | 41.8% | Medium ||
 |`19`| Remove Nth Node From End of List | 34.2% | Medium |[✅](https://leetcode.com/list/tgix29s)|
 |`20`| Valid Parentheses | 36.5% | Easy |[✅](https://leetcode.com/list/tgix29s)|
