@@ -100,6 +100,7 @@
 |`494`| Target Sum | 45.4% | Medium ||
 |`498`| Diagonal Traverse | 45.2% | Medium ||
 |`523`| Continuous Subarray Sum | 24.2% | Medium ||
+|`542`| 01 Matrix | 36.2% | Medium |[✅](https://leetcode.com/list/tgix29s)|
 |`594`| Longest Harmonious Subsequence | 43.5% | Medium ||
 |`605`| Can Place Flowers | 30.9% | Easy ||
 |`622`| Design Circular Queue | 39.3% | Medium ||
