@@ -23,6 +23,7 @@
 |`21`| Merge Two Sorted Lists | 47.1% | Easy ||
 |`22`| Generate Parentheses | 55.1% | Medium |[✅](https://leetcode.com/list/tgix29s)|
 |`23`| Merge k Sorted Lists | 34.3% | Hard |[✅](https://leetcode.com/list/tgix29s)|
+|`24`| Swap Nodes in Pairs | 45.4% | Medium ||
 |`26`| Remove Duplicates from Sorted Array | 40.5% | Easy ||
 |`32`| Longest Valid Parentheses | 25.6% | Hard |[✅](https://leetcode.com/list/tgix29s)|
 |`33`| Search in Rotated Sorted Array | 32.8% | Medium ||
@@ -53,6 +54,7 @@
 |`92`| Reverse Linked List II | 35.0% | Medium ||
 |`94`| Binary Tree Inorder Traversal | 57.2% | Medium ||
 |`98`| Validate Binary Search Tree | 25.6% | Medium |[✅](https://leetcode.com/list/tgix29s)|
+|`102`| Binary Tree Level Order Traversal | 49.2% | Medium |[✅](https://leetcode.com/list/tgix29s)|
 |`103`| Binary Tree Zigzag Level Order Traversal | 41.3% | Medium |[✅](https://leetcode.com/list/tgix29s)|
 |`118`| Pascal's Triangle | 46.0% | Easy ||
 |`119`| Pascal's Triangle II | 43.6% | Easy ||
