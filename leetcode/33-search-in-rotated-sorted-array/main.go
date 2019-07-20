@@ -23,27 +23,17 @@ func search(nums []int, target int) int {
 	return res
 }
 
-func searchShift(arr []int) int {
-	left := 0
-	right := len(arr)
-	for {
-		median := (left + right) / 2
-		if left == right {
-			return 0
-		}
-		if median > 0 && arr[median-1] > arr[median] {
-			return median
-		} else if median < len(arr)-1 && arr[median+1] < arr[median] {
-			return median + 1
-		}
-		if arr[median] > arr[left] {
-			left = median + 1
-			continue
-		} else {
-			right = median
-			continue
+func searchShift(nums []int) int {
+	left, right := 0, len(nums)-1
+	for left < right {
+		mid := (left + right) / 2
+		if nums[mid] < nums[right] {
+			right = mid
+		} else if nums[mid] > nums[right] {
+			left = mid + 1
 		}
 	}
+	return nums[left]
 }
 
 func binary(arr []int, target int) int {

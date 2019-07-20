@@ -69,6 +69,7 @@
 |`145`| Binary Tree Postorder Traversal | 49.2% | Hard ||
 |`148`| Sort List | 35.3% | Medium |[✅](https://leetcode.com/list/tgix29s)|
 |`150`| Evaluate Reverse Polish Notation | 32.4% | Medium ||  
+|`153`| Find Minimum in Rotated Sorted Array | 43.2% | Medium |[✅](https://leetcode.com/list/tgix29s)|
 |`155`| Min Stack | 37.1% | Easy |[✅](https://leetcode.com/list/tgix29s)|
 |`160`| Intersection of Two Linked Lists | 33.9% | Easy ||
 |`164`| Maximum Gap | 32.2% | Hard |[✅](https://leetcode.com/list/tgix29s)|
