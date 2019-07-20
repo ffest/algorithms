@@ -33,7 +33,7 @@ func searchShift(nums []int) int {
 			left = mid + 1
 		}
 	}
-	return nums[left]
+	return left
 }
 
 func binary(arr []int, target int) int {
