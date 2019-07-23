@@ -58,6 +58,7 @@
 |`102`| Binary Tree Level Order Traversal | 49.2% | Medium |[✅](https://leetcode.com/list/tgix29s)|
 |`103`| Binary Tree Zigzag Level Order Traversal | 41.3% | Medium |[✅](https://leetcode.com/list/tgix29s)|
 |`104`| Maximum Depth of Binary Tree | 61.2% | Easy ||
+|`106`| Construct Binary Tree from Inorder and Postorder Traversal | 40.1% | Medium ||
 |`112`| Path Sum | 38.2% | Easy ||
 |`118`| Pascal's Triangle | 46.0% | Easy ||
 |`119`| Pascal's Triangle II | 43.6% | Easy ||
