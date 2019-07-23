@@ -54,9 +54,11 @@
 |`92`| Reverse Linked List II | 35.0% | Medium ||
 |`94`| Binary Tree Inorder Traversal | 57.2% | Medium ||
 |`98`| Validate Binary Search Tree | 25.6% | Medium |[✅](https://leetcode.com/list/tgix29s)|
+|`101`| Symmetric Tree | 43.9% | Easy ||
 |`102`| Binary Tree Level Order Traversal | 49.2% | Medium |[✅](https://leetcode.com/list/tgix29s)|
 |`103`| Binary Tree Zigzag Level Order Traversal | 41.3% | Medium |[✅](https://leetcode.com/list/tgix29s)|
 |`104`| Maximum Depth of Binary Tree | 61.2% | Easy ||
+|`112`| Path Sum | 38.2% | Easy ||
 |`118`| Pascal's Triangle | 46.0% | Easy ||
 |`119`| Pascal's Triangle II | 43.6% | Easy ||
 |`121`| Best Time to Buy and Sell Stock | 47.1% | Easy |[✅](https://leetcode.com/list/tgix29s)|  
