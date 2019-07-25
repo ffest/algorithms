@@ -60,6 +60,7 @@
 |`104`| Maximum Depth of Binary Tree | 61.2% | Easy ||
 |`105`| Construct Binary Tree from Preorder and Inorder Traversal | 42.1% | Medium ||
 |`106`| Construct Binary Tree from Inorder and Postorder Traversal | 40.1% | Medium ||
+|`107`| Binary Tree Level Order Traversal II | 47.5% | Easy ||
 |`112`| Path Sum | 38.2% | Easy ||
 |`118`| Pascal's Triangle | 46.0% | Easy ||
 |`119`| Pascal's Triangle II | 43.6% | Easy ||
