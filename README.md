@@ -117,6 +117,7 @@
 |`542`| 01 Matrix | 36.2% | Medium |[✅](https://leetcode.com/list/tgix29s)|
 |`594`| Longest Harmonious Subsequence | 43.5% | Medium ||
 |`605`| Can Place Flowers | 30.9% | Easy ||
+|`617`| Merge Two Binary Trees | 70.7% | Easy |[✅](https://leetcode.com/list/tgix29s)|
 |`622`| Design Circular Queue | 39.3% | Medium ||
 |`643`| Maximum Average Subarray I | 39.4% | Easy ||
 |`654`| Maximum Binary Tree | 75.7% | Medium ||
