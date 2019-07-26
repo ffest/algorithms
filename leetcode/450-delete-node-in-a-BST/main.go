@@ -24,8 +24,8 @@ func deleteNode(root *TreeNode, key int) *TreeNode {
 	} else {
 		if root.Right == nil {
 			return root.Left
-		} else if root.Right == nil {
-			return root.Left
+		} else if root.Left == nil {
+			return root.Right
 		}
 		minNode := findMin(root.Right)
 		root.Val = minNode.Val
