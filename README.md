@@ -128,6 +128,7 @@
 |`677`| Map Sum Pairs | 51.6% | Medium |[✅](https://leetcode.com/list/tgix29s)|
 |`700`| Search in a Binary Search Tree  | 68.8% | Easy ||
 |`701`| Insert into a Binary Search Tree | 76.4% | Medium ||
+|`703`| Kth Largest Element in a Stream | 46.7% | Easy ||
 |`704`| Binary Search | 47.2% | Easy ||
 |`709`| To Lower Case | 76.6% | Easy ||
 |`724`| Find Pivot Index | 41.3% | Easy ||
