@@ -123,6 +123,7 @@
 |`450`| Delete Node in a BST | 39.9% | Medium |[✅](https://leetcode.com/list/tgix29s)|
 |`459`| Repeated Substring Pattern | 39.8% | Easy |[✅](https://leetcode.com/list/tgix29s)|
 |`461`| Hamming Distance | 70.2% | Easy |[✅](https://leetcode.com/list/tgix29s)| 
+|`485`| Max Consecutive Ones | 55.3% | Easy ||
 |`494`| Target Sum | 45.5% | Medium ||
 |`498`| Diagonal Traverse | 45.2% | Medium ||
 |`509`| Fibonacci Number | 66.6% | Easy ||
