@@ -88,6 +88,7 @@
 |`155`| Min Stack | 37.1% | Easy |[✅](https://leetcode.com/list/tgix29s)|
 |`160`| Intersection of Two Linked Lists | 33.9% | Easy ||
 |`164`| Maximum Gap | 32.2% | Hard |[✅](https://leetcode.com/list/tgix29s)|
+|`167`| Two Sum II - Input array is sorted | 50.9% | Easy || 
 |`169`| Majority Element | 52.8% | Easy || 
 |`173`| Binary Search Tree Iterator | 49.5% | Medium || 
 |`179`| Largest Number | 26.1% | Medium |[✅](https://leetcode.com/list/tgix29s)| 
