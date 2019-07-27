@@ -141,6 +141,7 @@
 |`733`| Flood Fill | 51.1% | Easy ||
 |`739`| Daily Temperatures | 60.0% | Medium |[✅](https://leetcode.com/list/tgix29s)|
 |`744`| Find Smallest Letter Greater Than Target | 43.8% | Easy ||
+|`747`| Largest Number At Least Twice of Others | 40.8% | Easy ||
 |`752`| Open the Lock | 46.2% | Medium |[✅](https://leetcode.com/list/tgix29s)|
 |`771`| Jewels and Stones | 83.0% | Easy ||
 |`779`| K-th Symbol in Grammar | 37.6% | Medium |[✅](https://leetcode.com/list/tgix29s)|
