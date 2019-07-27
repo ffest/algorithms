@@ -42,6 +42,7 @@
 |`62`| Unique Paths | 47.6% | Medium ||
 |`64`| Minimum Path Sum | 46.9% | Medium |[✅](https://leetcode.com/list/tgix29s)|
 |`66`| Plus One | 41.0% | Easy ||
+|`67`| Add Binary | 39.8% | Easy ||
 |`70`| Climb Stairs | 44.1% | Easy ||
 |`73`| Set Matrix Zeroes | 39.9% | Medium ||
 |`74`| Search a 2D Matrix | 34.9% | Medium ||
