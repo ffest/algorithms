@@ -5,16 +5,11 @@ import (
 )
 
 func findDiagonalOrder(matrix [][]int) []int {
-	if len(matrix) == 0 {
+	if len(matrix) == 0 || len(matrix[0]) == 0 {
 		return []int{}
 	}
-	n := len(matrix)
-	m := 0
-	for range matrix[0] {
-		m++
-	}
+	n, m := len(matrix), len(matrix[0])
 	res := make([]int, n*m)
-
 	var x, y int
 	for i := 0; i < len(res); i++ {
 		res[i] = matrix[x][y]
@@ -24,8 +19,8 @@ func findDiagonalOrder(matrix [][]int) []int {
 			} else if x == 0 {
 				y++
 			} else {
-				x--
 				y++
+				x--
 			}
 		} else {
 			if x == n-1 {
