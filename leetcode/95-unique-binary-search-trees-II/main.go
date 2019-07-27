@@ -26,16 +26,15 @@ func generator(start, end int) []*TreeNode {
 	}
 	list := make([]*TreeNode, 0)
 	for i := start; i <= end; i++ {
-		leftSubtrees := generator(start, i-1)
-		rightSubtrees := generator(i+1, end)
-		for _, left := range leftSubtrees {
-			for _, right := range rightSubtrees {
-				root := &TreeNode{
+		leftSubs := generator(start, i-1)
+		rightSubs := generator(i+1, end)
+		for _, left := range leftSubs {
+			for _, right := range rightSubs {
+				list = append(list, &TreeNode{
 					Val:   i,
 					Left:  left,
 					Right: right,
-				}
-				list = append(list, root)
+				})
 			}
 		}
 	}
