@@ -53,6 +53,7 @@
 |`91`| Decode Ways | 22.4% | Medium ||
 |`92`| Reverse Linked List II | 35.0% | Medium ||
 |`94`| Binary Tree Inorder Traversal | 57.2% | Medium ||
+|`95`| Unique Binary Search Trees II | 36.4% | Medium |[✅](https://leetcode.com/list/tgix29s)|
 |`96`| Unique Binary Search Trees | 47.0% | Medium ||
 |`98`| Validate Binary Search Tree | 25.6% | Medium |[✅](https://leetcode.com/list/tgix29s)|
 |`101`| Symmetric Tree | 43.9% | Easy ||
