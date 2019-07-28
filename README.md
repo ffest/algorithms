@@ -60,6 +60,7 @@
 |`95`| Unique Binary Search Trees II | 36.4% | Medium |[✅](https://leetcode.com/list/tgix29s)|
 |`96`| Unique Binary Search Trees | 47.0% | Medium ||
 |`98`| Validate Binary Search Tree | 25.6% | Medium |[✅](https://leetcode.com/list/tgix29s)|
+|`100`| Same Tree | 50.4% | Easy ||
 |`101`| Symmetric Tree | 43.9% | Easy ||
 |`102`| Binary Tree Level Order Traversal | 49.2% | Medium |[✅](https://leetcode.com/list/tgix29s)|
 |`103`| Binary Tree Zigzag Level Order Traversal | 41.3% | Medium |[✅](https://leetcode.com/list/tgix29s)|
