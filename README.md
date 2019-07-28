@@ -39,6 +39,7 @@
 |`54`| Spiral Matrix | 30.9% | Medium ||
 |`55`| Jump Game | 32.0% | Medium ||
 |`56`| Merge Intervals | 35.6% | Medium |[✅](https://leetcode.com/list/tgix29s)|
+|`59`| Spiral Matrix | 47.5% | Medium ||
 |`61`| Rotate List | 27.2% | Medium ||
 |`62`| Unique Paths | 47.6% | Medium ||
 |`64`| Minimum Path Sum | 46.9% | Medium |[✅](https://leetcode.com/list/tgix29s)|
