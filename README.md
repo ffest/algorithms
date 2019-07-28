@@ -109,6 +109,7 @@
 |`238`| Product of Array Except Self | 55.2% | Medium ||
 |`279`| Perfect Squares | 42.1% | Medium |[✅](https://leetcode.com/list/tgix29s)|
 |`283`| Move Zeroes | 54.7% | Easy ||
+|`287`| Find the Duplicate Number | 50.4% | Medium ||
 |`315`| Count of Smaller Numbers After Self | 37.9% | Hard |[✅](https://leetcode.com/list/tgix29s)| 
 |`318`| Maximum Product of Word Lengths | 48.4% | Medium |[✅](https://leetcode.com/list/tgix29s)| 
 |`322`| Coin Change | 30.2% | Medium |[✅](https://leetcode.com/list/tgix29s)| 
