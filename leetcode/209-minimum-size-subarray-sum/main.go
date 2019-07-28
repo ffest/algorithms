@@ -5,16 +5,21 @@ import (
 )
 
 func minSubArrayLen(s int, nums []int) int {
-	var sum, min, head, tail int
-	for tail = 0; tail < len(nums); tail++ {
-		for sum < s && head < len(nums) {
-			sum += nums[head]
-			head++
+	var i, j, sum int
+	min := 1<<31 - 1
+	for j < len(nums) {
+		sum += nums[j]
+		j++
+		for sum >= s {
+			if min > j-i {
+				min = j - i
+			}
+			sum -= nums[i]
+			i++
 		}
-		if sum >= s && (min == 0 || head-tail < min) {
-			min = head - tail
-		}
-		sum -= nums[tail]
+	}
+	if min == 1<<31-1 {
+		return 0
 	}
 	return min
 }
