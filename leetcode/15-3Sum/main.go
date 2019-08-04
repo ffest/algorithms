@@ -7,9 +7,7 @@ import (
 
 func threeSum(nums []int) [][]int {
 	sort.Ints(nums)
-
-	result := make([][]int, 0)
-
+	var result [][]int
 	for i := 0; i < len(nums)-2; i++ {
 		if nums[i] > 0 {
 			break

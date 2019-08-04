@@ -1,6 +1,8 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func letterCombinations(digits string) []string {
 	if len(digits) == 0 {
@@ -26,10 +28,8 @@ func combinations(current, digits string, level int, mapping map[byte][]byte, re
 		*result = append(*result, current)
 		return
 	}
-
-	letters := mapping[digits[level]]
-	for _, l := range letters {
-		combinations(current+string(l), digits, level+1, mapping, result)
+	for _, letter := range mapping[digits[level]] {
+		combinations(current+string(letter), digits, level+1, mapping, result)
 	}
 }
 

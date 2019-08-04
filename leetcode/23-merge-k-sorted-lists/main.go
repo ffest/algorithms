@@ -1,67 +1,52 @@
 package main
 
 import (
+	"container/heap"
 	"fmt"
 )
 
-/*
- Definition for singly-linked list.
-*/
 type ListNode struct {
 	Val  int
 	Next *ListNode
 }
 
-func mergeKLists(lists []*ListNode) *ListNode {
-	if len(lists) == 0 {
-		return nil
-	}
-	elements := make([]int, 0)
-	for i := 0; i < len(lists); i++ {
-		for lists[i] != nil {
-			elements = append(elements, lists[i].Val)
-			lists[i] = lists[i].Next
-		}
-	}
-	if len(elements) == 0 {
-		return nil
-	}
-	elements = Quick(elements)
+type NodeHeap []*ListNode
 
-	result := &ListNode{Val: elements[0]}
-	subres := result
+func (h NodeHeap) Len() int           { return len(h) }
+func (h NodeHeap) Less(i, j int) bool { return h[i].Val < h[j].Val }
+func (h NodeHeap) Swap(i, j int)      { h[i], h[j] = h[j], h[i] }
 
-	for i := 1; i < len(elements); i++ {
-		subres.Next = &ListNode{Val: elements[i]}
-		subres = subres.Next
-	}
-
-	return result
+func (h *NodeHeap) Push(x interface{}) {
+	*h = append(*h, x.(*ListNode))
 }
 
-func Quick(arr []int) []int {
-	if len(arr) <= 1 {
-		return arr
-	}
+func (h *NodeHeap) Pop() interface{} {
+	x := (*h)[len(*h)-1]
+	*h = (*h)[:len(*h)-1]
+	return x
+}
 
-	left, right := 0, len(arr)-1
-	median := (1<<31 - 1) % len(arr)
+func mergeKLists(lists []*ListNode) *ListNode {
+	mergeHeap := &NodeHeap{}
+	heap.Init(mergeHeap)
 
-	arr[median], arr[right] = arr[right], arr[median]
-
-	for i := range arr {
-		if arr[i] < arr[right] {
-			arr[left], arr[i] = arr[i], arr[left]
-			left++
+	for i := 0; i < len(lists); i++ {
+		if lists[i] != nil {
+			heap.Push(mergeHeap, lists[i])
 		}
 	}
 
-	arr[left], arr[right] = arr[right], arr[left]
-
-	Quick(arr[:left])
-	Quick(arr[left+1:])
-
-	return arr
+	merged := &ListNode{0, nil}
+	head := merged
+	for mergeHeap.Len() > 0 {
+		next := heap.Pop(mergeHeap).(*ListNode)
+		if next.Next != nil {
+			heap.Push(mergeHeap, next.Next)
+		}
+		head.Next = next
+		head = head.Next
+	}
+	return merged.Next
 }
 
 func main() {

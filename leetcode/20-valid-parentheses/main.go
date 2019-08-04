@@ -16,7 +16,7 @@ func isValid(s string) bool {
 	stack := make([]byte, 0)
 	for i := range s {
 		if openingBracket, ok := closedBrackets[s[i]]; ok {
-			if len(stack) == 0 || stack[len(stack)-1] != openingBracket {
+			if len(stack) == 0 || openingBracket != stack[len(stack)-1] {
 				return false
 			}
 			stack = stack[:len(stack)-1]
