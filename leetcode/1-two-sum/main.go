@@ -5,10 +5,10 @@ import "fmt"
 func twoSum(nums []int, target int) []int {
 	cache := make(map[int]int)
 	for i := range nums {
-		if idx, ok := cache[target-nums[i]]; ok {
+		if idx, ok := cache[nums[i]]; ok {
 			return []int{idx, i}
 		}
-		cache[nums[i]] = i
+		cache[target-nums[i]] = i
 	}
 	return []int{}
 }

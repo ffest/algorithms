@@ -5,21 +5,26 @@ import (
 )
 
 func longestCommonPrefix(strs []string) string {
-	if len(strs) == 0 {
-		return ""
-	} else if len(strs) == 1 {
-		return strs[0]
-	}
-
-	var result []byte
-	for i := 0; i < len(strs[0]); i++ {
-		c := strs[0][i]
-		for _, str := range strs {
-			if len(str) <= i || str[i] != c {
-				return string(result)
-			}
+	var min, max string
+	for _, str := range strs {
+		if str == "" {
+			return ""
+		}
+		if min == "" || min > str {
+			min = str
+		}
+		if max == "" || max < str {
+			max = str
 		}
 	}
+	var result []byte
+	for i := 0; i < len(min); i++ {
+		if len(max) <= i || min[i] != max[i] {
+			return string(result)
+		}
+		result = append(result, min[i])
+	}
+
 	return string(result)
 }
 

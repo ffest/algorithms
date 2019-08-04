@@ -6,21 +6,17 @@ import (
 
 func lengthOfLongestSubstring(s string) int {
 	var m [128]bool
-	var max int
-
-	l := 0
-	var current int
+	var max, tail, length int
 	for i := range s {
-		char := s[i]
-		for m[char] {
-			m[s[current]] = false
-			current++
-			l--
+		for m[s[i]] {
+			m[s[tail]] = false
+			tail++
+			length--
 		}
-		m[char] = true
-		l++
-		if max < l {
-			max = l
+		m[s[i]] = true
+		length++
+		if max < length {
+			max = length
 		}
 	}
 	return max

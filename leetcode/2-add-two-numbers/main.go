@@ -32,7 +32,6 @@ func addTwoNumbers(a *ListNode, b *ListNode) *ListNode {
 	if num/10 == 1 {
 		head.Next = &ListNode{Val: 1}
 	}
-
 	return tail.Next
 }
 
