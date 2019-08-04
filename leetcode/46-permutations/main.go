@@ -13,13 +13,12 @@ func permute(nums []int) [][]int {
 func helper(nums []int, subres []int, result *[][]int) {
 	if len(nums) == 0 {
 		*result = append(*result, subres)
-		return
 	}
 
-	for i, num := range nums {
+	for i := range nums {
 		numsCopy := append([]int{}, nums...)
 		subresCopy := append([]int{}, subres...)
-		helper(append(numsCopy[:i], numsCopy[i+1:]...), append(subresCopy, num), result)
+		helper(append(numsCopy[:i], numsCopy[i+1:]...), append(subresCopy, nums[i]), result)
 	}
 }
 

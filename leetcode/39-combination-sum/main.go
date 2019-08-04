@@ -17,8 +17,9 @@ func backtracking(subset, candidates []int, sum, target int, result *[][]int) {
 	} else if sum > target {
 		return
 	}
+
 	for i := range candidates {
-		subsetCopy := make([]int, 0)
+		subsetCopy := make([]int, 0, len(subset)+1)
 		subsetCopy = append(subsetCopy, subset...)
 		backtracking(append(subsetCopy, candidates[i]), candidates[i:], sum+candidates[i], target, result)
 	}

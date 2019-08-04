@@ -6,22 +6,18 @@ import (
 
 func searchInsert(nums []int, target int) int {
 	left := 0
-	right := len(nums)
-	for {
+	right := len(nums) - 1
+	for left <= right {
 		median := (left + right) / 2
-		switch {
-		case left == right:
+		if nums[median] == target {
 			return median
-		case target < nums[median]:
-			right = median
-			continue
-		case target > nums[median]:
+		} else if target < nums[median] {
+			right = median - 1
+		} else {
 			left = median + 1
-			continue
-		default:
-			return median
 		}
 	}
+	return left
 }
 
 func main() {

@@ -13,8 +13,8 @@ func removeDuplicates(nums []int) int {
 	for i := 1; i < len(nums); i++ {
 		if nums[i] != current {
 			nums[count] = nums[i]
-			count++
 			current = nums[i]
+			current++
 		}
 	}
 	return count

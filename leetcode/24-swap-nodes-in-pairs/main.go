@@ -23,9 +23,9 @@ func swapPairs(head *ListNode) *ListNode {
 		first := current.Next
 		second := first.Next
 
-		temp := second.Next
+		tmp := second.Next
 		second.Next = first
-		first.Next = temp
+		first.Next = tmp
 		current.Next = second
 		current = current.Next.Next
 	}
