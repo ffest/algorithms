@@ -14,7 +14,6 @@ type ListNode struct {
 
 func reverseBetween(head *ListNode, m int, n int) *ListNode {
 	result := &ListNode{0, head}
-
 	left := result
 	for i := 0; i < m-1; i++ {
 		left = left.Next
@@ -22,14 +21,12 @@ func reverseBetween(head *ListNode, m int, n int) *ListNode {
 
 	middle := left.Next
 	right := middle.Next
-
 	for i := 0; i < n-m; i++ {
 		middle.Next = right.Next
 		right.Next = left.Next
 		left.Next = right
 		right = middle.Next
 	}
-
 	return result.Next
 }
 

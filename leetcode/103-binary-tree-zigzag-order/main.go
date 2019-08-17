@@ -2,7 +2,6 @@ package main
 
 import (
 	"fmt"
-	"log"
 )
 
 /**
@@ -20,6 +19,7 @@ type TreeNode struct {
 	Right *TreeNode
 }
 
+//TODO: level order with swapping
 func zigzagLevelOrder(root *TreeNode) [][]int {
 	result := make([][]int, 0)
 	if root == nil {
@@ -39,7 +39,6 @@ func travel(tree *TreeNode, result [][]int, level int) [][]int {
 		subRes = append(subRes, tree.Val)
 		result[level] = subRes
 	}
-	log.Print(result)
 	level++
 
 	if level%2 == 0 {

@@ -10,6 +10,7 @@ type bucket struct {
 	min int
 }
 
+// TODO: refactor it
 func maximumGap(nums []int) int {
 	if len(nums) < 2 {
 		return 0

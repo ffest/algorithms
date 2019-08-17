@@ -38,6 +38,7 @@ func getIntersectionNode(headA, headB *ListNode) *ListNode {
 	}
 	return nil
 }
+
 func main() {
 	commonHead := &ListNode{
 		Val: 8,

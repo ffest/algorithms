@@ -10,7 +10,6 @@ import (
 	dp[0] = []string{""}
 	var tmp string
 	for i := range s {
-		log.Print(i)
 		if dp[i] == nil {
 			continue
 		}

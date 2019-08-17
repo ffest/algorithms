@@ -19,7 +19,7 @@ func hammingDistance(x int, y int) int {
 }
 
 func main() {
-	x := 0
-	y := 2
+	x := 1
+	y := 4
 	fmt.Println(hammingDistance(x, y))
 }

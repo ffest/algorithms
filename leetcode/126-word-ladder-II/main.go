@@ -24,7 +24,6 @@ func findLadders(beginWord string, endWord string, wordList []string) [][]string
 	for len(queue) > 0 {
 		ladder := queue[0]
 		queue = queue[1:]
-
 		if len(ladder) > level {
 			for w := range visited {
 				delete(words, w)

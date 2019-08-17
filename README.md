@@ -180,3 +180,4 @@
 |`965`| Univalued Binary Tree | 67.0% | Easy |[✅](https://leetcode.com/list/tgix29s)|
 |`975`| Odd Even Jump | 48.2% | Hard ||
 |`977`| Squares of a Sorted Array | 72.2% | Easy ||
+|`1122`| Relative Sort Array | 66.5% | Easy ||

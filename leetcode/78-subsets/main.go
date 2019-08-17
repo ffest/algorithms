@@ -15,11 +15,8 @@ func backtracking(nums, path []int, result *[][]int) {
 	*result = append(*result, path)
 
 	for i := 0; i < len(nums); i++ {
-		// copy items
-		nextPath := make([]int, 0, len(path)+1)
-		nextPath = append(nextPath, path...)
-		nextPath = append(nextPath, nums[i])
-		backtracking(nums[i+1:], nextPath, result)
+		nextPath := append([]int{}, path...)
+		backtracking(nums[i+1:], append(nextPath, nums[i]), result)
 	}
 }
 

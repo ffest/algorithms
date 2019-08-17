@@ -2,7 +2,6 @@ package main
 
 import (
 	"fmt"
-	"log"
 )
 
 // Solution with array modification
@@ -22,7 +21,6 @@ func findDuplicate(nums []int) int {
 	left, right := 0, len(nums)-1
 	for left < right {
 		mid := (left + right) / 2
-		log.Print(mid)
 		count := 0
 		for _, num := range nums {
 			if num <= mid {

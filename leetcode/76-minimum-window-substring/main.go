@@ -5,28 +5,29 @@ import (
 )
 
 func minWindow(s string, t string) string {
-	have := [128]int{}
-	need := [128]int{}
+	m := [128]int{}
 	for i := range t {
-		need[t[i]]++
+		m[t[i]]++
 	}
 
-	result := ""
-	var tail, head, count int
-	for ; head < len(s); head++ {
-		if have[s[head]] < need[s[head]] {
-			count++
+	var result string
+	var left, right int
+	counter := len(t)
+	for right = 0; right < len(s); right++ {
+		if m[s[right]] > 0 {
+			counter--
 		}
-		have[s[head]]++
+		m[s[right]]--
 
-		for tail <= head && have[s[tail]] > need[s[tail]] {
-			have[s[tail]]--
-			tail++
-		}
-
-		length := head - tail + 1
-		if count == len(t) && (result == "" || len(result) > length) {
-			result = s[tail : head+1]
+		for counter == 0 {
+			if result == "" || right-left < len(result) {
+				result = s[left : right+1]
+			}
+			m[s[left]]++
+			if m[s[left]] > 0 {
+				counter++
+			}
+			left++
 		}
 	}
 
@@ -34,7 +35,7 @@ func minWindow(s string, t string) string {
 }
 
 func main() {
-	s := "ab"
-	t := "b"
+	s := "abac"
+	t := "bc"
 	fmt.Println(minWindow(s, t))
 }
