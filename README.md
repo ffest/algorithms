@@ -144,6 +144,7 @@
 |`622`| Design Circular Queue | 39.3% | Medium ||
 |`643`| Maximum Average Subarray I | 39.4% | Easy ||
 |`654`| Maximum Binary Tree | 75.7% | Medium ||
+|`658`| Find K Closest Elements | 38.5% | Medium ||
 |`657`| Robot Return to Origin | 71.2% | Easy ||
 |`677`| Map Sum Pairs | 51.6% | Medium |[✅](https://leetcode.com/list/tgix29s)|
 |`700`| Search in a Binary Search Tree  | 68.8% | Easy ||
