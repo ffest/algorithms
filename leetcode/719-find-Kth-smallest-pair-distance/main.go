@@ -2,6 +2,8 @@ package main
 
 import (
 	"fmt"
+	"math"
+	"sort"
 )
 
 // min heap solution O(n^2 logK) -- too slow
@@ -40,8 +42,37 @@ func smallestDistancePair(nums []int, k int) int {
 	return distances[0]
 }*/
 
+// Binary search O(nlogn)
 func smallestDistancePair(nums []int, k int) int {
-	return 0
+	sort.Ints(nums)
+
+	left := math.MaxInt32
+	for i := 1; i < len(nums); i++ {
+		if nums[i]-nums[i-1] < left {
+			left = nums[i] - nums[i-1]
+		}
+	}
+	right := nums[len(nums)-1] - nums[0]
+
+	for left < right {
+		mid := (left + right) / 2
+		count := 0
+
+		for i, j := 0, 1; i < len(nums); i++ {
+			for j < len(nums) && nums[j]-nums[i] <= mid {
+				j++
+			}
+			count += j - i - 1
+		}
+
+		if count < k {
+			left = mid + 1
+		} else {
+			right = mid
+		}
+	}
+
+	return left
 }
 
 func main() {
