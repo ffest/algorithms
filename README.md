@@ -181,3 +181,7 @@
 |`975`| Odd Even Jump | 48.2% | Hard ||
 |`977`| Squares of a Sorted Array | 72.2% | Easy ||
 |`1122`| Relative Sort Array | 66.5% | Easy ||
+|`1160`| Find Words That Can Be Formed by Characters | 72.1% | Easy ||
+|`1161`| Maximum Level Sum of a Binary Tree | 73.9% | Medium ||
+|`1162`| As Far from Land as Possible | 36.7% | Medium |[✅](https://leetcode.com/list/tgix29s)|
+|`1163`| Last Substring in Lexicographical Order | 28.8% | Hard ||
