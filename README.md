@@ -174,6 +174,7 @@
 |`887`| Super Egg Drop | 25.0% | Hard ||
 |`890`| Find and Replace Pattern | 70.8% | Medium ||
 |`905`| Sort Array By Parity | 72.6% | Easy ||
+|`912`| Sort an Array | 63.2% | Medium ||
 |`921`| Minimum Add to Make Parentheses Valid | 69.9% | Medium |[✅](https://leetcode.com/list/tgix29s)|
 |`925`| Long Pressed Name | 44.3% | Easy ||
 |`929`| Unique Email Addresses | 72.1% | Easy ||
