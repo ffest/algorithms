@@ -121,6 +121,7 @@
 |`318`| Maximum Product of Word Lengths | 48.4% | Medium |[✅](https://leetcode.com/list/tgix29s)| 
 |`322`| Coin Change | 30.2% | Medium |[✅](https://leetcode.com/list/tgix29s)| 
 |`328`| Odd Even Linked List | 49.0% | Medium |[✅](https://leetcode.com/list/tgix29s)| 
+|`338`| Counting Bits |	65.4% | Medium ||
 |`344`| Reverse String | 63.2% | Easy ||
 |`350`| Intersection of Two Arrays II | 47.6% | Easy ||
 |`367`| Valid Perfect Square | 39.7% | Easy ||
