@@ -35,6 +35,7 @@
 |`46`| Permutations | 55.3% | Medium |[✅](https://leetcode.com/list/tgix29s)|
 |`48`| Rotate Image | 48.3% | Medium |[✅](https://leetcode.com/list/tgix29s)|
 |`49`| Group Anagrams | 46.7% | Medium |[✅](https://leetcode.com/list/tgix29s)|
+|`52`| N-Queens II | 53.3% | Hard |[✅](https://leetcode.com/list/tgix29s)|
 |`53`| Maximum Subarray | 43.7% | Easy |[✅](https://leetcode.com/list/tgix29s)|
 |`54`| Spiral Matrix | 30.9% | Medium ||
 |`55`| Jump Game | 32.0% | Medium ||
