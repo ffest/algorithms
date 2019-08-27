@@ -128,6 +128,7 @@
 |`367`| Valid Perfect Square | 39.7% | Easy ||
 |`387`| First Unique Character in a String | 49.9% | Easy |[✅](https://leetcode.com/list/tgix29s)| 
 |`394`| Decode String | 45.3% | Medium |[✅](https://leetcode.com/list/tgix29s)|
+|`410`| Split Array Largest Sum | 42.8% | Hard ||
 |`412`| Fizz Buzz | 59.4% | Easy ||
 |`416`| Partition Equal Subset Sum | 41.1% | Medium |[✅](https://leetcode.com/list/tgix29s)|
 |`442`| Find All Duplicates in an Array | 60.9% | Medium |[✅](https://leetcode.com/list/tgix29s)|
