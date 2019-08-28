@@ -87,6 +87,7 @@
 |`143`| Reorder List | 30.9% | Medium ||
 |`144`| Binary Tree Preorder Traversal | 51.9% | Medium ||
 |`145`| Binary Tree Postorder Traversal | 49.2% | Hard ||
+|`146`| LRU Cache | 26.9% | Medium |[✅](https://leetcode.com/list/tgix29s)|
 |`148`| Sort List | 35.3% | Medium |[✅](https://leetcode.com/list/tgix29s)|
 |`150`| Evaluate Reverse Polish Notation | 32.4% | Medium ||  
 |`153`| Find Minimum in Rotated Sorted Array | 43.2% | Medium |[✅](https://leetcode.com/list/tgix29s)|
