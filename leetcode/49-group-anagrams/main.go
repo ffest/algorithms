@@ -31,16 +31,16 @@ func groupAnagramsWithSimpleNumbers(words []string) [][]string {
 func groupAnagrams(words []string) [][]string {
 	cache := make(map[[26]byte]int)
 	result := make([][]string, 0)
-	for i := range words {
-		list := [26]byte{}
-		for j := range words[i] {
-			list[words[i][j]-'a']++
+	for _, word := range words {
+		key := [26]byte{}
+		for _, letter := range word {
+			key[letter-'a']++
 		}
-		if idx, ok := cache[list]; ok {
-			result[idx] = append(result[idx], words[i])
+		if id, ok := cache[key]; ok {
+			result[id] = append(result[id], word)
 		} else {
-			result = append(result, []string{words[i]})
-			cache[list] = len(result) - 1
+			result = append(result, []string{word})
+			cache[key] = len(result) - 1
 		}
 	}
 	return result
