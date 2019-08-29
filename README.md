@@ -126,7 +126,8 @@
 |`328`| Odd Even Linked List | 49.0% | Medium |[✅](https://leetcode.com/list/tgix29s)| 
 |`338`| Counting Bits |	65.4% | Medium ||
 |`344`| Reverse String | 63.2% | Easy ||
-|`350`| Intersection of Two Arrays II | 47.6% | Easy ||
+|`349`| Intersection of Two Arrays | 56.3% | Easy ||
+|`350`| Intersection of Two Arrays II | 48.8% | Easy ||
 |`367`| Valid Perfect Square | 39.7% | Easy ||
 |`387`| First Unique Character in a String | 49.9% | Easy |[✅](https://leetcode.com/list/tgix29s)| 
 |`394`| Decode String | 45.3% | Medium |[✅](https://leetcode.com/list/tgix29s)|
