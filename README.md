@@ -161,6 +161,8 @@
 |`701`| Insert into a Binary Search Tree | 76.4% | Medium ||
 |`703`| Kth Largest Element in a Stream | 46.7% | Easy ||
 |`704`| Binary Search | 47.2% | Easy ||
+|`705`| Design HashSet | 55.3% | Easy ||
+|`706`| Design HashMap | 57.0%| Easy ||
 |`709`| To Lower Case | 76.6% | Easy ||
 |`719`| Find K-th Smallest Pair Distance | 29.6% | Hard |[✅](https://leetcode.com/list/tgix29s)|
 |`724`| Find Pivot Index | 41.3% | Easy ||
