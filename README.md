@@ -149,6 +149,7 @@
 |`542`| 01 Matrix | 36.2% | Medium |[✅](https://leetcode.com/list/tgix29s)|
 |`557`| Reverse Words in a String III | 64.8% | Easy ||
 |`594`| Longest Harmonious Subsequence | 43.5% | Medium ||
+|`599`| Minimum Index Sum of Two Lists | 48.5% | Easy ||
 |`605`| Can Place Flowers | 30.9% | Easy ||
 |`617`| Merge Two Binary Trees | 70.7% | Easy |[✅](https://leetcode.com/list/tgix29s)|
 |`622`| Design Circular Queue | 39.3% | Medium ||
