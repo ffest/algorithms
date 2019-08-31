@@ -127,6 +127,7 @@
 |`328`| Odd Even Linked List | 49.0% | Medium |[✅](https://leetcode.com/list/tgix29s)| 
 |`338`| Counting Bits |	65.4% | Medium ||
 |`344`| Reverse String | 63.2% | Easy ||
+|`347`| Top K Frequent Elements  | 56.3% | Medium |[✅](https://leetcode.com/list/tgix29s)|
 |`349`| Intersection of Two Arrays | 56.3% | Easy ||
 |`350`| Intersection of Two Arrays II | 48.8% | Easy ||
 |`367`| Valid Perfect Square | 39.7% | Easy ||
