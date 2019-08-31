@@ -155,6 +155,7 @@
 |`617`| Merge Two Binary Trees | 70.7% | Easy |[✅](https://leetcode.com/list/tgix29s)|
 |`622`| Design Circular Queue | 39.3% | Medium ||
 |`643`| Maximum Average Subarray I | 39.4% | Easy ||
+|`652`| Find Duplicate Subtrees | 46.7% | Medium ||
 |`654`| Maximum Binary Tree | 75.7% | Medium ||
 |`658`| Find K Closest Elements | 38.5% | Medium ||
 |`657`| Robot Return to Origin | 71.2% | Easy ||
