@@ -30,6 +30,7 @@
 |`33`| Search in Rotated Sorted Array | 32.8% | Medium ||
 |`34`| Find First and Last Position of Element in Sorted Array | 33.7% | Medium |[✅](https://leetcode.com/list/tgix29s)|
 |`35`| Search Insert Position | 40.8% | Easy ||
+|`36`| Valid Sudoku | 44.5% | Medium |[✅](https://leetcode.com/list/tgix29s)|
 |`39`| Combination Sum | 48.7% | Medium ||
 |`45`| Jump Game II | 27.9% | Hard |[✅](https://leetcode.com/list/tgix29s)|
 |`46`| Permutations | 55.3% | Medium |[✅](https://leetcode.com/list/tgix29s)|
@@ -131,6 +132,7 @@
 |`349`| Intersection of Two Arrays | 56.3% | Easy ||
 |`350`| Intersection of Two Arrays II | 48.8% | Easy ||
 |`367`| Valid Perfect Square | 39.7% | Easy ||
+|`380`| Insert Delete GetRandom O(1) | 43.6% | Medium |[✅](https://leetcode.com/list/tgix29s)|
 |`387`| First Unique Character in a String | 49.9% | Easy |[✅](https://leetcode.com/list/tgix29s)| 
 |`394`| Decode String | 45.3% | Medium |[✅](https://leetcode.com/list/tgix29s)|
 |`410`| Split Array Largest Sum | 42.8% | Hard ||
