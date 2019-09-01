@@ -198,6 +198,7 @@
 |`938`| Range Sum of BST | 80.1% | Easy ||
 |`942`| DI String Match | 70.0% | Easy ||
 |`944`| Delete Columns to Make Sorted | 69.1% | Easy ||
+|`950`| Reveal Cards In Increasing Order | 72.3% | Medium ||
 |`961`| N-Repeated Element in Size 2N Array | 72.6% | Easy ||
 |`965`| Univalued Binary Tree | 67.0% | Easy |[✅](https://leetcode.com/list/tgix29s)|
 |`975`| Odd Even Jump | 48.2% | Hard ||
