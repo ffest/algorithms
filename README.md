@@ -49,6 +49,7 @@
 |`66`| Plus One | 41.0% | Easy ||
 |`67`| Add Binary | 39.8% | Easy ||
 |`70`| Climb Stairs | 44.1% | Easy ||
+|`72`| Edit Distance | 39.2% | Hard |[✅](https://leetcode.com/list/tgix29s)|
 |`73`| Set Matrix Zeroes | 39.9% | Medium ||
 |`74`| Search a 2D Matrix | 34.9% | Medium ||
 |`75`| Sort Colors | 42.1% | Medium ||
@@ -142,6 +143,7 @@
 |`447`| Number of Boomerangs | 49.7% | Easy ||
 |`448`| Find All Numbers Disappeared in an Array | 53.8% | Easy |[✅](https://leetcode.com/list/tgix29s)|
 |`450`| Delete Node in a BST | 39.9% | Medium |[✅](https://leetcode.com/list/tgix29s)|
+|`454`| 4Sum II | 51.3% | Medium |[✅](https://leetcode.com/list/tgix29s)|
 |`459`| Repeated Substring Pattern | 39.8% | Easy |[✅](https://leetcode.com/list/tgix29s)|
 |`461`| Hamming Distance | 70.2% | Easy |[✅](https://leetcode.com/list/tgix29s)| 
 |`485`| Max Consecutive Ones | 55.3% | Easy ||
