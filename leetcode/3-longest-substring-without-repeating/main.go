@@ -5,16 +5,16 @@ import (
 )
 
 func lengthOfLongestSubstring(s string) int {
-	var m [128]bool
-	var max, tail, length int
+	cache := [128]bool{}
+	var max, length, tail int
 	for i := range s {
-		for m[s[i]] {
-			m[s[tail]] = false
-			tail++
+		for cache[s[i]] {
+			cache[s[tail]] = false
 			length--
+			tail++
 		}
-		m[s[i]] = true
 		length++
+		cache[s[i]] = true
 		if max < length {
 			max = length
 		}
