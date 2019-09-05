@@ -141,6 +141,7 @@
 |`410`| Split Array Largest Sum | 42.8% | Hard ||
 |`412`| Fizz Buzz | 59.4% | Easy ||
 |`416`| Partition Equal Subset Sum | 41.1% | Medium |[✅](https://leetcode.com/list/tgix29s)|
+|`438`| Find All Anagrams in a String | 38.2% | Medium |[✅](https://leetcode.com/list/tgix29s)|
 |`442`| Find All Duplicates in an Array | 60.9% | Medium |[✅](https://leetcode.com/list/tgix29s)|
 |`447`| Number of Boomerangs | 49.7% | Easy ||
 |`448`| Find All Numbers Disappeared in an Array | 53.8% | Easy |[✅](https://leetcode.com/list/tgix29s)|
