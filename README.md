@@ -93,6 +93,7 @@
 |`146`| LRU Cache | 26.9% | Medium |[✅](https://leetcode.com/list/tgix29s)|
 |`148`| Sort List | 35.3% | Medium |[✅](https://leetcode.com/list/tgix29s)|
 |`150`| Evaluate Reverse Polish Notation | 32.4% | Medium ||  
+|`152`| Maximum Product Subarray | 29.9% | Medium |[✅](https://leetcode.com/list/tgix29s)| 
 |`153`| Find Minimum in Rotated Sorted Array | 43.2% | Medium |[✅](https://leetcode.com/list/tgix29s)|
 |`154`| Find Minimum in Rotated Sorted Array II | 39.7% | Hard |[✅](https://leetcode.com/list/tgix29s)|
 |`155`| Min Stack | 37.1% | Easy |[✅](https://leetcode.com/list/tgix29s)|
