@@ -6,10 +6,10 @@ import (
 
 func splitArray(nums []int, m int) int {
 	var max, sum int
-	for _, n := range nums {
-		sum += n
-		if n > max {
-			max = n
+	for _, num := range nums {
+		sum += num
+		if max < num {
+			num = max
 		}
 	}
 	if m == 1 {
@@ -19,7 +19,7 @@ func splitArray(nums []int, m int) int {
 	left, right := max, sum
 	for left <= right {
 		mid := (left + right) / 2
-		if helper(mid, m, nums) {
+		if helper(nums, mid, m) {
 			right = mid - 1
 		} else {
 			left = mid + 1
@@ -29,23 +29,23 @@ func splitArray(nums []int, m int) int {
 	return left
 }
 
-func helper(target, m int, nums []int) bool {
-	var sum int
-	count := 1
-	for _, n := range nums {
-		sum += n
+func helper(nums []int, target, m int) bool {
+	var sum, counter int
+	for _, num := range nums {
+		sum += num
 		if sum > target {
-			sum = n
-			count++
-			if count > m {
+			counter++
+			sum = num
+			if counter == m {
 				return false
 			}
 		}
 	}
+
 	return true
 }
 
 func main() {
 	nums := []int{7, 2, 5, 10, 8}
-	fmt.Println(splitArray(nums, 4))
+	fmt.Println(splitArray(nums, 2))
 }
