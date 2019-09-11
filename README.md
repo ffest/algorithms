@@ -57,6 +57,7 @@
 |`76`| Minimum Window Substring | 30.6% | Hard |[✅](https://leetcode.com/list/tgix29s)|
 |`77`| Combinations | 49.3% | Medium ||
 |`78`| Subsets | 53.0% | Medium ||
+|`79`| Word Search | 32.3% | Medium |[✅](https://leetcode.com/list/tgix29s)|
 |`84`| Largest Rectangle in Histogram | 31.3% | Hard ||
 |`86`| Partition List | 37.3% | Medium ||
 |`88`| Merge Sorted Array | 35.6% | Easy ||
@@ -162,6 +163,7 @@
 |`617`| Merge Two Binary Trees | 70.7% | Easy |[✅](https://leetcode.com/list/tgix29s)|
 |`622`| Design Circular Queue | 39.3% | Medium ||
 |`643`| Maximum Average Subarray I | 39.4% | Easy ||
+|`647`| Palindromic Substrings | 57.8% | Medium |[✅](https://leetcode.com/list/tgix29s)|
 |`652`| Find Duplicate Subtrees | 46.7% | Medium ||
 |`654`| Maximum Binary Tree | 75.7% | Medium ||
 |`658`| Find K Closest Elements | 38.5% | Medium ||
