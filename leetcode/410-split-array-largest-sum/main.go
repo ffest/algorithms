@@ -4,6 +4,7 @@ import (
 	"fmt"
 )
 
+// Binary search
 func splitArray(nums []int, m int) int {
 	var max, sum int
 	for _, num := range nums {
