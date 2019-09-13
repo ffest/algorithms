@@ -161,6 +161,7 @@
 |`599`| Minimum Index Sum of Two Lists | 48.5% | Easy ||
 |`605`| Can Place Flowers | 30.9% | Easy ||
 |`617`| Merge Two Binary Trees | 70.7% | Easy |[✅](https://leetcode.com/list/tgix29s)|
+|`621`| Task Scheduler | 46.3% | Medium |[✅](https://leetcode.com/list/tgix29s)|
 |`622`| Design Circular Queue | 39.3% | Medium ||
 |`643`| Maximum Average Subarray I | 39.4% | Easy ||
 |`647`| Palindromic Substrings | 57.8% | Medium |[✅](https://leetcode.com/list/tgix29s)|
