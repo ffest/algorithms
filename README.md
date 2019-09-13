@@ -214,6 +214,7 @@
 |`975`| Odd Even Jump | 48.2% | Hard ||
 |`977`| Squares of a Sorted Array | 72.2% | Easy ||
 |`980`| Unique Paths III | 71.4% | Hard ||
+|`981`| Time Based Key-Value Store | 51.3% | Medium ||
 |`1122`| Relative Sort Array | 66.5% | Easy ||
 |`1160`| Find Words That Can Be Formed by Characters | 72.1% | Easy ||
 |`1161`| Maximum Level Sum of a Binary Tree | 73.9% | Medium ||
