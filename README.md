@@ -46,6 +46,7 @@
 |`59`| Spiral Matrix | 47.5% | Medium ||
 |`61`| Rotate List | 27.2% | Medium ||
 |`62`| Unique Paths | 47.6% | Medium ||
+|`63`| Unique Paths II | 33.7% | Medium |[✅](https://leetcode.com/list/tgix29s)|
 |`64`| Minimum Path Sum | 46.9% | Medium |[✅](https://leetcode.com/list/tgix29s)|
 |`66`| Plus One | 41.0% | Easy ||
 |`67`| Add Binary | 39.8% | Easy ||
