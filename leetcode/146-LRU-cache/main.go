@@ -5,8 +5,8 @@ import (
 )
 
 type DLinkedList struct {
-	val  int
 	key  int
+	val  int
 	prev *DLinkedList
 	next *DLinkedList
 }
@@ -32,25 +32,26 @@ func (c *LRUCache) Get(key int) int {
 	}
 	c.removeFromChain(l)
 	c.addToChain(l)
+
 	return l.val
 }
 
 func (c *LRUCache) Put(key int, value int) {
-	n, ok := c.cache[key]
+	l, ok := c.cache[key]
 	if !ok {
-		n = &DLinkedList{val: value, key: key}
-		c.cache[key] = n
+		l = &DLinkedList{key: key, val: value}
+		c.cache[key] = l
 	} else {
-		n.val = value
-		c.removeFromChain(n)
+		l.val = value
+		c.removeFromChain(l)
 	}
 
-	c.addToChain(n)
+	c.addToChain(l)
 	if len(c.cache) > c.capacity {
-		n = c.tail
-		if n != nil {
-			c.removeFromChain(n)
-			delete(c.cache, n.key)
+		l = c.tail
+		if l != nil {
+			c.removeFromChain(l)
+			delete(c.cache, l.key)
 		}
 	}
 }
@@ -71,15 +72,12 @@ func (c *LRUCache) removeFromChain(l *DLinkedList) {
 	if l == c.head {
 		c.head = l.next
 	}
-
 	if l == c.tail {
 		c.tail = l.prev
 	}
-
 	if l.next != nil {
 		l.next.prev = l.prev
 	}
-
 	if l.prev != nil {
 		l.prev.next = l.next
 	}
