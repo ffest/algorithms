@@ -10,37 +10,37 @@ func countSmaller(nums []int) []int {
 		idx = append(idx, i)
 	}
 	inversions := make([]int, len(nums), len(nums))
-	newIdx := make([]int, 0, len(idx))
-	Merge(0, len(nums)-1, nums, idx, newIdx, inversions)
+	Merge(0, len(nums)-1, nums, idx, inversions)
 	return inversions
 }
 
-func Merge(left, right int, num, idx, newIdx, inversions []int) {
+func Merge(left, right int, nums, idx, inversions []int) {
 	if left >= right {
 		return
 	}
+	mid := (left + right) / 2
+	Merge(left, mid, nums, idx, inversions)
+	Merge(mid+1, right, nums, idx, inversions)
 
-	middle := (left + right) / 2
-	Merge(left, middle, num, idx, newIdx, inversions)
-	Merge(middle+1, right, num, idx, newIdx, inversions)
-
-	newIdx = newIdx[:0]
-	merge(left, middle, middle+1, right, num, idx, newIdx, inversions)
+	merge(left, right, nums, idx, inversions)
 }
 
-func merge(left, leftMid, rightMid, right int, num, idx, newIdx, inversions []int) {
-	start := left
-	end := right
+func merge(left, right int, nums, idx, inversions []int) {
+	start, end := left, right
+	mid := (left + right) / 2
+	leftMid, rightMid := mid, mid+1
+
+	newIdx := make([]int, 0)
 	smaller := 0
 	for left <= leftMid && rightMid <= right {
-		if num[idx[left]] > num[idx[rightMid]] {
-			newIdx = append(newIdx, idx[rightMid])
-			smaller++
-			rightMid++
-		} else {
-			inversions[idx[left]] += smaller
+		if nums[idx[left]] <= nums[idx[rightMid]] {
 			newIdx = append(newIdx, idx[left])
+			inversions[idx[left]] += smaller
 			left++
+		} else {
+			newIdx = append(newIdx, idx[rightMid])
+			rightMid++
+			smaller++
 		}
 	}
 
@@ -53,6 +53,7 @@ func merge(left, leftMid, rightMid, right int, num, idx, newIdx, inversions []in
 		newIdx = append(newIdx, idx[rightMid])
 		rightMid++
 	}
+
 	copy(idx[start:end+1], newIdx)
 }
 
