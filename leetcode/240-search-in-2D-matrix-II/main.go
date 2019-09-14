@@ -5,21 +5,21 @@ import (
 )
 
 func searchMatrix(matrix [][]int, target int) bool {
-	if matrix == nil || len(matrix) == 0 || len(matrix[0]) == 0 {
+	if len(matrix) == 0 || len(matrix[0]) == 0 || matrix[0][0] > target || matrix[len(matrix)-1][len(matrix[0])-1] < target {
 		return false
 	}
 
-	row, col := 0, len(matrix[0])-1
-	for row < len(matrix) && col >= 0 {
-		val :=  matrix[row][col]
-		 if val > target {
-			col--
-		} else if val < target {
+	row, column := 0, len(matrix[0])-1
+	for column >= 0 && row < len(matrix) {
+		if matrix[row][column] > target {
+			column--
+		} else if matrix[row][column] < target {
 			row++
 		} else {
 			return true
 		}
 	}
+
 	return false
 }
 
