@@ -2,9 +2,11 @@ package main
 
 import (
 	"fmt"
+	"strconv"
 )
 
-func isValidSudoku(board [][]byte) bool {
+// Solution with 3 slices
+/*func isValidSudoku(board [][]byte) bool {
 	blocksCache := make([]map[byte]struct{}, 9)
 	rowCache := make([]map[byte]struct{}, 9)
 	columnCache := make([]map[byte]struct{}, 9)
@@ -32,6 +34,34 @@ func isValidSudoku(board [][]byte) bool {
 			blocksCache[blockKey][board[i][j]] = struct{}{}
 			rowCache[i][board[i][j]] = struct{}{}
 			columnCache[j][board[i][j]] = struct{}{}
+		}
+	}
+	return true
+}*/
+
+func isValidSudoku(board [][]byte) bool {
+	cache := make(map[string]struct{})
+	var rowStr, colStr, boxStr string
+	for i := 0; i < 9; i++ {
+		for j := 0; j < 9; j++ {
+			if board[i][j] == '.' {
+				continue
+			}
+			rowStr = strconv.Itoa(i) + "row" + string(board[i][j])
+			if _, ok := cache[rowStr]; ok {
+				return false
+			}
+			cache[rowStr] = struct{}{}
+			colStr = strconv.Itoa(j) + "col" + string(board[i][j])
+			if _, ok := cache[colStr]; ok {
+				return false
+			}
+			cache[colStr] = struct{}{}
+			boxStr = strconv.Itoa(i/3) + "/" + strconv.Itoa(j/3) + "box" + string(board[i][j])
+			if _, ok := cache[boxStr]; ok {
+				return false
+			}
+			cache[boxStr] = struct{}{}
 		}
 	}
 	return true
