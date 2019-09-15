@@ -213,6 +213,7 @@
 |`965`| Univalued Binary Tree | 67.0% | Easy |[✅](https://leetcode.com/list/tgix29s)|
 |`975`| Odd Even Jump | 48.2% | Hard ||
 |`977`| Squares of a Sorted Array | 72.2% | Easy ||
+|`979`| Distribute Coins in Binary Tree | 67.8% | Medium |[✅](https://leetcode.com/list/tgix29s)|
 |`980`| Unique Paths III | 71.4% | Hard ||
 |`981`| Time Based Key-Value Store | 51.3% | Medium ||
 |`1122`| Relative Sort Array | 66.5% | Easy ||
