@@ -8,14 +8,14 @@ func searchRange(nums []int, target int) []int {
 	if len(nums) == 0 || nums[0] > target || nums[len(nums)-1] < target {
 		return []int{-1, -1}
 	}
-	var left, right, middle, start, end int
-	left, right = 0, len(nums)-1
+
+	left, right, start, end := 0, len(nums)-1, 0, 0
 	for left < right {
-		middle = (left + right) / 2
-		if nums[middle] < target {
-			left = middle + 1
+		mid := (left + right) / 2
+		if nums[mid] < target {
+			left = mid + 1
 		} else {
-			right = middle
+			right = mid
 		}
 	}
 	if nums[left] != target {
@@ -24,19 +24,20 @@ func searchRange(nums []int, target int) []int {
 	start = left
 	left, right = 0, len(nums)-1
 	for left < right {
-		middle = (left+right)/2 + 1
-		if nums[middle] > target {
-			right = middle - 1
+		mid := (left+right)/2 + 1
+		if nums[mid] > target {
+			right = mid - 1
 		} else {
-			left = middle
+			left = mid
 		}
 	}
 	end = right
+
 	return []int{start, end}
 }
 
 func main() {
-	nums := []int{2, 3, 4, 4, 8}
+	nums := []int{2, 3, 4, 4, 4, 8}
 	target := 4
 	fmt.Println(searchRange(nums, target))
 }
