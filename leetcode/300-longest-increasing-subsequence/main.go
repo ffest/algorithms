@@ -4,8 +4,32 @@ import (
 	"fmt"
 )
 
-// Naive DP O(n^2) solution
+// O(nlogn) solution
 func lengthOfLIS(nums []int) int {
+	var size int
+
+	tails := make([]int, len(nums))
+	for _, num := range nums {
+		i, j := 0, size
+		for i != j {
+			mid := (i + j) / 2
+			if tails[mid] < num {
+				i = mid + 1
+			} else {
+				j = mid
+			}
+		}
+		tails[i] = num
+		if i == size {
+			size++
+		}
+	}
+
+	return size
+}
+
+// Naive DP O(n^2) solution
+/*func lengthOfLIS(nums []int) int {
 	if nums == nil || len(nums) == 0 {
 		return 0
 	}
@@ -34,10 +58,7 @@ func max(a, b int) int {
 		return a
 	}
 	return b
-}
-
-// O(nlogn) solution
-// TODO: make it
+}*/
 
 func main() {
 	nums := []int{10, 9, 2, 5, 3, 7, 101, 18}
