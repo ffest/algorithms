@@ -10,7 +10,7 @@ func largestNumber(nums []int) string {
 	var number string
 	sort.Slice(nums, func(i, j int) bool {
 		first, second := strconv.Itoa(nums[i]), strconv.Itoa(nums[j])
-		if first+second >= second+first {
+		if first+second > second+first {
 			return true
 		}
 		return false
@@ -19,7 +19,7 @@ func largestNumber(nums []int) string {
 		number += strconv.Itoa(num)
 	}
 	if number[0] == '0' {
-		return number[:1]
+		number = number[:1]
 	}
 	return number
 }
