@@ -2,7 +2,6 @@ package main
 
 import (
 	"fmt"
-	"math"
 )
 
 func findLadders(beginWord string, endWord string, wordList []string) [][]string {
@@ -15,15 +14,13 @@ func findLadders(beginWord string, endWord string, wordList []string) [][]string
 	}
 
 	result := make([][]string, 0)
-
-	level := 1
-	length := math.MaxInt32
+	level, length := 1, 1<<31-1
+	queue := [][]string{{beginWord}}
 	visited := make(map[string]struct{})
-	queue := make([][]string, 0)
-	queue = append(queue, []string{beginWord})
 	for len(queue) > 0 {
 		ladder := queue[0]
 		queue = queue[1:]
+
 		if len(ladder) > level {
 			for w := range visited {
 				delete(words, w)
@@ -37,7 +34,6 @@ func findLadders(beginWord string, endWord string, wordList []string) [][]string
 			level = len(ladder)
 			if lastWord == endWord {
 				result = append(result, ladder)
-				length = len(ladder)
 			}
 		}
 
@@ -47,11 +43,10 @@ func findLadders(beginWord string, endWord string, wordList []string) [][]string
 				if _, ok := words[newWord]; !ok || newWord == lastWord {
 					continue
 				}
+
 				visited[newWord] = struct{}{}
-				copyPath := make([]string, 0, len(ladder)+1)
-				copyPath = append(copyPath, ladder...)
-				copyPath = append(copyPath, newWord)
-				queue = append(queue, copyPath)
+				ladderCopy := append([]string{}, ladder...)
+				queue = append(queue, append(ladderCopy, newWord))
 			}
 		}
 	}
