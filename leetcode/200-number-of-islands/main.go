@@ -19,18 +19,17 @@ func numIslands(grid [][]byte) int {
 			helper(grid, i, j)
 		}
 	}
-
 	return count
 }
 
 func helper(grid [][]byte, i, j int) {
-	if i < 0 || j < 0 || i >= len(grid) || j >= len(grid[0]) || grid[i][j] != '1' {
+	if i < 0 || j < 0 || i == len(grid) || j == len(grid[0]) || grid[i][j] != '1' {
 		return
 	}
 	grid[i][j]++
 	helper(grid, i+1, j)
-	helper(grid, i, j+1)
 	helper(grid, i-1, j)
+	helper(grid, i, j+1)
 	helper(grid, i, j-1)
 }
 
