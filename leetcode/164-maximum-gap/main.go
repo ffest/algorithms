@@ -5,77 +5,57 @@ import (
 	"math"
 )
 
-type bucket struct {
-	max int
-	min int
-}
-
-// TODO: refactor it
 func maximumGap(nums []int) int {
 	if len(nums) < 2 {
 		return 0
 	}
-	if len(nums) == 2 {
-		if nums[1] > nums[0] {
-			return nums[1] - nums[0]
-		} else {
-			return nums[0] - nums[1]
-		}
-	}
-	var max, min = nums[0], nums[0]
+	min, max := nums[0], nums[0]
 	for _, num := range nums {
-		if max < num {
-			max = num
-		}
 		if min > num {
 			min = num
+		}
+		if max < num {
+			max = num
 		}
 	}
 
 	bucketSize := int(math.Ceil(float64(max-min) / float64(len(nums)-1)))
-	if bucketSize == 0 {
-		return 0
+
+	bucketsMin, bucketsMax := make([]int, len(nums)-1), make([]int, len(nums)-1)
+	for i := 0; i < len(nums)-1; i++ {
+		bucketsMin[i], bucketsMax[i] = math.MaxInt32, math.MinInt32
 	}
 
-	buckets := make([]bucket, len(nums)-1)
 	for _, num := range nums {
-		idx := (num - min) / bucketSize
-
-		if num == max && (num-min)%bucketSize == 0 {
-			idx -= 1
+		if num == min || num == max {
+			continue
 		}
-
-		if buckets[idx].min == 0 || buckets[idx].min > num {
-			buckets[idx].min = num
+		bucketIdx := (num - min) / bucketSize
+		if num < bucketsMin[bucketIdx] {
+			bucketsMin[bucketIdx] = num
 		}
-		if buckets[idx].max == 0 || buckets[idx].max < num {
-			buckets[idx].max = num
+		if num > bucketsMax[bucketIdx] {
+			bucketsMax[bucketIdx] = num
 		}
 	}
 
-	validBuckets := make([]bucket, 0)
-	var gap int
-	for _, b := range buckets {
-		if b.max != 0 && b.min != 0 {
-			validBuckets = append(validBuckets, b)
+	maxGap := math.MinInt32
+	prev := min
+	for i := 0; i < len(nums)-1; i++ {
+		if bucketsMin[i] == math.MaxInt32 && bucketsMax[i] == math.MinInt32 {
+			//empty bucket
+			continue
 		}
+		if bucketsMin[i]-prev > maxGap {
+			maxGap = bucketsMin[i] - prev
+		}
+		prev = bucketsMax[i]
+	}
+	if max-prev > maxGap {
+		maxGap = max - prev
 	}
 
-	for i, b := range validBuckets {
-		if i == len(validBuckets)-1 {
-			if gap == 0 || b.max-b.min > gap {
-				gap = b.max - b.min
-			}
-		} else {
-			if gap == 0 || b.max-b.min > gap {
-				gap = b.max - b.min
-			}
-			if gap == 0 || validBuckets[i+1].min-b.max > gap {
-				gap = validBuckets[i+1].min - b.max
-			}
-		}
-	}
-	return gap
+	return maxGap
 }
 
 func main() {
