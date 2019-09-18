@@ -2,17 +2,15 @@ package main
 
 import (
 	"fmt"
-	"math"
 )
 
 func maximalSquare(matrix [][]byte) int {
 	if len(matrix) == 0 || len(matrix[0]) == 0 {
 		return 0
 	}
-	n := len(matrix)
-	m := len(matrix[0])
+	n, m := len(matrix), len(matrix[0])
 	dp := make([][]int, n)
-	for i := range dp {
+	for i := 0; i < n; i++ {
 		dp[i] = make([]int, m)
 	}
 
@@ -22,10 +20,11 @@ func maximalSquare(matrix [][]byte) int {
 			if matrix[i][j] == '0' {
 				continue
 			}
+
 			if i == 0 || j == 0 {
 				dp[i][j] = 1
 			} else {
-				dp[i][j] = min(dp[i-1][j], dp[i][j-1], dp[i-1][j-1]) + 1
+				dp[i][j] = min(dp[i-1][j-1], dp[i-1][j], dp[i][j-1]) + 1
 			}
 
 			if maxSize < dp[i][j] {
@@ -33,14 +32,15 @@ func maximalSquare(matrix [][]byte) int {
 			}
 		}
 	}
+
 	return maxSize * maxSize
 }
 
-func min(a ...int) int {
-	min := math.MaxInt32
-	for i := 0; i < len(a); i++ {
-		if a[i] < min {
-			min = a[i]
+func min(nums ...int) int {
+	min := 1<<31 - 1
+	for _, num := range nums {
+		if min > num {
+			min = num
 		}
 	}
 	return min
