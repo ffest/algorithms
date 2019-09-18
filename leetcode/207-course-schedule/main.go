@@ -8,6 +8,7 @@ func canFinish(numCourses int, prerequisites [][]int) bool {
 	if numCourses < 2 || len(prerequisites) == 0 {
 		return true
 	}
+
 	adjMatrix := make(map[int][]int)
 	for _, prereq := range prerequisites {
 		want := prereq[0]
@@ -15,14 +16,15 @@ func canFinish(numCourses int, prerequisites [][]int) bool {
 		adjMatrix[want] = append(adjMatrix[want], need)
 	}
 
-	using := make(map[int]bool)
 	visited := make(map[int]bool)
+	using := make(map[int]bool)
 
 	for i := 0; i < numCourses; i++ {
 		if visited[i] {
 			continue
 		}
-		if hasCycles(i, adjMatrix, using, visited) {
+
+		if hasCycles(i, adjMatrix, visited, using) {
 			return false
 		}
 	}
@@ -30,25 +32,26 @@ func canFinish(numCourses int, prerequisites [][]int) bool {
 	return true
 }
 
-func hasCycles(curSubject int, adjMatrix map[int][]int, using, visited map[int]bool) bool {
-	if using[curSubject] {
+func hasCycles(subj int, adjMatrix map[int][]int, visited, using map[int]bool) bool {
+	if using[subj] {
 		return true
 	}
 
-	needs, ok := adjMatrix[curSubject]
+	needs, ok := adjMatrix[subj]
 	if !ok {
-		visited[curSubject] = true
+		visited[subj] = true
 		return false
 	}
 
 	for _, need := range needs {
-		using[curSubject] = true
-		if hasCycles(need, adjMatrix, using, visited) {
+		using[subj] = true
+		if hasCycles(need, adjMatrix, visited, using) {
 			return true
 		}
 	}
-	using[curSubject] = false
-	visited[curSubject] = true
+
+	visited[subj] = true
+	using[subj] = false
 
 	return false
 }
