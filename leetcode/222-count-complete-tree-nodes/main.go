@@ -18,27 +18,26 @@ func countNodes(root *TreeNode) int {
 		return 0
 	}
 	var count int
-	fullHeight := findHeight(root)
+	height := fullHeight(root)
 	for root != nil {
-		fullHeight--
-		rightHeight := findHeight(root.Right)
-		if rightHeight == fullHeight {
-			count += 1 << uint(fullHeight)
+		height--
+		rightHeight := fullHeight(root.Right)
+		if height == rightHeight {
+			count += 1 << uint(height)
 			root = root.Right
 		} else {
-			count += 1 << uint(fullHeight-1)
+			count += 1 << uint(height-1)
 			root = root.Left
 		}
 	}
-
 	return count
 }
 
-func findHeight(root *TreeNode) int {
+func fullHeight(root *TreeNode) int {
 	var height int
 	for root != nil {
-		root = root.Left
 		height++
+		root = root.Left
 	}
 	return height
 }
