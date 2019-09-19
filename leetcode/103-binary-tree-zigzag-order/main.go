@@ -19,49 +19,47 @@ type TreeNode struct {
 	Right *TreeNode
 }
 
-//TODO: level order with swapping
 func zigzagLevelOrder(root *TreeNode) [][]int {
 	result := make([][]int, 0)
 	if root == nil {
 		return result
 	}
-	result = travel(root, result, 0)
+
+	queue := make([]*TreeNode, 0)
+	queue = append(queue, root)
+	level := 0
+	for len(queue) > 0 {
+		qSize := len(queue)
+		tmp := make([]int, 0)
+		for i := 0; i < qSize; i++ {
+			node := queue[0]
+			queue = queue[1:]
+			tmp = append(tmp, node.Val)
+			if node.Left != nil {
+				queue = append(queue, node.Left)
+			}
+			if node.Right != nil {
+				queue = append(queue, node.Right)
+			}
+		}
+
+		if level%2 == 1 {
+			reverse(tmp)
+		}
+		result = append(result, tmp)
+		level++
+	}
+
 	return result
 }
 
-func travel(tree *TreeNode, result [][]int, level int) [][]int {
-	if level >= len(result) {
-		subRes := make([]int, 0)
-		subRes = append(subRes, tree.Val)
-		result = append(result, subRes)
-	} else {
-		subRes := result[level]
-		subRes = append(subRes, tree.Val)
-		result[level] = subRes
+func reverse(nums []int) {
+	start, end := 0, len(nums)-1
+	for start < end {
+		nums[start], nums[end] = nums[end], nums[start]
+		start++
+		end--
 	}
-	level++
-
-	if level%2 == 0 {
-		if tree.Left != nil {
-			result = travel(tree.Left, result, level)
-			level--
-		}
-		if tree.Right != nil {
-			result = travel(tree.Right, result, level)
-			level--
-		}
-	} else {
-		if tree.Right != nil {
-			result = travel(tree.Right, result, level)
-			level--
-		}
-		if tree.Left != nil {
-			result = travel(tree.Left, result, level)
-			level--
-		}
-	}
-
-	return result
 }
 
 func main() {
