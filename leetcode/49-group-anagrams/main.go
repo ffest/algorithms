@@ -36,13 +36,14 @@ func groupAnagrams(words []string) [][]string {
 		for _, letter := range word {
 			key[letter-'a']++
 		}
-		if id, ok := cache[key]; ok {
-			result[id] = append(result[id], word)
+		if idx, ok := cache[key]; ok {
+			result[idx] = append(result[idx], word)
 		} else {
 			result = append(result, []string{word})
 			cache[key] = len(result) - 1
 		}
 	}
+
 	return result
 }
 

@@ -10,16 +10,15 @@ func permute(nums []int) [][]int {
 	return result
 }
 
-func helper(nums []int, permutation []int, result *[][]int) {
+func helper(nums, subres []int, result *[][]int) {
 	if len(nums) == 0 {
-		*result = append(*result, permutation)
+		*result = append(*result, subres)
 		return
 	}
-
 	for i := range nums {
 		numsCopy := append([]int{}, nums...)
-		permuteCopy := append([]int{}, permutation...)
-		helper(append(numsCopy[:i], numsCopy[i+1:]...), append(permuteCopy, nums[i]), result)
+		subresCopy := append([]int{}, subres...)
+		helper(append(numsCopy[:i], numsCopy[i+1:]...), append(subresCopy, nums[i]), result)
 	}
 }
 
