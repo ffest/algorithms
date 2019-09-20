@@ -5,32 +5,30 @@ import (
 )
 
 func minWindow(s string, t string) string {
-	m := [128]int{}
+	var result string
+	cache := [128]int{}
 	for i := range t {
-		m[t[i]]++
+		cache[t[i]]++
 	}
 
-	var result string
 	var left, right int
 	counter := len(t)
 	for right = 0; right < len(s); right++ {
-		if m[s[right]] > 0 {
+		if cache[s[right]] > 0 {
 			counter--
 		}
-		m[s[right]]--
-
+		cache[s[right]]--
 		for counter == 0 {
 			if result == "" || right-left < len(result) {
 				result = s[left : right+1]
 			}
-			m[s[left]]++
-			if m[s[left]] > 0 {
+			cache[s[left]]++
+			if cache[s[left]] > 0 {
 				counter++
 			}
 			left++
 		}
 	}
-
 	return result
 }
 
