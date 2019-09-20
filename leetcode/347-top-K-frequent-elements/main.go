@@ -4,12 +4,13 @@ import (
 	"fmt"
 )
 
-type info struct {
-	number int
-	freq   int
+// MinHeap solution
+/*type info struct {
+	num  int
+	freq int
 }
 
-/*type minHeap []info
+type minHeap []info
 
 func (h minHeap) Len() int           { return len(h) }
 func (h minHeap) Less(i, j int) bool { return h[i].freq < h[j].freq }
@@ -27,26 +28,27 @@ func (h *minHeap) Pop() interface{} {
 
 func topKFrequent(nums []int, k int) []int {
 	cache := make(map[int]int)
-	for _, n := range nums {
-		cache[n]++
+	for _, num := range nums {
+		cache[num]++
 	}
 
 	minHeap := minHeap{}
-	// Push to priority queue
 	heap.Init(&minHeap)
 
 	for num, freq := range cache {
-		if len(minHeap) < k {
-			heap.Push(&minHeap, info{number: num, freq: freq})
+		if minHeap.Len() < k {
+			heap.Push(&minHeap, info{num: num, freq: freq})
 		} else if minHeap[0].freq < freq {
-			minHeap[0] = info{number: num, freq: freq}
+			minHeap[0] = info{num: num, freq: freq}
 			heap.Fix(&minHeap, 0)
 		}
 	}
+
 	result := make([]int, 0, k)
 	for _, info := range minHeap {
-		result = append(result, info.number)
+		result = append(result, info.num)
 	}
+
 	return result
 }*/
 
@@ -59,13 +61,7 @@ func topKFrequent(nums []int, k int) []int {
 
 	buckets := make([][]int, len(nums)+1)
 	for num, freq := range cache {
-		bucket := buckets[freq]
-		if bucket == nil {
-			bucket = []int{num}
-		} else {
-			bucket = append(bucket, num)
-		}
-		buckets[freq] = bucket
+		buckets[freq] = append(buckets[freq], num)
 	}
 
 	result := make([]int, 0, k)
@@ -75,11 +71,11 @@ func topKFrequent(nums []int, k int) []int {
 			continue
 		} else {
 			for _, num := range bucket {
+				result = append(result, num)
+				k--
 				if k == 0 {
 					return result
 				}
-				result = append(result, num)
-				k--
 			}
 		}
 	}

@@ -39,7 +39,6 @@ func firstUniqChar(s string) int {
 			return i
 		}
 	}
-
 	return -1
 }
 
