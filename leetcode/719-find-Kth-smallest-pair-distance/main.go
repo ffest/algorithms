@@ -56,9 +56,8 @@ func smallestDistancePair(nums []int, k int) int {
 
 	for left < right {
 		mid := (left + right) / 2
-		count := 0
-
-		for i, j := 0, 1; i < len(nums); i++ {
+		count, j := 0, 1
+		for i := 0; i < len(nums); i++ {
 			for j < len(nums) && nums[j]-nums[i] <= mid {
 				j++
 			}
@@ -71,7 +70,6 @@ func smallestDistancePair(nums []int, k int) int {
 			right = mid
 		}
 	}
-
 	return left
 }
 
