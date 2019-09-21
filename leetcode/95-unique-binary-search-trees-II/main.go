@@ -24,6 +24,7 @@ func generator(start, end int) []*TreeNode {
 	if start > end {
 		return []*TreeNode{nil}
 	}
+
 	list := make([]*TreeNode, 0)
 	for i := start; i <= end; i++ {
 		leftSubs := generator(start, i-1)

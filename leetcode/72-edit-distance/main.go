@@ -12,7 +12,6 @@ func minDistance(word1 string, word2 string) int {
 	for i := 0; i <= n; i++ {
 		dp[i] = make([]int, m+1)
 	}
-
 	for i := 0; i <= n; i++ {
 		dp[i][0] = i
 	}
@@ -29,20 +28,15 @@ func minDistance(word1 string, word2 string) int {
 			}
 		}
 	}
-
 	return dp[n][m]
 }
 
-func min(a, b, c int) int {
+func min(nums ...int) int {
 	min := math.MaxInt32
-	if a < min {
-		min = a
-	}
-	if b < min {
-		min = b
-	}
-	if c < min {
-		min = c
+	for _, num := range nums {
+		if min > num {
+			min = num
+		}
 	}
 	return min
 }

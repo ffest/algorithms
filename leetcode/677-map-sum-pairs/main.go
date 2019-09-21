@@ -37,12 +37,12 @@ func (ms *MapSum) Insert(key string, val int) {
 func (ms *MapSum) Sum(prefix string) int {
 	current := ms
 	for i := range prefix {
-		if current.children[prefix[i]] == nil {
+		if child, ok := current.children[prefix[i]]; !ok {
 			return 0
+		} else {
+			current = child
 		}
-		current = current.children[prefix[i]]
 	}
-
 	return current.sum
 }
 
