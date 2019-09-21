@@ -11,7 +11,7 @@ func generateParenthesis(n int) []string {
 }
 
 func helper(str string, opens, closes, n int, result *[]string) {
-	if len(str) == n*2 {
+	if len(str) == 2*n {
 		*result = append(*result, str)
 		return
 	}
