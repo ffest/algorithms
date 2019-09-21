@@ -13,7 +13,6 @@ func dailyTemperatures(T []int) []int {
 		}
 		stack = append(stack, i)
 	}
-
 	return result
 }
 
