@@ -5,18 +5,19 @@ import "fmt"
 func isValid(s string) bool {
 	if len(s) == 0 {
 		return true
+	} else if len(s)%2 == 1 {
+		return false
 	}
 
-	closedBrackets := map[byte]byte{
+	closes := map[byte]byte{
 		')': '(',
 		']': '[',
 		'}': '{',
 	}
-
 	stack := make([]byte, 0)
 	for i := range s {
-		if openingBracket, ok := closedBrackets[s[i]]; ok {
-			if len(stack) == 0 || openingBracket != stack[len(stack)-1] {
+		if opens, ok := closes[s[i]]; ok {
+			if len(stack) == 0 || opens != stack[len(stack)-1] {
 				return false
 			}
 			stack = stack[:len(stack)-1]
@@ -24,7 +25,6 @@ func isValid(s string) bool {
 			stack = append(stack, s[i])
 		}
 	}
-
 	return len(stack) == 0
 }
 
