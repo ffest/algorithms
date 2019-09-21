@@ -11,7 +11,7 @@ func lengthOfLIS(nums []int) int {
 	tails := make([]int, len(nums))
 	for _, num := range nums {
 		i, j := 0, size
-		for i != j {
+		for i < j {
 			mid := (i + j) / 2
 			if tails[mid] < num {
 				i = mid + 1
@@ -24,7 +24,6 @@ func lengthOfLIS(nums []int) int {
 			size++
 		}
 	}
-
 	return size
 }
 
