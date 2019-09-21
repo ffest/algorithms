@@ -5,28 +5,22 @@ import (
 )
 
 func maxArea(height []int) int {
-	var result int
+	var current, result int
 	left := 0
 	right := len(height) - 1
 	for left < right {
-		current := min(height[left], height[right]) * (right - left)
-		if result < current {
-			result = current
-		}
 		if height[left] < height[right] {
+			current = height[left] * (right - left)
 			left++
 		} else {
+			current = height[right] * (right - left)
 			right--
+		}
+		if current > result {
+			result = current
 		}
 	}
 	return result
-}
-
-func min(a, b int) int {
-	if a > b {
-		return b
-	}
-	return a
 }
 
 func main() {

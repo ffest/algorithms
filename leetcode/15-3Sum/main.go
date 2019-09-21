@@ -13,8 +13,7 @@ func threeSum(nums []int) [][]int {
 			break
 		}
 		if i == 0 || (i > 0 && nums[i] != nums[i-1]) {
-			left := i + 1
-			right := len(nums) - 1
+			left, right := i+1, len(nums)-1
 			for left < right {
 				if nums[left]+nums[right] > -nums[i] {
 					right--
@@ -22,14 +21,14 @@ func threeSum(nums []int) [][]int {
 					left++
 				} else {
 					result = append(result, []int{nums[i], nums[left], nums[right]})
-					for left < right && nums[right] == nums[right-1] {
-						right--
-					}
 					for left < right && nums[left] == nums[left+1] {
 						left++
 					}
-					right--
+					for left < right && nums[right] == nums[right-1] {
+						left--
+					}
 					left++
+					right--
 				}
 			}
 		}
