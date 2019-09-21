@@ -11,11 +11,10 @@ func findPath(graph *[][]int, node int) [][]int {
 	if node == len(*graph)-1 {
 		return [][]int{{node}}
 	}
-
 	for _, next := range (*graph)[node] {
 		subRes := findPath(graph, next)
-		for _, p := range subRes {
-			res = append(res, append([]int{node}, p...))
+		for _, path := range subRes {
+			res = append(res, append([]int{node}, path...))
 		}
 	}
 	return res
