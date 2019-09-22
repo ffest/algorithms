@@ -215,6 +215,7 @@
 |`950`| Reveal Cards In Increasing Order | 72.3% | Medium ||
 |`961`| N-Repeated Element in Size 2N Array | 72.6% | Easy ||
 |`965`| Univalued Binary Tree | 67.0% | Easy |[✅](https://leetcode.com/list/tgix29s)|
+|`973`| K Closest Points to Origin | 61.1% | Medium |[✅](https://leetcode.com/list/tgix29s)|
 |`975`| Odd Even Jump | 48.2% | Hard ||
 |`977`| Squares of a Sorted Array | 72.2% | Easy ||
 |`979`| Distribute Coins in Binary Tree | 67.8% | Medium |[✅](https://leetcode.com/list/tgix29s)|
