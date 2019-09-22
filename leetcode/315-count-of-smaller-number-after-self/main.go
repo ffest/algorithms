@@ -28,10 +28,10 @@ func Merge(left, right int, nums, idx, inversions []int) {
 func merge(left, right int, nums, idx, inversions []int) {
 	start, end := left, right
 	mid := (left + right) / 2
-	leftMid, rightMid := mid, mid+1
 
-	newIdx := make([]int, 0)
+	leftMid, rightMid := mid, mid+1
 	smaller := 0
+	newIdx := make([]int, 0, right-left)
 	for left <= leftMid && rightMid <= right {
 		if nums[idx[left]] <= nums[idx[rightMid]] {
 			newIdx = append(newIdx, idx[left])
@@ -43,10 +43,9 @@ func merge(left, right int, nums, idx, inversions []int) {
 			smaller++
 		}
 	}
-
 	for left <= leftMid {
-		inversions[idx[left]] += smaller
 		newIdx = append(newIdx, idx[left])
+		inversions[idx[left]] += smaller
 		left++
 	}
 	for rightMid <= right {
