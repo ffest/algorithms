@@ -5,7 +5,6 @@ import (
 	"math"
 )
 
-// TODO: solve with DP
 func maxProfit(prices []int) int {
 	firstRelease, secondRelease := 0, 0
 	firstBuy, secondBuy := math.MaxInt32, math.MaxInt32
