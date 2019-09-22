@@ -160,6 +160,7 @@
 |`494`| Target Sum | 45.5% | Medium ||
 |`498`| Diagonal Traverse | 45.2% | Medium ||
 |`509`| Fibonacci Number | 66.6% | Easy ||
+|`518`| Coin Change 2 | 44.3% | Medium |[✅](https://leetcode.com/list/tgix29s)|
 |`523`| Continuous Subarray Sum | 24.2% | Medium ||
 |`542`| 01 Matrix | 36.2% | Medium |[✅](https://leetcode.com/list/tgix29s)|
 |`557`| Reverse Words in a String III | 64.8% | Easy ||
