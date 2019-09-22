@@ -30,9 +30,9 @@ func (c *LRUCache) Get(key int) int {
 	if !ok {
 		return -1
 	}
+
 	c.removeFromChain(l)
 	c.addToChain(l)
-
 	return l.val
 }
 
@@ -45,14 +45,11 @@ func (c *LRUCache) Put(key int, value int) {
 		l.val = value
 		c.removeFromChain(l)
 	}
-
 	c.addToChain(l)
 	if len(c.cache) > c.capacity {
-		l = c.tail
-		if l != nil {
-			c.removeFromChain(l)
-			delete(c.cache, l.key)
-		}
+		l := c.tail
+		c.removeFromChain(l)
+		delete(c.cache, l.key)
 	}
 }
 
