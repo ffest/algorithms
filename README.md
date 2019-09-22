@@ -219,6 +219,7 @@
 |`979`| Distribute Coins in Binary Tree | 67.8% | Medium |[✅](https://leetcode.com/list/tgix29s)|
 |`980`| Unique Paths III | 71.4% | Hard ||
 |`981`| Time Based Key-Value Store | 51.3% | Medium ||
+|`992`| Subarrays with K Different Integers | 45.1% | Hard |[✅](https://leetcode.com/list/tgix29s)|
 |`1122`| Relative Sort Array | 66.5% | Easy ||
 |`1160`| Find Words That Can Be Formed by Characters | 72.1% | Easy ||
 |`1161`| Maximum Level Sum of a Binary Tree | 73.9% | Medium ||

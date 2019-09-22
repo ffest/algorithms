@@ -12,7 +12,7 @@ type TreeNode struct {
 }
 
 // Recursive solution
-/*func distributeCoins(root *TreeNode) int {
+func distributeCoins(root *TreeNode) int {
 	var moves int
 	if root.Left != nil {
 		moves += distributeCoins(root.Left)
@@ -25,10 +25,10 @@ type TreeNode struct {
 		moves += abs(root.Right.Val - 1)
 	}
 	return moves
-}*/
+}
 
 // Recursive solution with helper
-func distributeCoins(root *TreeNode) int {
+/*func distributeCoins(root *TreeNode) int {
 	var moves int
 	traverse(root, &moves)
 	return moves
@@ -38,16 +38,17 @@ func traverse(root *TreeNode, moves *int) int {
 	if root == nil {
 		return 0
 	}
+
 	left, right := traverse(root.Left, moves), traverse(root.Right, moves)
 	*moves += abs(left) + abs(right)
 	return root.Val - 1 + left + right
-}
+}*/
 
-func abs(a int) int {
-	if a < 0 {
-		return -a
+func abs(x int) int {
+	if x < 0 {
+		return -x
 	}
-	return a
+	return x
 }
 
 func main() {
