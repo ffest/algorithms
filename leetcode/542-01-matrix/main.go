@@ -24,19 +24,20 @@ func updateMatrix(matrix [][]int) [][]int {
 	ways := [][2]int{{1, 0}, {-1, 0}, {0, 1}, {0, -1}}
 	for len(coordinates) > 0 {
 		current := coordinates[0]
-		coordinates = coordinates[1:]
 		currentVal := matrix[current[0]][current[1]]
+		coordinates = coordinates[1:]
 
 		for _, way := range ways {
-			i, j := current[0]+way[0], current[1]+way[1]
-			if i < 0 || j < 0 || i == n || j == m || matrix[i][j] == 0 || matrix[i][j] < currentVal+1 {
+			i := current[0] + way[0]
+			j := current[1] + way[1]
+
+			if i < 0 || j < 0 || i == n || j == m || matrix[i][j] <= currentVal+1 {
 				continue
 			}
 			matrix[i][j] = currentVal + 1
 			coordinates = append(coordinates, [2]int{i, j})
 		}
 	}
-
 	return matrix
 }
 
