@@ -2,7 +2,6 @@ package main
 
 import (
 	"fmt"
-	"log"
 )
 
 func flipAndInvertImage(A [][]int) [][]int {
@@ -23,7 +22,6 @@ func flipAndInvertImage(A [][]int) [][]int {
 		}
 
 		if len(b)%2 != 0 {
-			log.Print(len(b) / 2)
 			if b[len(b)/2] == 0 {
 				b[len(b)/2] = 1
 			} else {
