@@ -27,6 +27,7 @@
 |`24`| Swap Nodes in Pairs | 45.4% | Medium ||
 |`26`| Remove Duplicates from Sorted Array | 40.5% | Easy ||
 |`28`| Implement strStr() | 32.5% | Easy ||
+|`29`| Divide Two Integers | 16.2% | Medium ||
 |`32`| Longest Valid Parentheses | 25.6% | Hard |[✅](https://leetcode.com/list/tgix29s)|
 |`33`| Search in Rotated Sorted Array | 32.8% | Medium ||
 |`34`| Find First and Last Position of Element in Sorted Array | 33.7% | Medium |[✅](https://leetcode.com/list/tgix29s)|
