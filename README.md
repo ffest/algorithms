@@ -12,6 +12,7 @@
 |`3`| Longest Substring Without Repeating Characters | 28.2% | Medium |[✅](https://leetcode.com/list/tgix29s)|
 |`4`| Median of Two Sorted Arrays | 26.6% | Hard ||
 |`5`| Longest Palindromic Substring | 27.3% | Medium |[✅](https://leetcode.com/list/tgix29s)|
+|`7`| Reverse Integer | 25.5% | Easy ||
 |`9`| Palindrome Number | 43.6% | Easy ||
 |`11`| Container With Most Water | 44.2% | Medium ||
 |`14`| Longest Common Prefix | 33.4% | Easy ||
