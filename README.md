@@ -39,6 +39,7 @@
 |`46`| Permutations | 55.3% | Medium |[✅](https://leetcode.com/list/tgix29s)|
 |`48`| Rotate Image | 48.3% | Medium |[✅](https://leetcode.com/list/tgix29s)|
 |`49`| Group Anagrams | 46.7% | Medium |[✅](https://leetcode.com/list/tgix29s)|
+|`50`| Pow(x, n) | 28.7% | Medium ||
 |`51`| N-Queens | 40.9% | Hard ||
 |`52`| N-Queens II | 53.3% | Hard |[✅](https://leetcode.com/list/tgix29s)|
 |`53`| Maximum Subarray | 43.7% | Easy |[✅](https://leetcode.com/list/tgix29s)|
