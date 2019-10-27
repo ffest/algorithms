@@ -36,6 +36,7 @@
 |`36`| Valid Sudoku | 44.5% | Medium |[✅](https://leetcode.com/list/tgix29s)|
 |`39`| Combination Sum | 48.7% | Medium ||
 |`42`| Trapping Rain Water | 44.6% | Hard |[✅](https://leetcode.com/list/tgix29s)|
+|`43`| Multiply Strings | 31.9% | Medium ||
 |`45`| Jump Game II | 27.9% | Hard |[✅](https://leetcode.com/list/tgix29s)|
 |`46`| Permutations | 55.3% | Medium |[✅](https://leetcode.com/list/tgix29s)|
 |`48`| Rotate Image | 48.3% | Medium |[✅](https://leetcode.com/list/tgix29s)|

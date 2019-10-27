@@ -7,6 +7,7 @@ import (
 func Rand(lower, upper int) int {
 	num := uint(upper - lower + 1)
 	var result, i uint
+
 	for {
 		result, i = 0, 0
 		for 1<<i < num {
@@ -21,5 +22,5 @@ func Rand(lower, upper int) int {
 }
 
 func zeroOrOne() uint {
-	return uint(time.Now().UnixNano() % 2)
+	return uint(time.Now().Unix() % 2)
 }
