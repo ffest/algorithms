@@ -210,6 +210,7 @@
 |`852`| Peak Index in a Mountain Array | 69.5% | Easy ||
 |`860`| Lemonade Change | 50.2% | Easy ||
 |`876`| Middle of the Linked List | 63.9% | Easy ||
+|`881`| Boats to Save People | 44.9% | Medium ||
 |`887`| Super Egg Drop | 25.0% | Hard ||
 |`890`| Find and Replace Pattern | 70.8% | Medium ||
 |`905`| Sort Array By Parity | 72.6% | Easy ||
