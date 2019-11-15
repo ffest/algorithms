@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"sort"
 )
 
 // Priority queue solution
@@ -56,7 +57,32 @@ func topKFrequent(words []string, k int) []string {
 
 // TODO: bucket solution
 func topKFrequent(words []string, k int) []string {
-	return nil
+	cache := make(map[string]int)
+	for _, w := range words {
+		cache[w]++
+	}
+	buckets := make([][]string, len(words)+1)
+	for w, f := range cache {
+		buckets[f] = append(buckets[f], w)
+	}
+	result := make([]string, 0, k)
+	for i := len(buckets) - 1; i > 0; i-- {
+		bucket := buckets[i]
+		if len(bucket) == 0 {
+			continue
+		}
+		sort.Slice(bucket, func(i, j int) bool {
+			return bucket[i] < bucket[j]
+		})
+
+		for _, w := range bucket {
+			if len(result) == k {
+				return result
+			}
+			result = append(result, w)
+		}
+	}
+	return result
 }
 
 func main() {
