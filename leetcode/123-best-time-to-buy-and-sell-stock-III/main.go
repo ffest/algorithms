@@ -6,25 +6,19 @@ import (
 )
 
 func maxProfit(prices []int) int {
-	firstRelease, secondRelease := 0, 0
-	firstBuy, secondBuy := math.MaxInt32, math.MaxInt32
+	firstSell, secondSell := 0, 0
+	firstBuy, secondBuy := math.MinInt32, math.MinInt32
 
 	for _, price := range prices {
-		firstBuy = min(firstBuy, price)
-		firstRelease = max(firstRelease, price-firstBuy)
-		secondBuy = min(secondBuy, price-firstRelease)
-		secondRelease = max(secondRelease, price-secondBuy)
+		secondSell = max(secondSell, secondBuy+price)
+		secondBuy = max(secondBuy, firstSell-price)
+		firstSell = max(firstSell, firstBuy+price)
+		firstBuy = max(firstBuy, -price)
 	}
 
-	return secondRelease
+	return secondSell
 }
 
-func min(a, b int) int {
-	if a < b {
-		return a
-	}
-	return b
-}
 func max(a, b int) int {
 	if a > b {
 		return a
