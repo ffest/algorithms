@@ -6,7 +6,7 @@ def delete_duplicates(a: List[int]) -> int:
         return 0
 
     write_index = 1
-    for i in range(1, len(a)-1):
+    for i in range(1, len(a)):
         if a[write_index-1] == a[i]:
             continue
         a[write_index] = a[i]
