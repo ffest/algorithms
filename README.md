@@ -118,6 +118,7 @@
 |`198`| House Robber | 41.1% | Easy |[✅](https://leetcode.com/list/tgix29s)|
 |`200`| Number of Islands | 41.7% | Medium |[✅](https://leetcode.com/list/tgix29s)|
 |`203`| Remove Linked List Elements | 35.8% | Easy ||
+|`204`| Count Primes | 30.1% | Easy ||
 |`205`| Remove Linked List Elements | 35.8% | Easy ||
 |`206`| Reverse Linked List | 54.5% | Easy |[✅](https://leetcode.com/list/tgix29s)|
 |`207`| Course Schedule | 38.0% | Medium |[✅](https://leetcode.com/list/tgix29s)|
