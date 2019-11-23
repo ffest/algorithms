@@ -13,7 +13,7 @@ def compute_random_permutation(n: int) -> List[int]:
     # Same same
     # random_sampling(n, permutation)
     for i in range(n):
-        idx = random.randrange(n)
+        idx = random.randint(i, len(permutation)-1)
         permutation[idx], permutation[i] = permutation[i], permutation[idx]
 
     return permutation
