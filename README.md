@@ -151,6 +151,7 @@
 |`367`| Valid Perfect Square | 39.7% | Easy ||
 |`380`| Insert Delete GetRandom O(1) | 43.6% | Medium |[✅](https://leetcode.com/list/tgix29s)|
 |`387`| First Unique Character in a String | 49.9% | Easy |[✅](https://leetcode.com/list/tgix29s)| 
+|`389`| Find the Difference | 53.9% | Easy ||
 |`394`| Decode String | 45.3% | Medium |[✅](https://leetcode.com/list/tgix29s)|
 |`410`| Split Array Largest Sum | 42.8% | Hard ||
 |`412`| Fizz Buzz | 59.4% | Easy ||
