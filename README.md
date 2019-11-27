@@ -136,6 +136,7 @@
 |`239`| Sliding Window Maximum | 39.3% | Hard |[✅](https://leetcode.com/list/tgix29s)|
 |`240`| Search a 2D Matrix II | 41.2% | Medium |[✅](https://leetcode.com/list/tgix29s)|
 |`279`| Perfect Squares | 42.1% | Medium |[✅](https://leetcode.com/list/tgix29s)|
+|`280`| Wiggle Sort | 62.1% | Medium |[✅](https://leetcode.com/list/tgix29s)|
 |`283`| Move Zeroes | 54.7% | Easy ||
 |`287`| Find the Duplicate Number | 50.4% | Medium ||
 |`300`| Longest Increasing Subsequence | 41.2% | Medium |[✅](https://leetcode.com/list/tgix29s)|
