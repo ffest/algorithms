@@ -136,6 +136,7 @@
 |`238`| Product of Array Except Self | 55.2% | Medium ||
 |`239`| Sliding Window Maximum | 39.3% | Hard |[✅](https://leetcode.com/list/tgix29s)|
 |`240`| Search a 2D Matrix II | 41.2% | Medium |[✅](https://leetcode.com/list/tgix29s)|
+|`257`| Binary Tree Paths | 48.1% | Easy ||
 |`279`| Perfect Squares | 42.1% | Medium |[✅](https://leetcode.com/list/tgix29s)|
 |`280`| Wiggle Sort | 62.1% | Medium |[✅](https://leetcode.com/list/tgix29s)|
 |`283`| Move Zeroes | 54.7% | Easy ||
