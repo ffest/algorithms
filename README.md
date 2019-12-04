@@ -158,6 +158,7 @@
 |`394`| Decode String | 45.3% | Medium |[✅](https://leetcode.com/list/tgix29s)|
 |`410`| Split Array Largest Sum | 42.8% | Hard ||
 |`412`| Fizz Buzz | 59.4% | Easy ||
+|`415`| Add Strings | 45.3% | Easy ||
 |`416`| Partition Equal Subset Sum | 41.1% | Medium |[✅](https://leetcode.com/list/tgix29s)|
 |`419`| Battleships in a Board | 67.2% | Medium ||
 |`438`| Find All Anagrams in a String | 38.2% | Medium |[✅](https://leetcode.com/list/tgix29s)|
@@ -180,6 +181,7 @@
 |`594`| Longest Harmonious Subsequence | 43.5% | Medium ||
 |`599`| Minimum Index Sum of Two Lists | 48.5% | Easy ||
 |`605`| Can Place Flowers | 30.9% | Easy ||
+|`609`| Find Duplicate File in System | 57.3% | Medium ||
 |`617`| Merge Two Binary Trees | 70.7% | Easy |[✅](https://leetcode.com/list/tgix29s)|
 |`621`| Task Scheduler | 46.3% | Medium |[✅](https://leetcode.com/list/tgix29s)|
 |`622`| Design Circular Queue | 39.3% | Medium ||
