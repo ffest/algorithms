@@ -234,6 +234,7 @@
 |`921`| Minimum Add to Make Parentheses Valid | 69.9% | Medium |[✅](https://leetcode.com/list/tgix29s)|
 |`925`| Long Pressed Name | 44.3% | Easy ||
 |`929`| Unique Email Addresses | 72.1% | Easy ||
+|`930`| Binary Subarrays With Sum |	40.1% | Medium |[✅](https://leetcode.com/list/tgix29s)|
 |`938`| Range Sum of BST | 80.1% | Easy ||
 |`942`| DI String Match | 70.0% | Easy ||
 |`944`| Delete Columns to Make Sorted | 69.1% | Easy ||
