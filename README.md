@@ -195,6 +195,7 @@
 |`658`| Find K Closest Elements | 38.5% | Medium ||
 |`657`| Robot Return to Origin | 71.2% | Easy ||
 |`677`| Map Sum Pairs | 51.6% | Medium |[✅](https://leetcode.com/list/tgix29s)|
+|`680`| Valid Palindrome II | 35.5% | Easy ||
 |`692`| Top K Frequent Words | 47.9% | Medium |[✅](https://leetcode.com/list/tgix29s)|
 |`695`| Max Area of Island | 59.7% | Medium |[✅](https://leetcode.com/list/tgix29s)|
 |`700`| Search in a Binary Search Tree  | 68.8% | Easy ||
