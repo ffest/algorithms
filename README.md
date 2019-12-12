@@ -248,6 +248,7 @@
 |`977`| Squares of a Sorted Array | 72.2% | Easy ||
 |`979`| Distribute Coins in Binary Tree | 67.8% | Medium |[✅](https://leetcode.com/list/tgix29s)|
 |`980`| Unique Paths III | 71.4% | Hard ||
+|`987`| Vertical Order Traversal of a Binary Tree | 33.6% | Medium ||
 |`981`| Time Based Key-Value Store | 51.3% | Medium ||
 |`992`| Subarrays with K Different Integers | 45.1% | Hard |[✅](https://leetcode.com/list/tgix29s)|
 |`1094`| Car Pooling | 56.8% | Medium |[✅](https://leetcode.com/list/tgix29s)|
