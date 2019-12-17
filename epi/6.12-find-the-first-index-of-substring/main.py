@@ -10,7 +10,6 @@ def rabin_karp(t: str, s: str) -> int:
     s_hash = functools.reduce(lambda h, c: h * base + ord(c), s, 0)
     power_s = base ** max(len(s)-1, 0)
 
-    print(power_s)
     for i in range(len(s), len(t)):
         if t_hash == s_hash and t[i-len(s):i] == s:
             return i-len(s)
