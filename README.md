@@ -68,6 +68,7 @@
 |`78`| Subsets | 53.0% | Medium ||
 |`79`| Word Search | 32.3% | Medium |[✅](https://leetcode.com/list/tgix29s)|
 |`80`| Remove Duplicates from Sorted Array II | 42.0% | Medium ||
+|`81`| Search in Rotated Sorted Array II | 32.8% | Medium |[✅](https://leetcode.com/list/tgix29s)|
 |`84`| Largest Rectangle in Histogram | 31.3% | Hard ||
 |`86`| Partition List | 37.3% | Medium ||
 |`88`| Merge Sorted Array | 35.6% | Easy ||
