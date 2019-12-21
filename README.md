@@ -100,6 +100,7 @@
 |`125`| Valid Palindrome | 31.1% | Easy ||  
 |`126`| Word Ladder II | 18.0% | Hard |[✅](https://leetcode.com/list/tgix29s)|
 |`127`| Word Ladder | 25.4% | Medium || 
+|`134`| Gas Station | 35.9% | Medium |[✅](https://leetcode.com/list/tgix29s)| 
 |`136`| Single Number | 60.3% | Easy || 
 |`139`| Word Break | 35.4% | Medium || 
 |`140`| Word Break II | 27.7% | Hard || 
