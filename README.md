@@ -234,6 +234,7 @@
 |`844`| Backspace String Compare | 46.8% | Easy |[✅](https://leetcode.com/list/tgix29s)|
 |`852`| Peak Index in a Mountain Array | 69.5% | Easy ||
 |`860`| Lemonade Change | 50.2% | Easy ||
+|`866`| Prime Palindrome | 22.6% | Medium ||
 |`876`| Middle of the Linked List | 63.9% | Easy ||
 |`881`| Boats to Save People | 44.9% | Medium ||
 |`887`| Super Egg Drop | 25.0% | Hard ||
