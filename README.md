@@ -105,6 +105,7 @@
 |`139`| Word Break | 35.4% | Medium || 
 |`140`| Word Break II | 27.7% | Hard || 
 |`141`| Linked List Cycle | 37.0% | Easy ||
+|`142`| Linked List Cycle II | 34.5% | Medium ||
 |`143`| Reorder List | 30.9% | Medium ||
 |`144`| Binary Tree Preorder Traversal | 51.9% | Medium ||
 |`145`| Binary Tree Postorder Traversal | 49.2% | Hard ||
