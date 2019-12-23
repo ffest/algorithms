@@ -125,6 +125,7 @@
 |`179`| Largest Number | 26.1% | Medium |[✅](https://leetcode.com/list/tgix29s)| 
 |`188`| Best Time to Buy and Sell Stock IV | 26.9% | Hard |[✅](https://leetcode.com/list/tgix29s)| 
 |`189`| Rotate Array | 30.8% | Easy || 
+|`190`| Reverse Bits | 34.1% | Easy || 
 |`191`| Number of 1 Bits | 45.2% | Easy || 
 |`198`| House Robber | 41.1% | Easy |[✅](https://leetcode.com/list/tgix29s)|
 |`199`| Binary Tree Right Side View | 50.6% | Medium ||
