@@ -5,38 +5,28 @@ import (
 )
 
 func lemonadeChange(bills []int) bool {
-	billMap := make(map[int]int)
+	fifths, tens := 0, 0
 
-	for _, b := range bills {
-		switch b {
-		case 5:
-			billMap[5]++
-		case 10:
-			fifthsLeft := billMap[5]
-			if fifthsLeft == 0 {
-				return false
-			}
-			billMap[5] = fifthsLeft - 1
-			billMap[10]++
-		case 20:
-			tensLeft := billMap[10]
-			fifthsLeft := billMap[5]
-			if tensLeft > 0 && fifthsLeft > 0 {
-				billMap[5] = fifthsLeft - 1
-				billMap[10] = tensLeft - 1
-				continue
-			} else if tensLeft == 0 && fifthsLeft >= 3 {
-				billMap[5] = fifthsLeft - 3
-				continue
-			}
+	for i := range bills {
+		if bills[i] == 5 {
+			fifths++
+		} else if bills[i] == 10 {
+			fifths--
+			tens++
+		} else if tens > 0 {
+			tens--
+			fifths--
+		} else {
+			fifths -= 3
+		}
+		if fifths < 0 {
 			return false
 		}
 	}
-
 	return true
 }
 
 func main() {
-	bills := []int{5, 10, 20}
+	bills := []int{5, 5, 5, 10}
 	fmt.Println(lemonadeChange(bills))
 }
