@@ -10,10 +10,10 @@ func longestSubsequence(arr []int, difference int) int {
 	}
 	var max int
 	cache := make(map[int]int)
-	for _, num := range arr {
-		cache[num] = 1 + cache[num-difference]
-		if max < cache[num] {
-			max = cache[num]
+	for i := range arr {
+		cache[arr[i]] = 1 + cache[arr[i]-difference]
+		if cache[arr[i]] > max {
+			max = cache[arr[i]]
 		}
 	}
 	return max
