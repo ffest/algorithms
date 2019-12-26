@@ -275,4 +275,5 @@
 |`1162`| As Far from Land as Possible | 36.7% | Medium |[✅](https://leetcode.com/list/tgix29s)|
 |`1163`| Last Substring in Lexicographical Order | 28.8% | Hard ||
 |`1186`| Maximum Subarray Sum with One Deletion | 34.9% | Medium |[✅](https://leetcode.com/list/tgix29s)|
+|`1191`| K-Concatenation Maximum Sum | 	25.7% | Medium ||
 |`1192`| Critical Connections in a Network | 48.7% | Hard |[✅](https://leetcode.com/list/tgix29s)|
