@@ -224,6 +224,7 @@
 |`733`| Flood Fill | 51.1% | Easy ||
 |`739`| Daily Temperatures | 60.0% | Medium |[✅](https://leetcode.com/list/tgix29s)|
 |`744`| Find Smallest Letter Greater Than Target | 43.8% | Easy ||
+|`746`| Min Cost Climbing Stairs | 48.7% | Easy ||
 |`747`| Largest Number At Least Twice of Others | 40.8% | Easy ||
 |`752`| Open the Lock | 46.2% | Medium |[✅](https://leetcode.com/list/tgix29s)|
 |`763`| Partition Labels | 73.0% | Medium ||
