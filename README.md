@@ -281,3 +281,6 @@
 |`1186`| Maximum Subarray Sum with One Deletion | 34.9% | Medium |[✅](https://leetcode.com/list/tgix29s)|
 |`1191`| K-Concatenation Maximum Sum | 	25.7% | Medium ||
 |`1192`| Critical Connections in a Network | 48.7% | Hard |[✅](https://leetcode.com/list/tgix29s)|
+|`1317`| Convert Integer to the Sum of Two No-Zero Integers | 58.5% | Easy ||
+|`1318`| Minimum Flips to Make a OR b Equal to c | 57.0% | Medium |[✅](https://leetcode.com/list/tgix29s)|
+|`1319`| Number of Operations to Make Network Connected | 42.2% | Medium |[✅](https://leetcode.com/list/tgix29s)|

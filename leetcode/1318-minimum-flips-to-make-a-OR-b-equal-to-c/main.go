@@ -6,7 +6,7 @@ import (
 
 func minFlips(a int, b int, c int) int {
 	var flips int
-	for c > 0 {
+	for i := 0; i < 31; i++ {
 		if c&1 == 1 {
 			if a&1 == 0 && b&1 == 0 {
 				flips++
@@ -21,18 +21,6 @@ func minFlips(a int, b int, c int) int {
 		}
 		c >>= 1
 		a >>= 1
-		b >>= 1
-	}
-	for a > 0 {
-		if a&1 == 1 {
-			flips++
-		}
-		a >>= 1
-	}
-	for b > 0 {
-		if b&1 == 1 {
-			flips++
-		}
 		b >>= 1
 	}
 	return flips

@@ -5,14 +5,14 @@ import (
 )
 
 func makeConnected(n int, connections [][]int) int {
-	var conns, components int
+	if len(connections) < n-1 {
+		return -1
+	}
+	var components int
 	cache := make(map[int][]int)
 	for _, c := range connections {
 		cache[c[0]] = append(cache[c[0]], c[1])
 		cache[c[1]] = append(cache[c[1]], c[0])
-		if len(cache[c[0]]) > 1 && len(cache[c[1]]) > 1 {
-			conns++
-		}
 	}
 	used := make([]bool, n)
 	for i := 0; i < n; i++ {
@@ -20,9 +20,6 @@ func makeConnected(n int, connections [][]int) int {
 			dfs(i, cache, &used)
 			components++
 		}
-	}
-	if conns < components-1 {
-		return -1
 	}
 	return components - 1
 }
