@@ -195,6 +195,7 @@
 |`523`| Continuous Subarray Sum | 24.2% | Medium ||
 |`542`| 01 Matrix | 36.2% | Medium |[✅](https://leetcode.com/list/tgix29s)|
 |`557`| Reverse Words in a String III | 64.8% | Easy ||
+|`572`| Subtree of Another Tree | 43.5% | Easy |[✅](https://leetcode.com/list/tgix29s)|
 |`594`| Longest Harmonious Subsequence | 43.5% | Medium ||
 |`599`| Minimum Index Sum of Two Lists | 48.5% | Easy ||
 |`605`| Can Place Flowers | 30.9% | Easy ||
