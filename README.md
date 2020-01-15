@@ -250,6 +250,7 @@
 |`890`| Find and Replace Pattern | 70.8% | Medium ||
 |`904`| Fruit Into Baskets | 41.9% | Medium ||
 |`905`| Sort Array By Parity | 72.6% | Easy ||
+|`907`| Sum of Subarray Minimums | 30.2% | Medium |[✅](https://leetcode.com/list/tgix29s)|
 |`912`| Sort an Array | 63.2% | Medium ||
 |`921`| Minimum Add to Make Parentheses Valid | 69.9% | Medium |[✅](https://leetcode.com/list/tgix29s)|
 |`925`| Long Pressed Name | 44.3% | Easy ||
