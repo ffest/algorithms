@@ -176,6 +176,7 @@
 |`415`| Add Strings | 45.3% | Easy ||
 |`416`| Partition Equal Subset Sum | 41.1% | Medium |[✅](https://leetcode.com/list/tgix29s)|
 |`419`| Battleships in a Board | 67.2% | Medium ||
+|`424`| Longest Repeating Character Replacement | 45.2% | Medium |[✅](https://leetcode.com/list/tgix29s)|
 |`438`| Find All Anagrams in a String | 38.2% | Medium |[✅](https://leetcode.com/list/tgix29s)|
 |`442`| Find All Duplicates in an Array | 60.9% | Medium |[✅](https://leetcode.com/list/tgix29s)|
 |`447`| Number of Boomerangs | 49.7% | Easy ||
