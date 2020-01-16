@@ -3,9 +3,7 @@ package main
 import "fmt"
 
 func maxSlidingWindow(nums []int, k int) []int {
-	result := make([]int, 0, len(nums)-k)
-	window := make([]int, 0)
-
+	window, result := make([]int, 0), make([]int, 0, len(nums)-k)
 	for i := 0; i < len(nums); i++ {
 		if len(window) > 0 && window[0] <= i-k {
 			window = window[1:]
