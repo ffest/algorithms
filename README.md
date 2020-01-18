@@ -143,7 +143,7 @@
 |`222`| Count Complete Tree Nodes | 34.2% | Medium |[✅](https://leetcode.com/list/tgix29s)|
 |`232`| Implement Queue using Stacks | 43.7% | Easy ||
 |`234`| Palindrome Linked List | 36.1% | Easy ||
-|`236`| Lowest Common Ancestor of a Binary Search Tree | 45.5% | Easy |[✅](https://leetcode.com/list/tgix29s)|
+|`235`| Lowest Common Ancestor of a Binary Search Tree | 45.5% | Easy |[✅](https://leetcode.com/list/tgix29s)|
 |`236`| Lowest Common Ancestor of a Binary Tree | 38.4% | Medium |[✅](https://leetcode.com/list/tgix29s)|
 |`238`| Product of Array Except Self | 55.2% | Medium ||
 |`239`| Sliding Window Maximum | 39.3% | Hard |[✅](https://leetcode.com/list/tgix29s)|
@@ -243,6 +243,7 @@
 |`841`| Keys and Rooms | 60.7% | Medium ||
 |`844`| Backspace String Compare | 46.8% | Easy |[✅](https://leetcode.com/list/tgix29s)|
 |`852`| Peak Index in a Mountain Array | 69.5% | Easy ||
+|`856`| Score of Parentheses | 58.6% | Medium |[✅](https://leetcode.com/list/tgix29s)|
 |`860`| Lemonade Change | 50.2% | Easy ||
 |`866`| Prime Palindrome | 22.6% | Medium ||
 |`876`| Middle of the Linked List | 63.9% | Easy ||
