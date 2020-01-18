@@ -2,7 +2,24 @@ package main
 
 import "fmt"
 
+// Count layers solution
 func scoreOfParentheses(S string) int {
+	var result, layers int
+	for i := 0; i < len(S); i++ {
+		if S[i] == '(' {
+			layers++
+		} else {
+			layers--
+		}
+		if S[i] == ')' && S[i-1] == '(' {
+			result += 1 << layers
+		}
+	}
+	return result
+}
+
+// Stack solution O(n) additional space
+/*func scoreOfParentheses(S string) int {
 	var current int
 	stack := make([]int, 0)
 	for i := 0; i < len(S); i++ {
@@ -22,7 +39,7 @@ func max(a, b int) int {
 		return a
 	}
 	return b
-}
+}*/
 
 func main() {
 	s := "(()(()))"
