@@ -9,22 +9,18 @@ func canVisitAllRooms(rooms [][]int) bool {
 		return true
 	}
 	visited := make(map[int]struct{})
-
-	queue := make([]int, 0)
-	queue = append(queue, rooms[0]...)
 	visited[0] = struct{}{}
+	queue := append([]int{}, rooms[0]...)
 	for len(queue) > 0 {
 		next := queue[0]
 		queue = queue[1:]
 		if _, ok := visited[next]; ok {
 			continue
-			visited[next] = struct{}{}
 		}
 		visited[next] = struct{}{}
 		queue = append(queue, rooms[next]...)
 	}
-
-	return len(visited) == len(rooms)
+	return len(rooms) == len(visited)
 }
 
 func main() {
