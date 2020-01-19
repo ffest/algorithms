@@ -290,3 +290,6 @@
 |`1317`| Convert Integer to the Sum of Two No-Zero Integers | 58.5% | Easy ||
 |`1318`| Minimum Flips to Make a OR b Equal to c | 57.0% | Medium |[✅](https://leetcode.com/list/tgix29s)|
 |`1319`| Number of Operations to Make Network Connected | 42.2% | Medium |[✅](https://leetcode.com/list/tgix29s)|
+|`1323`| Maximum 69 Number | 82.5% | Easy ||
+|`1324`| Print Words Vertically | 58.5% | Medium ||
+|`1325`| Delete Leaves With a Given Value | 71.4% | Medium |[✅](https://leetcode.com/list/tgix29s)|
