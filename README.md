@@ -184,6 +184,7 @@
 |`448`| Find All Numbers Disappeared in an Array | 53.8% | Easy |[✅](https://leetcode.com/list/tgix29s)|
 |`450`| Delete Node in a BST | 39.9% | Medium |[✅](https://leetcode.com/list/tgix29s)|
 |`451`| Sort Characters By Frequency | 57.9% | Medium ||
+|`452`| Minimum Number of Arrows to Burst Balloons | 47.9% | Medium ||
 |`454`| 4Sum II | 51.3% | Medium |[✅](https://leetcode.com/list/tgix29s)|
 |`455`| Assign Cookies | 48.9% | Easy ||
 |`456`| 132 Pattern | 28.2% | Medium |[✅](https://leetcode.com/list/tgix29s)|
