@@ -5,20 +5,18 @@ import (
 )
 
 func minAddToMakeValid(S string) int {
-	var lefts int
-	var rights int
-	for _, r := range S {
-		if r == '(' {
+	var lefts, rights int
+	for i := range S {
+		if S[i] == '(' {
 			lefts++
 		} else {
 			if lefts > 0 {
-				lefts -= 1
+				lefts--
 			} else {
 				rights++
 			}
 		}
 	}
-
 	return lefts + rights
 }
 
