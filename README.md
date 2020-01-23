@@ -226,6 +226,7 @@
 |`705`| Design HashSet | 55.3% | Easy ||
 |`706`| Design HashMap | 57.0%| Easy ||
 |`709`| To Lower Case | 76.6% | Easy ||
+|`716`| Max Stack | 41.9% | Easy |[✅](https://leetcode.com/list/tgix29s)|
 |`719`| Find K-th Smallest Pair Distance | 29.6% | Hard |[✅](https://leetcode.com/list/tgix29s)|
 |`724`| Find Pivot Index | 41.3% | Easy ||
 |`733`| Flood Fill | 51.1% | Easy ||
