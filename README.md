@@ -1,91 +1,91 @@
-![](https://img.shields.io/badge/status-in_development-yellow.svg)
+!{](https://img.shields.io/badge/status-in_development-yellow.svg)
 
 # Applied algorithms
 
 
-## [LeetCode](https://leetcode.com) Golang
+## {LeetCode](https://leetcode.com) Golang
 
 | # | Title | Acceptance | Difficulty | Favourite |
 |:---:| --- | :---: | :---: | :---: |
 |`1`| Two Sum | 43.5% | Easy ||
-|`2`| Add Two Numbers | 31.0% | Medium |[✅](https://leetcode.com/list/tgix29s)|
-|`3`| Longest Substring Without Repeating Characters | 28.2% | Medium |[✅](https://leetcode.com/list/tgix29s)|
+|`2`| Add Two Numbers | 31.0% | Medium |{✅](https://leetcode.com/list/tgix29s)|
+|`3`| Longest Substring Without Repeating Characters | 28.2% | Medium |{✅](https://leetcode.com/list/tgix29s)|
 |`4`| Median of Two Sorted Arrays | 26.6% | Hard ||
-|`5`| Longest Palindromic Substring | 27.3% | Medium |[✅](https://leetcode.com/list/tgix29s)|
+|`5`| Longest Palindromic Substring | 27.3% | Medium |{✅](https://leetcode.com/list/tgix29s)|
 |`7`| Reverse Integer | 25.5% | Easy ||
 |`9`| Palindrome Number | 43.6% | Easy ||
 |`11`| Container With Most Water | 44.2% | Medium ||
 |`13`| Roman to Integer | 53.9% | Easy ||
 |`14`| Longest Common Prefix | 33.4% | Easy ||
-|`15`| 3Sum | 24.1% | Medium |[✅](https://leetcode.com/list/tgix29s)|
-|`16`| 3Sum Closest | 45.8% | Medium |[✅](https://leetcode.com/list/tgix29s)|
+|`15`| 3Sum | 24.1% | Medium |{✅](https://leetcode.com/list/tgix29s)|
+|`16`| 3Sum Closest | 45.8% | Medium |{✅](https://leetcode.com/list/tgix29s)|
 |`17`| Letter Combinations of a Phone Number | 41.8% | Medium ||
-|`18`| 4Sum | 31.4% | Medium |[✅](https://leetcode.com/list/tgix29s)|
-|`19`| Remove Nth Node From End of List | 34.2% | Medium |[✅](https://leetcode.com/list/tgix29s)|
-|`20`| Valid Parentheses | 36.5% | Easy |[✅](https://leetcode.com/list/tgix29s)|
+|`18`| 4Sum | 31.4% | Medium |{✅](https://leetcode.com/list/tgix29s)|
+|`19`| Remove Nth Node From End of List | 34.2% | Medium |{✅](https://leetcode.com/list/tgix29s)|
+|`20`| Valid Parentheses | 36.5% | Easy |{✅](https://leetcode.com/list/tgix29s)|
 |`21`| Merge Two Sorted Lists | 47.1% | Easy ||
-|`22`| Generate Parentheses | 55.1% | Medium |[✅](https://leetcode.com/list/tgix29s)|
-|`23`| Merge k Sorted Lists | 34.3% | Hard |[✅](https://leetcode.com/list/tgix29s)|
+|`22`| Generate Parentheses | 55.1% | Medium |{✅](https://leetcode.com/list/tgix29s)|
+|`23`| Merge k Sorted Lists | 34.3% | Hard |{✅](https://leetcode.com/list/tgix29s)|
 |`24`| Swap Nodes in Pairs | 45.4% | Medium ||
 |`26`| Remove Duplicates from Sorted Array | 40.5% | Easy ||
 |`28`| Implement strStr() | 32.5% | Easy ||
 |`29`| Divide Two Integers | 16.2% | Medium ||
-|`31`| Next Permutation | 31.3% | Medium |[✅](https://leetcode.com/list/tgix29s)|
-|`32`| Longest Valid Parentheses | 25.6% | Hard |[✅](https://leetcode.com/list/tgix29s)|
+|`31`| Next Permutation | 31.3% | Medium |{✅](https://leetcode.com/list/tgix29s)|
+|`32`| Longest Valid Parentheses | 25.6% | Hard |{✅](https://leetcode.com/list/tgix29s)|
 |`33`| Search in Rotated Sorted Array | 32.8% | Medium ||
-|`34`| Find First and Last Position of Element in Sorted Array | 33.7% | Medium |[✅](https://leetcode.com/list/tgix29s)|
+|`34`| Find First and Last Position of Element in Sorted Array | 33.7% | Medium |{✅](https://leetcode.com/list/tgix29s)|
 |`35`| Search Insert Position | 40.8% | Easy ||
-|`36`| Valid Sudoku | 44.5% | Medium |[✅](https://leetcode.com/list/tgix29s)|
+|`36`| Valid Sudoku | 44.5% | Medium |{✅](https://leetcode.com/list/tgix29s)|
 |`39`| Combination Sum | 48.7% | Medium ||
-|`42`| Trapping Rain Water | 44.6% | Hard |[✅](https://leetcode.com/list/tgix29s)|
+|`42`| Trapping Rain Water | 44.6% | Hard |{✅](https://leetcode.com/list/tgix29s)|
 |`43`| Multiply Strings | 31.9% | Medium ||
-|`45`| Jump Game II | 27.9% | Hard |[✅](https://leetcode.com/list/tgix29s)|
-|`46`| Permutations | 55.3% | Medium |[✅](https://leetcode.com/list/tgix29s)|
-|`48`| Rotate Image | 48.3% | Medium |[✅](https://leetcode.com/list/tgix29s)|
-|`49`| Group Anagrams | 46.7% | Medium |[✅](https://leetcode.com/list/tgix29s)|
+|`45`| Jump Game II | 27.9% | Hard |{✅](https://leetcode.com/list/tgix29s)|
+|`46`| Permutations | 55.3% | Medium |{✅](https://leetcode.com/list/tgix29s)|
+|`48`| Rotate Image | 48.3% | Medium |{✅](https://leetcode.com/list/tgix29s)|
+|`49`| Group Anagrams | 46.7% | Medium |{✅](https://leetcode.com/list/tgix29s)|
 |`50`| Pow(x, n) | 28.7% | Medium ||
 |`51`| N-Queens | 40.9% | Hard ||
-|`52`| N-Queens II | 53.3% | Hard |[✅](https://leetcode.com/list/tgix29s)|
-|`53`| Maximum Subarray | 43.7% | Easy |[✅](https://leetcode.com/list/tgix29s)|
+|`52`| N-Queens II | 53.3% | Hard |{✅](https://leetcode.com/list/tgix29s)|
+|`53`| Maximum Subarray | 43.7% | Easy |{✅](https://leetcode.com/list/tgix29s)|
 |`54`| Spiral Matrix | 30.9% | Medium ||
 |`55`| Jump Game | 32.0% | Medium ||
-|`56`| Merge Intervals | 35.6% | Medium |[✅](https://leetcode.com/list/tgix29s)|
+|`56`| Merge Intervals | 35.6% | Medium |{✅](https://leetcode.com/list/tgix29s)|
 |`59`| Spiral Matrix | 47.5% | Medium ||
 |`60`| Permutation Sequence | 34.7% | Medium ||
 |`61`| Rotate List | 27.2% | Medium ||
 |`62`| Unique Paths | 47.6% | Medium ||
-|`63`| Unique Paths II | 33.7% | Medium |[✅](https://leetcode.com/list/tgix29s)|
-|`64`| Minimum Path Sum | 46.9% | Medium |[✅](https://leetcode.com/list/tgix29s)|
+|`63`| Unique Paths II | 33.7% | Medium |{✅](https://leetcode.com/list/tgix29s)|
+|`64`| Minimum Path Sum | 46.9% | Medium |{✅](https://leetcode.com/list/tgix29s)|
 |`66`| Plus One | 41.0% | Easy ||
 |`67`| Add Binary | 39.8% | Easy ||
 |`70`| Climb Stairs | 44.1% | Easy ||
-|`72`| Edit Distance | 39.2% | Hard |[✅](https://leetcode.com/list/tgix29s)|
+|`72`| Edit Distance | 39.2% | Hard |{✅](https://leetcode.com/list/tgix29s)|
 |`73`| Set Matrix Zeroes | 39.9% | Medium ||
 |`74`| Search a 2D Matrix | 34.9% | Medium ||
 |`75`| Sort Colors | 42.1% | Medium ||
-|`76`| Minimum Window Substring | 30.6% | Hard |[✅](https://leetcode.com/list/tgix29s)|
+|`76`| Minimum Window Substring | 30.6% | Hard |{✅](https://leetcode.com/list/tgix29s)|
 |`77`| Combinations | 49.3% | Medium ||
 |`78`| Subsets | 53.0% | Medium ||
-|`79`| Word Search | 32.3% | Medium |[✅](https://leetcode.com/list/tgix29s)|
+|`79`| Word Search | 32.3% | Medium |{✅](https://leetcode.com/list/tgix29s)|
 |`80`| Remove Duplicates from Sorted Array II | 42.0% | Medium ||
-|`81`| Search in Rotated Sorted Array II | 32.8% | Medium |[✅](https://leetcode.com/list/tgix29s)|
-|`82`| Remove Duplicates from Sorted List II | 34.8% | Medium |[✅](https://leetcode.com/list/tgix29s)|
+|`81`| Search in Rotated Sorted Array II | 32.8% | Medium |{✅](https://leetcode.com/list/tgix29s)|
+|`82`| Remove Duplicates from Sorted List II | 34.8% | Medium |{✅](https://leetcode.com/list/tgix29s)|
 |`83`| Remove Duplicates from Sorted List | 44.0% | Easy ||
 |`84`| Largest Rectangle in Histogram | 31.3% | Hard ||
 |`86`| Partition List | 37.3% | Medium ||
 |`88`| Merge Sorted Array | 35.6% | Easy ||
 |`90`| Subsets II | 44.6% | Medium ||
-|`91`| Decode Ways | 22.4% | Medium |[✅](https://leetcode.com/list/tgix29s)|
+|`91`| Decode Ways | 22.4% | Medium |{✅](https://leetcode.com/list/tgix29s)|
 |`92`| Reverse Linked List II | 35.0% | Medium ||
 |`93`| Restore IP Addresses | 33.0% | Medium ||
 |`94`| Binary Tree Inorder Traversal | 57.2% | Medium ||
-|`95`| Unique Binary Search Trees II | 36.4% | Medium |[✅](https://leetcode.com/list/tgix29s)|
+|`95`| Unique Binary Search Trees II | 36.4% | Medium |{✅](https://leetcode.com/list/tgix29s)|
 |`96`| Unique Binary Search Trees | 47.0% | Medium ||
-|`98`| Validate Binary Search Tree | 25.6% | Medium |[✅](https://leetcode.com/list/tgix29s)|
+|`98`| Validate Binary Search Tree | 25.6% | Medium |{✅](https://leetcode.com/list/tgix29s)|
 |`100`| Same Tree | 50.4% | Easy ||
 |`101`| Symmetric Tree | 43.9% | Easy ||
-|`102`| Binary Tree Level Order Traversal | 49.2% | Medium |[✅](https://leetcode.com/list/tgix29s)|
-|`103`| Binary Tree Zigzag Level Order Traversal | 41.3% | Medium |[✅](https://leetcode.com/list/tgix29s)|
+|`102`| Binary Tree Level Order Traversal | 49.2% | Medium |{✅](https://leetcode.com/list/tgix29s)|
+|`103`| Binary Tree Zigzag Level Order Traversal | 41.3% | Medium |{✅](https://leetcode.com/list/tgix29s)|
 |`104`| Maximum Depth of Binary Tree | 61.2% | Easy ||
 |`105`| Construct Binary Tree from Preorder and Inorder Traversal | 42.1% | Medium ||
 |`106`| Construct Binary Tree from Inorder and Postorder Traversal | 40.1% | Medium ||
@@ -94,10 +94,10 @@
 |`109`| Convert Sorted List to Binary Search Tree | 41.6% | Medium ||
 |`110`| Balanced Binary Tree | 41.4% | Easy ||
 |`112`| Path Sum | 38.2% | Easy ||
-|`113`| Path Sum II | 43.8% | Medium |[✅](https://leetcode.com/list/tgix29s)| 
+|`113`| Path Sum II | 43.8% | Medium |{✅](https://leetcode.com/list/tgix29s)| 
 |`118`| Pascal's Triangle | 46.0% | Easy ||
 |`119`| Pascal's Triangle II | 43.6% | Easy ||
-|`121`| Best Time to Buy and Sell Stock | 47.1% | Easy |[✅](https://leetcode.com/list/tgix29s)|  
+|`121`| Best Time to Buy and Sell Stock | 47.1% | Easy |{✅](https://leetcode.com/list/tgix29s)|  
 |`123`| Best Time to Buy and Sell Stock III | 34.8% | Hard |[✅](https://leetcode.com/list/tgix29s)|
 |`125`| Valid Palindrome | 31.1% | Easy ||  
 |`126`| Word Ladder II | 18.0% | Hard |[✅](https://leetcode.com/list/tgix29s)|
@@ -300,3 +300,6 @@
 |`1323`| Maximum 69 Number | 82.5% | Easy ||
 |`1324`| Print Words Vertically | 58.5% | Medium ||
 |`1325`| Delete Leaves With a Given Value | 71.4% | Medium |[✅](https://leetcode.com/list/tgix29s)|
+|`1332`| Remove Palindromic Subsequences | 46.2% | Easy ||
+|`1333`| Delete Leaves With a Given Value | 49.9% | Medium ||
+|`1334`| Find the City With the Smallest Number of Neighbors at a Threshold Distance | 31.1% | Medium |[✅](https://leetcode.com/list/tgix29s)|
