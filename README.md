@@ -59,6 +59,7 @@
 |`66`| Plus One | 41.0% | Easy ||
 |`67`| Add Binary | 39.8% | Easy ||
 |`70`| Climb Stairs | 44.1% | Easy ||
+|`71`| Simplify Path | 30.8% | Medium ||
 |`72`| Edit Distance | 39.2% | Hard |{✅](https://leetcode.com/list/tgix29s)|
 |`73`| Set Matrix Zeroes | 39.9% | Medium ||
 |`74`| Search a 2D Matrix | 34.9% | Medium ||
