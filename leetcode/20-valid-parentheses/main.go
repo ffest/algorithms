@@ -17,7 +17,7 @@ func isValid(s string) bool {
 	stack := make([]byte, 0)
 	for i := range s {
 		if opens, ok := closes[s[i]]; ok {
-			if len(stack) == 0 || opens != stack[len(stack)-1] {
+			if len(stack) == 0 || stack[len(stack)-1] != opens {
 				return false
 			}
 			stack = stack[:len(stack)-1]
