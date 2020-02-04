@@ -251,6 +251,7 @@
 |`852`| Peak Index in a Mountain Array | 69.5% | Easy ||
 |`856`| Score of Parentheses | 58.6% | Medium |[✅](https://leetcode.com/list/tgix29s)|
 |`860`| Lemonade Change | 50.2% | Easy ||
+|`862`| Shortest Subarray with Sum at Least K | 23.1% | Hard |[✅](https://leetcode.com/list/tgix29s)|
 |`866`| Prime Palindrome | 22.6% | Medium ||
 |`876`| Middle of the Linked List | 63.9% | Easy ||
 |`881`| Boats to Save People | 44.9% | Medium ||
