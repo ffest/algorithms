@@ -231,6 +231,7 @@
 |`719`| Find K-th Smallest Pair Distance | 29.6% | Hard |[✅](https://leetcode.com/list/tgix29s)|
 |`724`| Find Pivot Index | 41.3% | Easy ||
 |`733`| Flood Fill | 51.1% | Easy ||
+|`736`| Parse Lisp Expression | 46.0% | Hard ||
 |`739`| Daily Temperatures | 60.0% | Medium |[✅](https://leetcode.com/list/tgix29s)|
 |`744`| Find Smallest Letter Greater Than Target | 43.8% | Easy ||
 |`746`| Min Cost Climbing Stairs | 48.7% | Easy ||
