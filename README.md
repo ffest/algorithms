@@ -284,6 +284,7 @@
 |`981`| Time Based Key-Value Store | 51.3% | Medium ||
 |`992`| Subarrays with K Different Integers | 45.1% | Hard |[✅](https://leetcode.com/list/tgix29s)|
 |`1021`| Remove Outermost Parentheses | 76.2% | Easy ||
+|`1029`| Two City Scheduling | 55.6% | Medium ||
 |`1032`| Stream of Characters | 76.2% | Hard |[✅](https://leetcode.com/list/tgix29s)|
 |`1094`| Car Pooling | 56.8% | Medium |[✅](https://leetcode.com/list/tgix29s)|
 |`1103`| Distribute Candies to People | 60.1% | Easy ||
