@@ -8,8 +8,8 @@ func numSubarraysWithSum(A []int, S int) int {
 	cache := make(map[int]int)
 	cache[0] = 1
 	var prefixSum, count int
-	for _, element := range A {
-		prefixSum += element
+	for _, num := range A {
+		prefixSum += num
 		count += cache[prefixSum-S]
 		cache[prefixSum]++
 	}
