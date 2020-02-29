@@ -245,6 +245,7 @@
 |`804`| Unique Morse Code Words | 74.5% | Easy ||
 |`807`| Max Increase to Keep City Skyline  | 81.4% | Medium ||
 |`814`| Binary Tree Pruning | 70.7% | Medium |[✅](https://leetcode.com/list/tgix29s)|
+|`818`| Race Car | 37.5% | Hard ||
 |`821`| Shortest Distance to a Character | 63.2% | Easy |[✅](https://leetcode.com/list/tgix29s)|
 |`832`| Flipping an Image | 72.3% | Easy ||
 |`836`| Rectangle Overlap | 47.5% | Easy ||
