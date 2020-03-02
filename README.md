@@ -314,3 +314,5 @@
 |`1332`| Remove Palindromic Subsequences | 46.2% | Easy ||
 |`1333`| Delete Leaves With a Given Value | 49.9% | Medium ||
 |`1334`| Find the City With the Smallest Number of Neighbors at a Threshold Distance | 31.1% | Medium |[✅](https://leetcode.com/list/tgix29s)|
+|`1365`| How Many Numbers Are Smaller Than the Current Number | 87.3% | Easy ||
+|`1367`| Linked List in Binary Tree | 37.9% | Medium |[✅](https://leetcode.com/list/tgix29s)|
