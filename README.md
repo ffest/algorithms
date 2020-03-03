@@ -241,6 +241,7 @@
 |`763`| Partition Labels | 73.0% | Medium ||
 |`771`| Jewels and Stones | 83.0% | Easy ||
 |`779`| K-th Symbol in Grammar | 37.6% | Medium |[✅](https://leetcode.com/list/tgix29s)|
+|`786`| K-th Smallest Prime Fraction | 41.8% | Hard |[✅](https://leetcode.com/list/tgix29s)|
 |`797`| All Paths From Source to Target | 70.2% | Medium |[✅](https://leetcode.com/list/tgix29s)|
 |`804`| Unique Morse Code Words | 74.5% | Easy ||
 |`807`| Max Increase to Keep City Skyline  | 81.4% | Medium ||
