@@ -9,13 +9,10 @@ func merge(intervals [][]int) [][]int {
 	if len(intervals) == 0 {
 		return [][]int{}
 	}
-
 	merged := make([][]int, 0, len(intervals))
-
 	sort.Slice(intervals, func(i, j int) bool {
 		return intervals[i][0] < intervals[j][0]
 	})
-
 	current := intervals[0]
 	for i := 1; i < len(intervals); i++ {
 		if intervals[i][0] > current[1] {
@@ -32,8 +29,9 @@ func merge(intervals [][]int) [][]int {
 
 func main() {
 	intervals := [][]int{
-		{1, 4},
-		{0, 0},
+		{1, 3},
+		{2, 6},
+		{8, 10},
 	}
 
 	fmt.Println(merge(intervals))
