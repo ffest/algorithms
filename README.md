@@ -244,6 +244,7 @@
 |`779`| K-th Symbol in Grammar | 37.6% | Medium |[✅](https://leetcode.com/list/tgix29s)|
 |`786`| K-th Smallest Prime Fraction | 41.8% | Hard |[✅](https://leetcode.com/list/tgix29s)|
 |`797`| All Paths From Source to Target | 70.2% | Medium |[✅](https://leetcode.com/list/tgix29s)|
+|`802`| Find Eventual Safe States | 47.2% | Medium |[✅](https://leetcode.com/list/tgix29s)|
 |`804`| Unique Morse Code Words | 74.5% | Easy ||
 |`807`| Max Increase to Keep City Skyline  | 81.4% | Medium ||
 |`814`| Binary Tree Pruning | 70.7% | Medium |[✅](https://leetcode.com/list/tgix29s)|
