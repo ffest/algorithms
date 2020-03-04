@@ -153,6 +153,7 @@
 |`239`| Sliding Window Maximum | 39.3% | Hard |[✅](https://leetcode.com/list/tgix29s)|
 |`240`| Search a 2D Matrix II | 41.2% | Medium |[✅](https://leetcode.com/list/tgix29s)|
 |`252`| Meeting Rooms | 53.6% | Easy ||
+|`253`| Meeting Rooms II | 44.7% | Medium |[✅](https://leetcode.com/list/tgix29s)
 |`257`| Binary Tree Paths | 48.1% | Easy ||
 |`264`| Ugly Number II | 38.4% | Medium |[✅](https://leetcode.com/list/tgix29s)|
 |`279`| Perfect Squares | 42.1% | Medium |[✅](https://leetcode.com/list/tgix29s)|
