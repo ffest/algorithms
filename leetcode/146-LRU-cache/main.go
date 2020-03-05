@@ -54,10 +54,10 @@ func (c *LRUCache) Put(key int, value int) {
 }
 
 func (c *LRUCache) addToChain(l *DLinkedList) {
-	l.prev = nil
-	l.next = c.head
-	if l.next != nil {
-		l.next.prev = l
+	l.next = nil
+	if c.head != nil {
+		c.head.next = l
+		l.prev = c.head
 	}
 	c.head = l
 	if c.tail == nil {
@@ -67,10 +67,10 @@ func (c *LRUCache) addToChain(l *DLinkedList) {
 
 func (c *LRUCache) removeFromChain(l *DLinkedList) {
 	if l == c.head {
-		c.head = l.next
+		c.head = l.prev
 	}
 	if l == c.tail {
-		c.tail = l.prev
+		c.tail = l.next
 	}
 	if l.next != nil {
 		l.next.prev = l.prev
