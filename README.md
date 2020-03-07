@@ -292,6 +292,7 @@
 |`987`| Vertical Order Traversal of a Binary Tree | 33.6% | Medium ||
 |`989`| Add to Array-Form of Integer | 44.1% | Easy ||
 |`992`| Subarrays with K Different Integers | 45.1% | Hard |[✅](https://leetcode.com/list/tgix29s)|
+|`994`| Rotting Oranges | 47.1% | Easy |[✅](https://leetcode.com/list/tgix29s)|
 |`1021`| Remove Outermost Parentheses | 76.2% | Easy ||
 |`1029`| Two City Scheduling | 55.6% | Medium ||
 |`1032`| Stream of Characters | 76.2% | Hard |[✅](https://leetcode.com/list/tgix29s)|
