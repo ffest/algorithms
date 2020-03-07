@@ -8,16 +8,15 @@ func isValid(s string) bool {
 	} else if len(s)%2 == 1 {
 		return false
 	}
-
+	stack := make([]byte, 0)
 	closes := map[byte]byte{
 		')': '(',
-		']': '[',
 		'}': '{',
+		']': '[',
 	}
-	stack := make([]byte, 0)
 	for i := range s {
-		if opens, ok := closes[s[i]]; ok {
-			if len(stack) == 0 || stack[len(stack)-1] != opens {
+		if open, ok := closes[s[i]]; ok {
+			if len(stack) == 0 || stack[len(stack)-1] != open {
 				return false
 			}
 			stack = stack[:len(stack)-1]
