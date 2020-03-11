@@ -29,13 +29,14 @@ func groupAnagramsWithSimpleNumbers(words []string) [][]string {
 }
 
 func groupAnagrams(words []string) [][]string {
-	cache := make(map[[26]byte]int)
+	cache := make(map[[26]int]int)
 	result := make([][]string, 0)
 	for _, word := range words {
-		key := [26]byte{}
-		for _, letter := range word {
-			key[letter-'a']++
+		key := [26]int{}
+		for _, c := range word {
+			key[c-'a']++
 		}
+
 		if idx, ok := cache[key]; ok {
 			result[idx] = append(result[idx], word)
 		} else {
@@ -43,7 +44,6 @@ func groupAnagrams(words []string) [][]string {
 			cache[key] = len(result) - 1
 		}
 	}
-
 	return result
 }
 
