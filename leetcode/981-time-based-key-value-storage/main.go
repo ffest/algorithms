@@ -4,31 +4,24 @@ import (
 	"fmt"
 )
 
-// TODO: we can do it with slice and use binary search
-type LinkedList struct {
+type Data struct {
 	value     string
 	timestamp int
-	next      *LinkedList
 }
 
 type TimeMap struct {
-	cache map[string]*LinkedList
+	cache map[string][]Data
 }
 
 /** Initialize your data structure here. */
 func Constructor() TimeMap {
 	return TimeMap{
-		cache: make(map[string]*LinkedList),
+		cache: make(map[string][]Data),
 	}
 }
 
 func (tm *TimeMap) Set(key string, value string, timestamp int) {
-	cached := tm.cache[key]
-	tm.cache[key] = &LinkedList{
-		value:     value,
-		timestamp: timestamp,
-		next:      cached,
-	}
+	tm.cache[key] = append(tm.cache[key], Data{value, timestamp})
 }
 
 func (tm *TimeMap) Get(key string, timestamp int) string {
@@ -36,11 +29,20 @@ func (tm *TimeMap) Get(key string, timestamp int) string {
 	if cached == nil {
 		return ""
 	}
-	for cached.next != nil && cached.timestamp > timestamp {
-		cached = cached.next
+	left, right := 0, len(cached)-1
+	for left < right {
+		mid := (left + right) / 2
+		if cached[mid].timestamp < timestamp {
+			if cached[mid+1].timestamp > timestamp {
+				return cached[left].value
+			}
+			left = mid + 1
+		} else {
+			right = mid - 1
+		}
 	}
-	if cached.timestamp <= timestamp {
-		return cached.value
+	if cached[left].timestamp <= timestamp {
+		return cached[left].value
 	}
 	return ""
 }

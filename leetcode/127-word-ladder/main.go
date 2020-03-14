@@ -4,14 +4,12 @@ import "fmt"
 
 func ladderLength(beginWord string, endWord string, wordList []string) int {
 	words := make(map[string]struct{})
-	for _, w := range wordList {
-		words[w] = struct{}{}
+	for _, word := range wordList {
+		words[word] = struct{}{}
 	}
 	if _, ok := words[endWord]; !ok {
 		return 0
 	}
-	var count int
-
 	queue := []string{beginWord}
 	visited := make(map[string]struct{})
 	visited[beginWord] = struct{}{}
@@ -21,10 +19,9 @@ func ladderLength(beginWord string, endWord string, wordList []string) int {
 		for i := 0; i < queueSize; i++ {
 			lastWord := queue[0]
 			queue = queue[1:]
-
-			for i := 0; i < len(lastWord); i++ {
-				for b := 'a'; b <= 'z'; b++ {
-					newWord := lastWord[:i] + string(b) + lastWord[i+1:]
+			for j := 0; j < len(lastWord); j++ {
+				for k := 'a'; k <= 'z'; k++ {
+					newWord := lastWord[:j] + string(k) + lastWord[j+1:]
 					if _, ok := words[newWord]; !ok || newWord == lastWord {
 						continue
 					}
@@ -41,7 +38,7 @@ func ladderLength(beginWord string, endWord string, wordList []string) int {
 		length++
 	}
 
-	return count
+	return 0
 }
 
 func main() {
