@@ -160,6 +160,7 @@
 |`280`| Wiggle Sort | 62.1% | Medium |[✅](https://leetcode.com/list/tgix29s)|
 |`283`| Move Zeroes | 54.7% | Easy ||
 |`287`| Find the Duplicate Number | 50.4% | Medium ||
+|`295`| Find Median from Data Stream | 41.5% | Head |[✅](https://leetcode.com/list/tgix29s)|
 |`300`| Longest Increasing Subsequence | 41.2% | Medium |[✅](https://leetcode.com/list/tgix29s)|
 |`315`| Count of Smaller Numbers After Self | 37.9% | Hard |[✅](https://leetcode.com/list/tgix29s)| 
 |`318`| Maximum Product of Word Lengths | 48.4% | Medium |[✅](https://leetcode.com/list/tgix29s)| 
