@@ -23,7 +23,7 @@ func isSubtree(s *TreeNode, t *TreeNode) bool {
 	return isSubtree(s.Left, t) || isSubtree(s.Right, t)
 }
 
-func isEqual(s *TreeNode, t *TreeNode) bool {
+func isEqual(s, t *TreeNode) bool {
 	if s == t {
 		return true
 	} else if s == nil || t == nil {
