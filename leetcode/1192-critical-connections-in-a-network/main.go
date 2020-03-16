@@ -4,7 +4,8 @@ import (
 	"fmt"
 )
 
-func criticalConnections(n int, connections [][]int) [][]int {
+// Tarjan algorithm
+/*func criticalConnections(n int, connections [][]int) [][]int {
 	graph := make([][]int, n)
 	for _, connection := range connections {
 		graph[connection[0]] = append(graph[connection[0]], connection[1])
@@ -39,6 +40,54 @@ func criticalConnections(n int, connections [][]int) [][]int {
 	dfs(0, 0)
 
 	return critical
+}*/
+
+func criticalConnections(n int, connections [][]int) [][]int {
+	graph := make([][]int, n)
+	for _, connection := range connections {
+		graph[connection[0]] = append(graph[connection[0]], connection[1])
+		graph[connection[1]] = append(graph[connection[1]], connection[0])
+	}
+
+	ranks := make([]int, n)
+	for i := 0; i < n; i++ {
+		ranks[i] = -2
+	}
+	cyclic := make(map[[2]int]struct{})
+	var dfs func(node, depth int) int
+
+	dfs = func(node, depth int) int {
+		if ranks[node] >= 0 {
+			return ranks[node]
+		}
+		ranks[node] = depth
+		minBackDepth := n
+
+		for _, next := range graph[node] {
+			if ranks[next] == depth-1 {
+				continue
+			}
+			backDepth := dfs(next, depth+1)
+			if backDepth <= depth {
+				cyclic[[2]int{node, next}] = struct{}{}
+			}
+			minBackDepth = min(minBackDepth, backDepth)
+		}
+		return minBackDepth
+	}
+
+	dfs(0, 0)
+	result := make([][]int, 0)
+	for _, connection := range connections {
+		if _, ok := cyclic[[2]int{connection[0], connection[1]}]; ok {
+			continue
+		}
+		if _, ok := cyclic[[2]int{connection[1], connection[0]}]; ok {
+			continue
+		}
+		result = append(result, connection)
+	}
+	return result
 }
 
 func min(a, b int) int {
@@ -49,12 +98,15 @@ func min(a, b int) int {
 }
 
 func main() {
-	n := 4
+	n := 5
 	connections := [][]int{
-		{0, 1},
-		{1, 2},
+		{1, 0},
 		{2, 0},
-		{1, 3},
+		{3, 2},
+		{4, 2},
+		{4, 3},
+		{3, 0},
+		{4, 0},
 	}
 	fmt.Println(criticalConnections(n, connections))
 }
