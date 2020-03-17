@@ -1,12 +1,13 @@
 package main
 
 import (
+	"container/heap"
 	"fmt"
-	"sort"
+	"log"
 )
 
 // Priority queue solution
-/*type wf struct {
+type wf struct {
 	w string
 	f int
 }
@@ -41,6 +42,7 @@ func topKFrequent(words []string, k int) []string {
 	heap.Init(&mh)
 	for w, f := range cache {
 		heap.Push(&mh, wf{w, f})
+		log.Print(mh)
 		if mh.Len() > k {
 			heap.Pop(&mh)
 		}
@@ -53,10 +55,9 @@ func topKFrequent(words []string, k int) []string {
 
 	return result
 }
-*/
 
-// TODO: bucket solution
-func topKFrequent(words []string, k int) []string {
+// bucket solution
+/*func topKFrequent(words []string, k int) []string {
 	cache := make(map[string]int)
 	for _, w := range words {
 		cache[w]++
@@ -83,7 +84,7 @@ func topKFrequent(words []string, k int) []string {
 		}
 	}
 	return result
-}
+}*/
 
 func main() {
 	words := []string{"i", "love", "leetcode", "i", "love", "coding"}
