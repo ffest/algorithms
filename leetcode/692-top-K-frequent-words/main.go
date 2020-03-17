@@ -76,10 +76,10 @@ func topKFrequent(words []string, k int) []string {
 		})
 
 		for _, w := range bucket {
+			result = append(result, w)
 			if len(result) == k {
 				return result
 			}
-			result = append(result, w)
 		}
 	}
 	return result
