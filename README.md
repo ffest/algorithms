@@ -141,6 +141,7 @@
 |`206`| Reverse Linked List | 54.5% | Easy |[✅](https://leetcode.com/list/tgix29s)|
 |`207`| Course Schedule | 38.0% | Medium |[✅](https://leetcode.com/list/tgix29s)|
 |`209`| Minimum Size Subarray Sum | 35.3% | Medium ||
+|`212`| Word Search II | 32.2% | Hard |[✅](https://leetcode.com/list/tgix29s)|
 |`215`| Kth Largest Element in an Array | 48.0% | Medium |[✅](https://leetcode.com/list/tgix29s)|
 |`217`| Contains Duplicate | 53.1% | Easy ||
 |`221`| Maximal Square | 33.1% | Medium |[✅](https://leetcode.com/list/tgix29s)|
