@@ -10,7 +10,7 @@ func primePalindrome(N int) int {
 		return 11
 	}
 
-	for i := 1; i < 11000; i++ {
+	for i := 1; i < 10000; i++ {
 		numStr := strconv.Itoa(i)
 		numStr += reverseStr(numStr)[1:]
 		num, _ := strconv.Atoi(numStr)

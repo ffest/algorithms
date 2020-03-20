@@ -230,6 +230,7 @@
 |`678`| Valid Parenthesis String | 33.7% | Medium |[✅](https://leetcode.com/list/tgix29s)|
 |`680`| Valid Palindrome II | 35.5% | Easy ||
 |`692`| Top K Frequent Words | 47.9% | Medium |[✅](https://leetcode.com/list/tgix29s)|
+|`694`| Number of Distinct Islands | 54.5% | Medium |[✅](https://leetcode.com/list/tgix29s)|
 |`695`| Max Area of Island | 59.7% | Medium |[✅](https://leetcode.com/list/tgix29s)|
 |`700`| Search in a Binary Search Tree  | 68.8% | Easy ||
 |`701`| Insert into a Binary Search Tree | 76.4% | Medium ||
@@ -321,6 +322,7 @@
 |`1192`| Critical Connections in a Network | 48.7% | Hard |[✅](https://leetcode.com/list/tgix29s)|
 |`1213`| Intersection of Three Sorted Arrays | 77.3% | Easy ||
 |`1249`| Minimum Remove to Make Valid Parentheses | 60.0% | Medium |[✅](https://leetcode.com/list/tgix29s)|
+|`1268`| Search Suggestions System | 60.4% | Medium |[✅](https://leetcode.com/list/tgix29s)|
 |`1317`| Convert Integer to the Sum of Two No-Zero Integers | 58.5% | Easy ||
 |`1318`| Minimum Flips to Make a OR b Equal to c | 57.0% | Medium |[✅](https://leetcode.com/list/tgix29s)|
 |`1319`| Number of Operations to Make Network Connected | 42.2% | Medium |[✅](https://leetcode.com/list/tgix29s)|
