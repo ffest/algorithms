@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"math"
 )
 
 // O(n^2) solution
@@ -25,7 +26,7 @@ import (
 
 // Solution using stack
 func find132pattern(nums []int) bool {
-	max := -1 << 31
+	max := math.MinInt32
 	stack := make([]int, 0)
 	for i := len(nums) - 1; i >= 0; i-- {
 		if nums[i] < max {
