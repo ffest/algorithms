@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"math"
 )
 
 func updateMatrix(matrix [][]int) [][]int {
@@ -17,24 +18,21 @@ func updateMatrix(matrix [][]int) [][]int {
 				coordinates = append(coordinates, [2]int{i, j})
 				continue
 			}
-			matrix[i][j] = 1<<31 - 1
+			matrix[i][j] = math.MaxInt32
 		}
 	}
-
 	ways := [][2]int{{1, 0}, {-1, 0}, {0, 1}, {0, -1}}
 	for len(coordinates) > 0 {
 		current := coordinates[0]
-		currentVal := matrix[current[0]][current[1]]
 		coordinates = coordinates[1:]
-
+		val := matrix[current[0]][current[1]]
 		for _, way := range ways {
 			i := current[0] + way[0]
 			j := current[1] + way[1]
-
-			if i < 0 || j < 0 || i == n || j == m || matrix[i][j] <= currentVal+1 {
+			if i < 0 || j < 0 || i == n || j == m || matrix[i][j] <= val+1 {
 				continue
 			}
-			matrix[i][j] = currentVal + 1
+			matrix[i][j] = val + 1
 			coordinates = append(coordinates, [2]int{i, j})
 		}
 	}

@@ -11,22 +11,18 @@ func numDecodings(s string) int {
 		return 1
 	}
 
-	count := 1
-	prevCount := 1
+	prev, count := 1, 1
 	for i := 1; i < len(s); i++ {
-		currCount := 0
-		if s[i-1] == '1' || (s[i-1] == '2' && s[i] < '7') {
-			currCount += prevCount
+		current := 0
+		if s[i-1] == '1' || (s[i-1] == '2' && s[i] <= '6') {
+			current += prev
 		}
-
 		if s[i] > '0' {
-			currCount += count
+			current += count
 		}
-
-		prevCount = count
-		count = currCount
+		prev = count
+		count = current
 	}
-
 	return count
 }
 
