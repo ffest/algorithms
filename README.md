@@ -253,6 +253,7 @@
 |`771`| Jewels and Stones | 83.0% | Easy ||
 |`779`| K-th Symbol in Grammar | 37.6% | Medium |[✅](https://leetcode.com/list/tgix29s)|
 |`786`| K-th Smallest Prime Fraction | 41.8% | Hard |[✅](https://leetcode.com/list/tgix29s)|
+|`787`| Cheapest Flights Within K Stops | 37.2% | Medium |[✅](https://leetcode.com/list/tgix29s)|
 |`797`| All Paths From Source to Target | 70.2% | Medium |[✅](https://leetcode.com/list/tgix29s)|
 |`802`| Find Eventual Safe States | 47.2% | Medium |[✅](https://leetcode.com/list/tgix29s)|
 |`804`| Unique Morse Code Words | 74.5% | Easy ||
