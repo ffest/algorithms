@@ -159,6 +159,7 @@
 |`253`| Meeting Rooms II | 44.7% | Medium |[✅](https://leetcode.com/list/tgix29s)
 |`257`| Binary Tree Paths | 48.1% | Easy ||
 |`264`| Ugly Number II | 38.4% | Medium |[✅](https://leetcode.com/list/tgix29s)|
+|`269`| Alien Dictionary | 34.0% | Hard |[✅](https://leetcode.com/list/tgix29s)|
 |`279`| Perfect Squares | 42.1% | Medium |[✅](https://leetcode.com/list/tgix29s)|
 |`280`| Wiggle Sort | 62.1% | Medium |[✅](https://leetcode.com/list/tgix29s)|
 |`283`| Move Zeroes | 54.7% | Easy ||
