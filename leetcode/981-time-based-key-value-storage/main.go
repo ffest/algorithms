@@ -29,22 +29,19 @@ func (tm *TimeMap) Get(key string, timestamp int) string {
 	if cached == nil {
 		return ""
 	}
-	left, right := 0, len(cached)-1
+	left, right := 0, len(cached)
 	for left < right {
 		mid := (left + right) / 2
-		if cached[mid].timestamp < timestamp {
-			if cached[mid+1].timestamp > timestamp {
-				return cached[left].value
-			}
+		if cached[mid].timestamp <= timestamp {
 			left = mid + 1
 		} else {
-			right = mid - 1
+			right = mid
 		}
 	}
-	if cached[left].timestamp <= timestamp {
-		return cached[left].value
+	if right == 0 {
+		return ""
 	}
-	return ""
+	return cached[right-1].value
 }
 
 func main() {
