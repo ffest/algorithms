@@ -34,6 +34,7 @@ func findLadders(beginWord string, endWord string, wordList []string) [][]string
 			level = len(ladder)
 			if lastWord == endWord {
 				result = append(result, ladder)
+				continue
 			}
 		}
 

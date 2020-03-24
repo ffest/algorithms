@@ -3,7 +3,6 @@ package main
 import (
 	"container/heap"
 	"fmt"
-	"log"
 )
 
 // Priority queue solution
@@ -42,7 +41,6 @@ func topKFrequent(words []string, k int) []string {
 	heap.Init(&mh)
 	for w, f := range cache {
 		heap.Push(&mh, wf{w, f})
-		log.Print(mh)
 		if mh.Len() > k {
 			heap.Pop(&mh)
 		}

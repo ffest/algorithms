@@ -41,10 +41,10 @@ func Constructor() MedianFinder {
 
 func (mf *MedianFinder) AddNum(num int) {
 	heap.Push(mf.minh, num)
-	heap.Push(mf.maxh, -heap.Remove(mf.minh, 0).(int))
+	heap.Push(mf.maxh, -heap.Pop(mf.minh).(int))
 
 	if mf.minh.Len() < mf.maxh.Len() {
-		heap.Push(mf.minh, -heap.Remove(mf.maxh, 0).(int))
+		heap.Push(mf.minh, -heap.Pop(mf.maxh).(int))
 	}
 }
 
