@@ -324,6 +324,7 @@
 |`1191`| K-Concatenation Maximum Sum | 	25.7% | Medium ||
 |`1192`| Critical Connections in a Network | 48.7% | Hard |[✅](https://leetcode.com/list/tgix29s)|
 |`1213`| Intersection of Three Sorted Arrays | 77.3% | Easy ||
+|`1248`| Count Number of Nice Subarrays | 54.3% | Medium |[✅](https://leetcode.com/list/tgix29s)|
 |`1249`| Minimum Remove to Make Valid Parentheses | 60.0% | Medium |[✅](https://leetcode.com/list/tgix29s)|
 |`1268`| Search Suggestions System | 60.4% | Medium |[✅](https://leetcode.com/list/tgix29s)|
 |`1317`| Convert Integer to the Sum of Two No-Zero Integers | 58.5% | Easy ||
