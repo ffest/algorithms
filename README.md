@@ -37,7 +37,7 @@
 |`35`| Search Insert Position | 40.8% | Easy ||
 |`36`| Valid Sudoku | 44.5% | Medium |[✅](https://leetcode.com/list/tgix29s)|
 |`39`| Combination Sum | 48.7% | Medium ||
-|`41`| First Missing Positive | 34.7% | Hard |[✅](https://leetcode.com/list/tgix29s)|
+|`41`| First Missing Positive | 34.7% | Hard |[✅](https://leetcode.com/list/5jlxrfgj)|
 |`42`| Trapping Rain Water | 44.6% | Hard |[✅](https://leetcode.com/list/tgix29s)|
 |`43`| Multiply Strings | 31.9% | Medium ||
 |`45`| Jump Game II | 27.9% | Hard |[✅](https://leetcode.com/list/tgix29s)|
@@ -106,7 +106,7 @@
 |`125`| Valid Palindrome | 31.1% | Easy ||  
 |`126`| Word Ladder II | 18.0% | Hard |[✅](https://leetcode.com/list/tgix29s)|
 |`127`| Word Ladder | 25.4% | Medium || 
-|`128`| Longest Consecutive Sequence | 47.5% | Medium |[✅](https://leetcode.com/list/tgix29s)|
+|`128`| Longest Consecutive Sequence | 47.5% | Medium |[✅](https://leetcode.com/list/5jlxrfgj)|
 |`129`| Sum Root to Leaf Numbers | 45.5% | Medium ||
 |`134`| Gas Station | 35.9% | Medium |[✅](https://leetcode.com/list/tgix29s)| 
 |`136`| Single Number | 60.3% | Easy || 
@@ -151,6 +151,7 @@
 |`217`| Contains Duplicate | 53.1% | Easy ||
 |`221`| Maximal Square | 33.1% | Medium |[✅](https://leetcode.com/list/tgix29s)|
 |`222`| Count Complete Tree Nodes | 34.2% | Medium |[✅](https://leetcode.com/list/tgix29s)|
+|`230`| Kth Smallest Element in a BST | 64.2% | Medium |[✅](https://leetcode.com/list/5jlxrfgj)|
 |`232`| Implement Queue using Stacks | 43.7% | Easy ||
 |`234`| Palindrome Linked List | 36.1% | Easy ||
 |`235`| Lowest Common Ancestor of a Binary Search Tree | 45.5% | Easy |[✅](https://leetcode.com/list/tgix29s)|
