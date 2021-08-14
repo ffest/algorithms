@@ -185,6 +185,7 @@
 |`387`| First Unique Character in a String | 49.9% | Easy |[✅](https://leetcode.com/list/tgix29s)| 
 |`389`| Find the Difference | 53.9% | Easy ||
 |`394`| Decode String | 45.3% | Medium |[✅](https://leetcode.com/list/tgix29s)|
+|`395`| Longest Substring with At Least K Repeating Characters | 44.5% | Medium |[✅](https://leetcode.com/list/5jlxrfgj)|
 |`402`| Remove K Digits | 27.3% | Medium |[✅](https://leetcode.com/list/tgix29s)|
 |`403`| Frog Jump | 37.7% | Hard |[✅](https://leetcode.com/list/tgix29s)|
 |`409`| Longest Palindrome | 49.2% | Easy ||
