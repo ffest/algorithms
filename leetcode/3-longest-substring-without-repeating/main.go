@@ -13,8 +13,8 @@ func lengthOfLongestSubstring(s string) int {
 			length--
 			tail++
 		}
-		length++
 		cache[s[i]] = true
+		length++
 		if max < length {
 			max = length
 		}
