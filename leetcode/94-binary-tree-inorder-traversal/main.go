@@ -33,10 +33,9 @@ func dfs(root *TreeNode, traversal *[]int) {
 
 func inorderTraversal(root *TreeNode) []int {
 	if root == nil {
-		return []int{}
+		return nil
 	}
-
-	traversal := make([]int, 0)
+	result := make([]int, 0)
 	stack := make([]*TreeNode, 0)
 	current := root
 	for current != nil || len(stack) > 0 {
@@ -46,10 +45,10 @@ func inorderTraversal(root *TreeNode) []int {
 		}
 		current = stack[len(stack)-1]
 		stack = stack[:len(stack)-1]
-		traversal = append(traversal, current.Val)
+		result = append(result, current.Val)
 		current = current.Right
 	}
-	return traversal
+	return result
 }
 
 func main() {
