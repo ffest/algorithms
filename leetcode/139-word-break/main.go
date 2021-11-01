@@ -7,14 +7,13 @@ import (
 func wordBreak(s string, wordDict []string) bool {
 	dp := make([]bool, len(s)+1)
 	dp[0] = true
-	for i := range s {
+	for i := 0; i < len(s); i++ {
 		if !dp[i] {
 			continue
 		}
-
-		for _, w := range wordDict {
-			if i+len(w) <= len(s) && s[i:i+len(w)] == w {
-				dp[i+len(w)] = true
+		for _, word := range wordDict {
+			if len(word) <= len(s)-i && word == s[i:i+len(word)] {
+				dp[i+len(word)] = true
 			}
 		}
 	}
