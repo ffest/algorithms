@@ -30,7 +30,6 @@ func (c *LRUCache) Get(key int) int {
 	if !ok {
 		return -1
 	}
-
 	c.removeFromChain(l)
 	c.addToChain(l)
 	return l.val
