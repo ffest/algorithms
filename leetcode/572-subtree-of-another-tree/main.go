@@ -24,7 +24,7 @@ func isSubtree(s *TreeNode, t *TreeNode) bool {
 }
 
 func isEqual(s, t *TreeNode) bool {
-	if s == t {
+	if s == nil && t == nil {
 		return true
 	} else if s == nil || t == nil {
 		return false
