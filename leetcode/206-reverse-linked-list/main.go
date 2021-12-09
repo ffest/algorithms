@@ -20,7 +20,6 @@ func reverseList(head *ListNode) *ListNode {
 		prev = head
 		head = temp
 	}
-
 	return prev
 }
 
