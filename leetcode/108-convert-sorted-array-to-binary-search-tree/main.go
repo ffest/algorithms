@@ -24,7 +24,26 @@ func sortedArrayToBST(nums []int) *TreeNode {
 	}
 }
 
+func BSTToSortedArray(root *TreeNode) []int {
+	nums := make([]int, 0)
+	stack := make([]*TreeNode, 0)
+
+	for len(stack) > 0 || root != nil {
+		if root != nil {
+			stack = append(stack, root)
+			root = root.Left
+		} else {
+			root = stack[len(stack)-1]
+			stack = stack[:len(stack)-1]
+			nums = append(nums, root.Val)
+			root = root.Right
+		}
+	}
+	return nums
+}
+
 func main() {
 	nums := []int{-10, -3, 0, 5, 9}
-	fmt.Println(sortedArrayToBST(nums))
+	tree := sortedArrayToBST(nums)
+	fmt.Println(BSTToSortedArray(tree))
 }
