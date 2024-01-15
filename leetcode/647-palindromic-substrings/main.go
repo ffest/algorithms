@@ -41,7 +41,7 @@ func countSubstrings(s string) int {
 }
 
 func expand(left, right int, s string, counter *int) {
-	if left >= 0 && right < len(s) && s[left] == s[right] {
+	for left >= 0 && right < len(s) && s[left] == s[right] {
 		*counter++
 		left--
 		right++
